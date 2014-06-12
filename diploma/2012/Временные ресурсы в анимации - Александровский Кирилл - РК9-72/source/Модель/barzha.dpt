@@ -1,0 +1,17 @@
+$Decision_point load : some
+$Condition NoCheck
+$Activities
+	Погрузка : Образец_погрузки
+$End
+
+$Decision_point sail : some
+$Condition NoCheck
+$Activities
+	Плавание : Образец_плавания
+$End
+
+$Decision_point unload : some
+$Condition NoCheck
+$Activities
+	Разгрузка : Образец_разгрузки
+$End

@@ -1,0 +1,1570 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<serialized version="3.2.0" type="diagen.editor.sample.syntax.DType">
+    <composed name="root" type="diagen.editor.graph.GraphModel" id="id0">
+        <list name="components" id="id1">
+            <composed type="diagen.editor.sample.syntax.HorizontalArrow" id="id2">
+                <primitive name="diagen.editor.lib.Line.x1" type="double" value="-2.0263671875"/>
+                <primitive name="diagen.editor.lib.Line.y1" type="double" value="275.8765563964844"/>
+                <primitive name="diagen.editor.lib.Line.x2" type="double" value="17.9736328125"/>
+                <primitive name="diagen.editor.lib.Line.y2" type="double" value="20.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.Box" id="id3">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <composed name="diagen.editor.lib.ContainedText.font" type="diagen.editor.externalize.FontRep" id="id4">
+                    <object name="name" type="String" id="id5"><![CDATA[SansSerif.plain]]></object>
+                    <primitive name="style" type="int" value="0"/>
+                    <primitive name="size" type="int" value="12"/>
+                </composed>
+                <object name="diagen.editor.lib.ContainedText.text" type="String" id="id6"><![CDATA[fun_arithm]]></object>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <object name="diagen.editor.lib.ContainedText.color" type="Color" id="id7"><null/></object>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="-37.0263671875"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="275.8765563964844"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="70.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="70.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="70.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="0.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.HorizontalArrow" id="id8">
+                <primitive name="diagen.editor.lib.Line.x1" type="double" value="57.9736328125"/>
+                <primitive name="diagen.editor.lib.Line.y1" type="double" value="275.8765563964844"/>
+                <primitive name="diagen.editor.lib.Line.x2" type="double" value="77.9736328125"/>
+                <primitive name="diagen.editor.lib.Line.y2" type="double" value="20.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.RBox" id="id9">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <object name="diagen.editor.lib.ContainedText.text" type="String" id="id10"><![CDATA[-]]></object>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="37.9736328125"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="275.8765563964844"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="14.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="14.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="40.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="10.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.Box" id="id11">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <ref name="diagen.editor.lib.ContainedText.text" value="id6"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="112.9736328125"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="275.8765563964844"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="70.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="70.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="70.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="0.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.HorizontalArrow" id="id12">
+                <primitive name="diagen.editor.lib.Line.x1" type="double" value="-2.0263671875"/>
+                <primitive name="diagen.editor.lib.Line.y1" type="double" value="229.87655639648438"/>
+                <primitive name="diagen.editor.lib.Line.x2" type="double" value="17.9736328125"/>
+                <primitive name="diagen.editor.lib.Line.y2" type="double" value="20.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.Box" id="id13">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <ref name="diagen.editor.lib.ContainedText.text" value="id6"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="-37.0263671875"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="229.87655639648438"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="70.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="70.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="70.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="0.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.HorizontalArrow" id="id14">
+                <primitive name="diagen.editor.lib.Line.x1" type="double" value="57.9736328125"/>
+                <primitive name="diagen.editor.lib.Line.y1" type="double" value="229.87655639648438"/>
+                <primitive name="diagen.editor.lib.Line.x2" type="double" value="77.9736328125"/>
+                <primitive name="diagen.editor.lib.Line.y2" type="double" value="20.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.RBox" id="id15">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <object name="diagen.editor.lib.ContainedText.text" type="String" id="id16"><![CDATA[+]]></object>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="37.9736328125"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="229.87655639648438"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="18.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="18.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="40.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="10.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.Box" id="id17">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <ref name="diagen.editor.lib.ContainedText.text" value="id6"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="112.9736328125"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="229.87655639648438"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="70.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="70.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="70.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="0.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.RBox" id="id18">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <object name="diagen.editor.lib.ContainedText.text" type="String" id="id19"><![CDATA[*]]></object>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="37.9736328125"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="183.87655639648438"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="16.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="16.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="40.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="10.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.HorizontalArrow" id="id20">
+                <primitive name="diagen.editor.lib.Line.x1" type="double" value="-2.0263671875"/>
+                <primitive name="diagen.editor.lib.Line.y1" type="double" value="137.87655639648438"/>
+                <primitive name="diagen.editor.lib.Line.x2" type="double" value="17.9736328125"/>
+                <primitive name="diagen.editor.lib.Line.y2" type="double" value="20.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.Box" id="id21">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <object name="diagen.editor.lib.ContainedText.text" type="String" id="id22"><![CDATA[RDO_IDENTIF_RELRES]]></object>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="-75.0263671875"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="137.87655639648438"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="146.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="146.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="146.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="0.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.HorizontalArrow" id="id23">
+                <primitive name="diagen.editor.lib.Line.x1" type="double" value="57.9736328125"/>
+                <primitive name="diagen.editor.lib.Line.y1" type="double" value="137.87655639648438"/>
+                <primitive name="diagen.editor.lib.Line.x2" type="double" value="77.9736328125"/>
+                <primitive name="diagen.editor.lib.Line.y2" type="double" value="20.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.RBox" id="id24">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <object name="diagen.editor.lib.ContainedText.text" type="String" id="id25"><![CDATA[.]]></object>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="37.9736328125"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="137.87655639648438"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="14.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="14.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="40.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="10.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.Box" id="id26">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <object name="diagen.editor.lib.ContainedText.text" type="String" id="id27"><![CDATA[RDO_IDENTIF]]></object>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="122.9736328125"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="137.87655639648438"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="90.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="90.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="90.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="0.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.HorizontalArrow" id="id28">
+                <primitive name="diagen.editor.lib.Line.x1" type="double" value="-2.0263671875"/>
+                <primitive name="diagen.editor.lib.Line.y1" type="double" value="91.20341491699219"/>
+                <primitive name="diagen.editor.lib.Line.x2" type="double" value="17.9736328125"/>
+                <primitive name="diagen.editor.lib.Line.y2" type="double" value="20.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.Box" id="id29">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <ref name="diagen.editor.lib.ContainedText.text" value="id27"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="-47.0263671875"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="91.20341491699219"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="90.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="90.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="90.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="0.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.HorizontalArrow" id="id30">
+                <primitive name="diagen.editor.lib.Line.x1" type="double" value="57.9736328125"/>
+                <primitive name="diagen.editor.lib.Line.y1" type="double" value="91.20341491699219"/>
+                <primitive name="diagen.editor.lib.Line.x2" type="double" value="77.9736328125"/>
+                <primitive name="diagen.editor.lib.Line.y2" type="double" value="20.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.RBox" id="id31">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <ref name="diagen.editor.lib.ContainedText.text" value="id25"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="37.9736328125"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="91.20341491699219"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="14.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="14.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="40.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="10.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.Box" id="id32">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <ref name="diagen.editor.lib.ContainedText.text" value="id27"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="122.9736328125"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="91.20341491699219"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="90.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="90.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="90.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="0.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.Box" id="id33">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <ref name="diagen.editor.lib.ContainedText.text" value="id22"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="40.137107849121094"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="45.20341491699219"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="146.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="146.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="146.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="0.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.Box" id="id34">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <ref name="diagen.editor.lib.ContainedText.text" value="id27"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="33.9736328125"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="-0.7965850830078125"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="90.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="90.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="90.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="0.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.Box" id="id35">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <object name="diagen.editor.lib.ContainedText.text" type="String" id="id36"><![CDATA[param_array_value]]></object>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="37.9736328125"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="-46.79658508300781"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="116.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="116.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="116.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="0.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.Box" id="id37">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <object name="diagen.editor.lib.ContainedText.text" type="String" id="id38"><![CDATA[RDO_STRING_CONST]]></object>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="36.9736328125"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="-92.79658508300781"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="138.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="138.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="138.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="0.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.Box" id="id39">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <object name="diagen.editor.lib.ContainedText.text" type="String" id="id40"><![CDATA[RDO_BOOL_CONST]]></object>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="39.9736328125"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="-141.7965850830078"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="126.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="126.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="126.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="0.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.Box" id="id41">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <object name="diagen.editor.lib.ContainedText.text" type="String" id="id42"><![CDATA[RDO_REAL_CONST]]></object>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="37.9736328125"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="-187.7965850830078"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="124.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="124.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="124.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="0.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.Box" id="id43">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <object name="diagen.editor.lib.ContainedText.text" type="String" id="id44"><![CDATA[RDO_INT_CONST]]></object>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="36.81897735595703"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="-233.7965850830078"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="112.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="112.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="112.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="0.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.HorizontalArrow" id="id45">
+                <primitive name="diagen.editor.lib.Line.x1" type="double" value="-26.879913330078125"/>
+                <primitive name="diagen.editor.lib.Line.y1" type="double" value="696.5479125976562"/>
+                <primitive name="diagen.editor.lib.Line.x2" type="double" value="-4.725273132324219"/>
+                <primitive name="diagen.editor.lib.Line.y2" type="double" value="20.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.Box" id="id46">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <ref name="diagen.editor.lib.ContainedText.text" value="id27"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="-71.87991333007812"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="696.5479125976562"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="90.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="90.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="90.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="0.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.HorizontalArrow" id="id47">
+                <primitive name="diagen.editor.lib.Line.x1" type="double" value="35.27472686767578"/>
+                <primitive name="diagen.editor.lib.Line.y1" type="double" value="696.5479125976562"/>
+                <primitive name="diagen.editor.lib.Line.x2" type="double" value="55.27472686767578"/>
+                <primitive name="diagen.editor.lib.Line.y2" type="double" value="20.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.RBox" id="id48">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <object name="diagen.editor.lib.ContainedText.text" type="String" id="id49"><![CDATA[[]]></object>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="15.274726867675781"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="696.5479125976562"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="14.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="14.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="40.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="10.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.HorizontalArrow" id="id50">
+                <primitive name="diagen.editor.lib.Line.x1" type="double" value="125.27472686767578"/>
+                <primitive name="diagen.editor.lib.Line.y1" type="double" value="696.5479125976562"/>
+                <primitive name="diagen.editor.lib.Line.x2" type="double" value="145.2747344970703"/>
+                <primitive name="diagen.editor.lib.Line.y2" type="double" value="20.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.Box" id="id51">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <ref name="diagen.editor.lib.ContainedText.text" value="id6"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="90.27472686767578"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="696.5479125976562"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="70.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="70.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="70.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="0.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.RBox" id="id52">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <object name="diagen.editor.lib.ContainedText.text" type="String" id="id53"><![CDATA[]]]></object>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="165.2747344970703"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="696.5479125976562"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="14.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="14.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="40.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="10.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.HorizontalArrow" id="id54">
+                <primitive name="diagen.editor.lib.Line.x1" type="double" value="-105.68165588378906"/>
+                <primitive name="diagen.editor.lib.Line.y1" type="double" value="649.4705200195312"/>
+                <primitive name="diagen.editor.lib.Line.x2" type="double" value="-85.68165588378906"/>
+                <primitive name="diagen.editor.lib.Line.y2" type="double" value="20.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.Box" id="id55">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <ref name="diagen.editor.lib.ContainedText.text" value="id27"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="-150.68165588378906"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="649.4705200195312"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="90.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="90.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="90.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="0.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.HorizontalArrow" id="id56">
+                <primitive name="diagen.editor.lib.Line.x1" type="double" value="-45.68165588378906"/>
+                <primitive name="diagen.editor.lib.Line.y1" type="double" value="649.4705200195312"/>
+                <primitive name="diagen.editor.lib.Line.x2" type="double" value="-25.681655883789062"/>
+                <primitive name="diagen.editor.lib.Line.y2" type="double" value="20.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.RBox" id="id57">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <ref name="diagen.editor.lib.ContainedText.text" value="id49"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="-65.68165588378906"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="649.4705200195312"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="14.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="14.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="40.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="10.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.HorizontalArrow" id="id58">
+                <primitive name="diagen.editor.lib.Line.x1" type="double" value="44.31834411621094"/>
+                <primitive name="diagen.editor.lib.Line.y1" type="double" value="649.4705200195312"/>
+                <primitive name="diagen.editor.lib.Line.x2" type="double" value="64.31834411621094"/>
+                <primitive name="diagen.editor.lib.Line.y2" type="double" value="20.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.Box" id="id59">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <ref name="diagen.editor.lib.ContainedText.text" value="id6"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="9.318344116210938"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="649.4705200195312"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="70.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="70.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="70.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="0.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.HorizontalArrow" id="id60">
+                <primitive name="diagen.editor.lib.Line.x1" type="double" value="104.31834411621094"/>
+                <primitive name="diagen.editor.lib.Line.y1" type="double" value="649.4705200195312"/>
+                <primitive name="diagen.editor.lib.Line.x2" type="double" value="124.31834411621094"/>
+                <primitive name="diagen.editor.lib.Line.y2" type="double" value="20.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.RBox" id="id61">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <ref name="diagen.editor.lib.ContainedText.text" value="id53"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="84.31834411621094"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="649.4705200195312"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="14.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="14.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="40.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="10.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.HorizontalArrow" id="id62">
+                <primitive name="diagen.editor.lib.Line.x1" type="double" value="164.31834411621094"/>
+                <primitive name="diagen.editor.lib.Line.y1" type="double" value="649.4705200195312"/>
+                <primitive name="diagen.editor.lib.Line.x2" type="double" value="184.31834411621094"/>
+                <primitive name="diagen.editor.lib.Line.y2" type="double" value="20.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.RBox" id="id63">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <ref name="diagen.editor.lib.ContainedText.text" value="id25"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="144.31834411621094"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="649.4705200195312"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="14.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="14.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="40.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="10.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.Box" id="id64">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <ref name="diagen.editor.lib.ContainedText.text" value="id27"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="229.31834411621094"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="649.4705200195312"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="90.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="90.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="90.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="0.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.HorizontalArrow" id="id65">
+                <primitive name="diagen.editor.lib.Line.x1" type="double" value="14.318344116210938"/>
+                <primitive name="diagen.editor.lib.Line.y1" type="double" value="611.8610229492188"/>
+                <primitive name="diagen.editor.lib.Line.x2" type="double" value="34.31834411621094"/>
+                <primitive name="diagen.editor.lib.Line.y2" type="double" value="20.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.Box" id="id66">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <ref name="diagen.editor.lib.ContainedText.text" value="id27"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="-30.681655883789062"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="611.8610229492188"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="90.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="90.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="90.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="0.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.HorizontalArrow" id="id67">
+                <primitive name="diagen.editor.lib.Line.x1" type="double" value="74.31834411621094"/>
+                <primitive name="diagen.editor.lib.Line.y1" type="double" value="611.8610229492188"/>
+                <primitive name="diagen.editor.lib.Line.x2" type="double" value="94.31834411621094"/>
+                <primitive name="diagen.editor.lib.Line.y2" type="double" value="20.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.RBox" id="id68">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <ref name="diagen.editor.lib.ContainedText.text" value="id25"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="54.31834411621094"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="611.8610229492188"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="14.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="14.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="40.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="10.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.Box" id="id69">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <object name="diagen.editor.lib.ContainedText.text" type="String" id="id70"><![CDATA[RDO_Size]]></object>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="128.31834411621094"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="611.8610229492188"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="68.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="68.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="68.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="0.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.HorizontalArrow" id="id71">
+                <primitive name="diagen.editor.lib.Line.x1" type="double" value="-45.68165588378906"/>
+                <primitive name="diagen.editor.lib.Line.y1" type="double" value="565.8610229492188"/>
+                <primitive name="diagen.editor.lib.Line.x2" type="double" value="-25.681655883789062"/>
+                <primitive name="diagen.editor.lib.Line.y2" type="double" value="20.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.RBox" id="id72">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <ref name="diagen.editor.lib.ContainedText.text" value="id10"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="-65.68165588378906"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="565.8610229492188"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="14.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="14.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="40.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="10.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.HorizontalArrow" id="id73">
+                <primitive name="diagen.editor.lib.Line.x1" type="double" value="44.31834411621094"/>
+                <primitive name="diagen.editor.lib.Line.y1" type="double" value="565.8610229492188"/>
+                <primitive name="diagen.editor.lib.Line.x2" type="double" value="64.31834411621094"/>
+                <primitive name="diagen.editor.lib.Line.y2" type="double" value="20.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.Box" id="id74">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <ref name="diagen.editor.lib.ContainedText.text" value="id6"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="9.318344116210938"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="565.8610229492188"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="70.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="70.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="70.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="0.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.HorizontalArrow" id="id75">
+                <primitive name="diagen.editor.lib.Line.x1" type="double" value="104.31834411621094"/>
+                <primitive name="diagen.editor.lib.Line.y1" type="double" value="565.8610229492188"/>
+                <primitive name="diagen.editor.lib.Line.x2" type="double" value="124.31834411621094"/>
+                <primitive name="diagen.editor.lib.Line.y2" type="double" value="20.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.Box" id="id76">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <object name="diagen.editor.lib.ContainedText.text" type="String" id="id77"><![CDATA[prec]]></object>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="84.31834411621094"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="565.8610229492188"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="34.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="34.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="40.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="0.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.Box" id="id78">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <object name="diagen.editor.lib.ContainedText.text" type="String" id="id79"><![CDATA[RDO_UMINUS]]></object>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="170.31834411621094"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="565.8610229492188"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="92.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="92.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="92.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="0.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.HorizontalArrow" id="id80">
+                <primitive name="diagen.editor.lib.Line.x1" type="double" value="-0.6816558837890625"/>
+                <primitive name="diagen.editor.lib.Line.y1" type="double" value="516.8670043945312"/>
+                <primitive name="diagen.editor.lib.Line.x2" type="double" value="19.318344116210938"/>
+                <primitive name="diagen.editor.lib.Line.y2" type="double" value="20.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.RBox" id="id81">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <object name="diagen.editor.lib.ContainedText.text" type="String" id="id82"><![CDATA[(]]></object>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="-20.681655883789062"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="516.8670043945312"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="14.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="14.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="40.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="10.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.HorizontalArrow" id="id83">
+                <primitive name="diagen.editor.lib.Line.x1" type="double" value="89.31834411621094"/>
+                <primitive name="diagen.editor.lib.Line.y1" type="double" value="516.8670043945312"/>
+                <primitive name="diagen.editor.lib.Line.x2" type="double" value="109.31834411621094"/>
+                <primitive name="diagen.editor.lib.Line.y2" type="double" value="20.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.Box" id="id84">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <ref name="diagen.editor.lib.ContainedText.text" value="id6"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="54.31834411621094"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="516.8670043945312"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="70.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="70.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="70.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="0.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.RBox" id="id85">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <object name="diagen.editor.lib.ContainedText.text" type="String" id="id86"><![CDATA[)]]></object>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="129.31834411621094"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="516.8670043945312"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="14.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="14.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="40.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="10.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.Box" id="id87">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <object name="diagen.editor.lib.ContainedText.text" type="String" id="id88"><![CDATA[fun_select_arithm]]></object>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="54.31834411621094"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="475.1797790527344"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="110.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="110.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="110.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="0.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.Box" id="id89">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <object name="diagen.editor.lib.ContainedText.text" type="String" id="id90"><![CDATA[fun_arithm_func_call]]></object>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="51.70421600341797"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="428.6824645996094"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="126.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="126.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="126.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="0.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.HorizontalArrow" id="id91">
+                <primitive name="diagen.editor.lib.Line.x1" type="double" value="14.318344116210938"/>
+                <primitive name="diagen.editor.lib.Line.y1" type="double" value="381.86102294921875"/>
+                <primitive name="diagen.editor.lib.Line.x2" type="double" value="34.31834411621094"/>
+                <primitive name="diagen.editor.lib.Line.y2" type="double" value="20.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.Box" id="id92">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <ref name="diagen.editor.lib.ContainedText.text" value="id6"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="-20.681655883789062"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="381.86102294921875"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="70.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="70.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="70.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="0.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.HorizontalArrow" id="id93">
+                <primitive name="diagen.editor.lib.Line.x1" type="double" value="74.31834411621094"/>
+                <primitive name="diagen.editor.lib.Line.y1" type="double" value="381.86102294921875"/>
+                <primitive name="diagen.editor.lib.Line.x2" type="double" value="94.31834411621094"/>
+                <primitive name="diagen.editor.lib.Line.y2" type="double" value="20.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.RBox" id="id94">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <object name="diagen.editor.lib.ContainedText.text" type="String" id="id95"><![CDATA[/]]></object>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="54.31834411621094"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="381.86102294921875"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="14.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="14.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="40.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="10.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.Box" id="id96">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <ref name="diagen.editor.lib.ContainedText.text" value="id6"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="129.31834411621094"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="381.86102294921875"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="70.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="70.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="70.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="0.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.HorizontalArrow" id="id97">
+                <primitive name="diagen.editor.lib.Line.x1" type="double" value="14.318344116210938"/>
+                <primitive name="diagen.editor.lib.Line.y1" type="double" value="335.86102294921875"/>
+                <primitive name="diagen.editor.lib.Line.x2" type="double" value="34.31834411621094"/>
+                <primitive name="diagen.editor.lib.Line.y2" type="double" value="20.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.Box" id="id98">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <ref name="diagen.editor.lib.ContainedText.text" value="id6"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="-20.681655883789062"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="335.86102294921875"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="70.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="70.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="70.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="0.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.HorizontalArrow" id="id99">
+                <primitive name="diagen.editor.lib.Line.x1" type="double" value="74.31834411621094"/>
+                <primitive name="diagen.editor.lib.Line.y1" type="double" value="335.86102294921875"/>
+                <primitive name="diagen.editor.lib.Line.x2" type="double" value="94.31834411621094"/>
+                <primitive name="diagen.editor.lib.Line.y2" type="double" value="20.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.RBox" id="id100">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <ref name="diagen.editor.lib.ContainedText.text" value="id19"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="54.31834411621094"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="335.86102294921875"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="16.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="16.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="40.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="10.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.Box" id="id101">
+                <primitive name="diagen.editor.lib.TextSupport.hasText" type="boolean" value="true"/>
+                <ref name="diagen.editor.lib.ContainedText.font" value="id4"/>
+                <ref name="diagen.editor.lib.ContainedText.text" value="id6"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetX" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.offsetY" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.angle" type="double" value="0.0"/>
+                <primitive name="diagen.editor.lib.ContainedText.alignment" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.anchor" type="int" value="0"/>
+                <primitive name="diagen.editor.lib.ContainedText.insets" type="double" value="5.0"/>
+                <ref name="diagen.editor.lib.ContainedText.color" value="id7"/>
+                <primitive name="diagen.editor.lib.TextSupport.x" type="double" value="129.31834411621094"/>
+                <primitive name="diagen.editor.lib.TextSupport.y" type="double" value="335.86102294921875"/>
+                <primitive name="diagen.editor.lib.TextSupport.minWidth" type="double" value="70.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.minHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinWidth" type="double" value="70.0"/>
+                <primitive name="diagen.editor.lib.TextSupport.localMinHeight" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.FilledTextSupport.defaultFill" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.width" type="double" value="70.0"/>
+                <primitive name="diagen.editor.lib.Box.height" type="double" value="26.0"/>
+                <primitive name="diagen.editor.lib.Box.interior" type="boolean" value="true"/>
+                <primitive name="diagen.editor.lib.Box.handlesMoveBox" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.centered" type="boolean" value="false"/>
+                <primitive name="diagen.editor.lib.Box.radius" type="double" value="0.0"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.HorizontalArrow" id="id102">
+                <primitive name="diagen.editor.lib.Line.x1" type="double" value="-304.4068603515625"/>
+                <primitive name="diagen.editor.lib.Line.y1" type="double" value="696.5479125976562"/>
+                <primitive name="diagen.editor.lib.Line.x2" type="double" value="-116.87991333007812"/>
+                <primitive name="diagen.editor.lib.Line.y2" type="double" value="706.373046875"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.HorizontalArrow" id="id103">
+                <primitive name="diagen.editor.lib.Line.x1" type="double" value="185.2747344970703"/>
+                <primitive name="diagen.editor.lib.Line.y1" type="double" value="696.5479125976562"/>
+                <primitive name="diagen.editor.lib.Line.x2" type="double" value="387.1551208496094"/>
+                <primitive name="diagen.editor.lib.Line.y2" type="double" value="707.9763793945312"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.MainFUArrow" id="id104">
+                <primitive name="diagen.editor.sample.syntax.Connection.x1" type="double" value="-247.70982360839844"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y1" type="double" value="696.5479125976562"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.x2" type="double" value="-19.18102264404297"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y2" type="double" value="-233.7965850830078"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.MainFDConn" id="id105">
+                <primitive name="diagen.editor.sample.syntax.Connection.x1" type="double" value="92.81897735595703"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y1" type="double" value="-233.7965850830078"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.x2" type="double" value="320.02899169921875"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y2" type="double" value="696.5479125976562"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.FUArrow" id="id106">
+                <primitive name="diagen.editor.sample.syntax.Connection.x1" type="double" value="-227.70982360839844"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y1" type="double" value="-187.7965850830078"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.x2" type="double" value="-24.0263671875"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y2" type="double" value="-188.90264892578125"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.FUArrow" id="id107">
+                <primitive name="diagen.editor.sample.syntax.Connection.x1" type="double" value="-227.70982360839844"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y1" type="double" value="-141.7965850830078"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.x2" type="double" value="-23.0263671875"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y2" type="double" value="-139.40533447265625"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.FUArrow" id="id108">
+                <primitive name="diagen.editor.sample.syntax.Connection.x1" type="double" value="-227.70982360839844"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y1" type="double" value="-92.79658508300781"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.x2" type="double" value="-32.0263671875"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y2" type="double" value="-92.70132446289062"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.FUArrow" id="id109">
+                <primitive name="diagen.editor.sample.syntax.Connection.x1" type="double" value="-227.70982360839844"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y1" type="double" value="-46.79658508300781"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.x2" type="double" value="-20.0263671875"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y2" type="double" value="-47.61743927001953"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.FUArrow" id="id110">
+                <primitive name="diagen.editor.sample.syntax.Connection.x1" type="double" value="-227.70982360839844"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y1" type="double" value="-0.7965850830078125"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.x2" type="double" value="-11.0263671875"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y2" type="double" value="-0.1201324462890625"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.FUArrow" id="id111">
+                <primitive name="diagen.editor.sample.syntax.Connection.x1" type="double" value="-227.70982360839844"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y1" type="double" value="45.20341491699219"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.x2" type="double" value="-32.862892150878906"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y2" type="double" value="45.877174377441406"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.FUArrow" id="id112">
+                <primitive name="diagen.editor.sample.syntax.Connection.x1" type="double" value="-227.70982360839844"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y1" type="double" value="91.20341491699219"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.x2" type="double" value="-92.0263671875"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y2" type="double" value="90.37448120117188"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.FUArrow" id="id113">
+                <primitive name="diagen.editor.sample.syntax.Connection.x1" type="double" value="-227.70982360839844"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y1" type="double" value="137.87655639648438"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.x2" type="double" value="-148.0263671875"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y2" type="double" value="136.8717803955078"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.FUArrow" id="id114">
+                <primitive name="diagen.editor.sample.syntax.Connection.x1" type="double" value="-227.70982360839844"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y1" type="double" value="229.87655639648438"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.x2" type="double" value="-72.0263671875"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y2" type="double" value="226.65968322753906"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.FUArrow" id="id115">
+                <primitive name="diagen.editor.sample.syntax.Connection.x1" type="double" value="-227.70982360839844"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y1" type="double" value="183.87655639648438"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.x2" type="double" value="17.9736328125"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y2" type="double" value="183.3690948486328"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.FUArrow" id="id116">
+                <primitive name="diagen.editor.sample.syntax.Connection.x1" type="double" value="-227.70982360839844"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y1" type="double" value="275.8765563964844"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.x2" type="double" value="-72.0263671875"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y2" type="double" value="273.156982421875"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.FUArrow" id="id117">
+                <primitive name="diagen.editor.sample.syntax.Connection.x1" type="double" value="-227.70982360839844"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y1" type="double" value="335.86102294921875"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.x2" type="double" value="-55.68165588378906"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y2" type="double" value="335.6878662109375"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.FUArrow" id="id118">
+                <primitive name="diagen.editor.sample.syntax.Connection.x1" type="double" value="-227.70982360839844"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y1" type="double" value="381.86102294921875"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.x2" type="double" value="-55.68165588378906"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y2" type="double" value="385.3918762207031"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.FUArrow" id="id119">
+                <primitive name="diagen.editor.sample.syntax.Connection.x1" type="double" value="-227.70982360839844"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y1" type="double" value="428.6824645996094"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.x2" type="double" value="-11.295783996582031"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y2" type="double" value="428.6824645996094"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.FUArrow" id="id120">
+                <primitive name="diagen.editor.sample.syntax.Connection.x1" type="double" value="-227.70982360839844"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y1" type="double" value="475.1797790527344"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.x2" type="double" value="-0.6816558837890625"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y2" type="double" value="475.1797790527344"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.FUArrow" id="id121">
+                <primitive name="diagen.editor.sample.syntax.Connection.x1" type="double" value="-227.70982360839844"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y1" type="double" value="516.8670043945312"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.x2" type="double" value="-40.68165588378906"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y2" type="double" value="516.8670043945312"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.FUArrow" id="id122">
+                <primitive name="diagen.editor.sample.syntax.Connection.x1" type="double" value="-227.70982360839844"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y1" type="double" value="565.8610229492188"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.x2" type="double" value="-85.68165588378906"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y2" type="double" value="564.9676513671875"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.FUArrow" id="id123">
+                <primitive name="diagen.editor.sample.syntax.Connection.x1" type="double" value="-227.70982360839844"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y1" type="double" value="611.8610229492188"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.x2" type="double" value="-75.68165588378906"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y2" type="double" value="613.068359375"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.FUArrow" id="id124">
+                <primitive name="diagen.editor.sample.syntax.Connection.x1" type="double" value="-227.70982360839844"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y1" type="double" value="649.4705200195312"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.x2" type="double" value="-195.68165588378906"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y2" type="double" value="653.1522216796875"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.FDConn" id="id125">
+                <primitive name="diagen.editor.sample.syntax.Connection.x1" type="double" value="274.31834411621094"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y1" type="double" value="649.4705200195312"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.x2" type="double" value="300.02899169921875"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y2" type="double" value="651.76904296875"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.FDConn" id="id126">
+                <primitive name="diagen.editor.sample.syntax.Connection.x1" type="double" value="99.9736328125"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y1" type="double" value="-187.7965850830078"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.x2" type="double" value="300.02899169921875"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y2" type="double" value="-187.7965850830078"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.FDConn" id="id127">
+                <primitive name="diagen.editor.sample.syntax.Connection.x1" type="double" value="102.9736328125"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y1" type="double" value="-141.7965850830078"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.x2" type="double" value="300.02899169921875"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y2" type="double" value="-141.7965850830078"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.FDConn" id="id128">
+                <primitive name="diagen.editor.sample.syntax.Connection.x1" type="double" value="105.9736328125"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y1" type="double" value="-92.79658508300781"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.x2" type="double" value="300.02899169921875"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y2" type="double" value="-93.79658508300781"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.FDConn" id="id129">
+                <primitive name="diagen.editor.sample.syntax.Connection.x1" type="double" value="95.9736328125"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y1" type="double" value="-46.79658508300781"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.x2" type="double" value="300.02899169921875"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y2" type="double" value="-50.79658508300781"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.FDConn" id="id130">
+                <primitive name="diagen.editor.sample.syntax.Connection.x1" type="double" value="78.9736328125"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y1" type="double" value="-0.7965850830078125"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.x2" type="double" value="300.02899169921875"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y2" type="double" value="-3.7965850830078125"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.FDConn" id="id131">
+                <primitive name="diagen.editor.sample.syntax.Connection.x1" type="double" value="113.1371078491211"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y1" type="double" value="45.20341491699219"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.x2" type="double" value="300.02899169921875"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y2" type="double" value="44.76904296875"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.FDConn" id="id132">
+                <primitive name="diagen.editor.sample.syntax.Connection.x1" type="double" value="167.9736328125"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y1" type="double" value="91.20341491699219"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.x2" type="double" value="300.02899169921875"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y2" type="double" value="89.76904296875"/>
+            </composed>
+            <composed type="diagen.editor.sample.syntax.FDConn" id="id133">
+                <primitive name="diagen.editor.sample.syntax.Connection.x1" type="double" value="167.9736328125"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y1" type="double" value="137.87655639648438"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.x2" type="double" value="300.02899169921875"/>
+                <primitive name="diagen.editor.sample.syntax.Connection.y2" type="double" value="137.87655639648438"/>
+            </composed>
+        </list>
+        <list name="linkEdges" id="id134">
+        </list>
+        <ref name="reducerMemory" value="id134"/>
+        <map name="hidden" id="id135">
+        </map>
+    </composed>
+</serialized>

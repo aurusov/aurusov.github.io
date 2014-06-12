@@ -1,0 +1,33 @@
+$Resource_type Баржи: permanent
+$Parameters
+	состояние             : (Погрузка, Отплывает, Плавание, Разгрузка)
+	доход                 : real
+	количество_контейнеров: integer
+	всего_контейнеров     : integer
+	грузится_контейнеров  : integer
+	количество_плаваний   : integer
+	расходы_на_топливо    : integer
+	доход_на_контейнер    : real
+$End
+
+$Resource_type Контейнеры : temporary
+$Parameters
+	состояние             : (Заказан, Погрузка, Погружен, Разгрузка)
+	стоимость_перевозки   : real
+	ширина                : integer
+	длина                 : integer
+	cR                    : integer
+	cG                    : integer
+	cB                    : integer
+	погрузчик             : integer = 0
+
+$End
+
+$Resource_type Погрузчики: permanent
+$Parameters
+	состояние             : ( Свободен, Занят ) = Свободен
+	длительность_min      : real
+	длительность_max      : real
+	тип_контейнера        : integer
+	погружено             : integer
+$End
