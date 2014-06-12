@@ -1,0 +1,50 @@
+$Pattern Образец_Таймера: event
+$Relevant_resources
+	_Timeinfo: Timeinfo  keep 
+$Body
+_Timeinfo
+	Convert_event
+		day      = getday       (Time_now);
+		sec      = getsec       (Time_now);
+		fulltime = getfulltime  (Time_now);
+		Образец_Таймера.planning(Time_now + 5 * 60);
+$End
+
+$Pattern Образец_Приход_клиента : event
+$Relevant_resources
+	_Пищеблок: Пищеблок keep
+	_Клиент  : Клиенты  create
+$Body
+_Пищеблок
+	Convert_event
+		Количество_зашедших_клиентов = _Пищеблок.Количество_зашедших_клиентов + 1;
+
+_Клиент
+	Convert_event trace
+		Направление    = Распределение_мест ();
+		Состояние      = В_очереди;
+		Размещение     = Еще_нету;
+		Время_прихода  = time_now;
+		Время_ожидания = 0.0;
+		Образец_Приход_клиента.planning(Time_now + Интервал_прихода());
+$End
+
+$Pattern Переключение_на_урок: event
+$Relevant_resources
+	_Пищеблок: Пищеблок keep
+$Body
+_Пищеблок
+	Convert_event
+		Образец_Приход_клиента  .stopping();
+		Переключение_на_перемену.planning(time_now + Длительность_урока());
+$End
+
+$Pattern Переключение_на_перемену: event
+$Relevant_resources
+	_Пищеблок: Пищеблок keep
+$Body
+_Пищеблок
+	Convert_event
+		Переключение_на_урок   .planning(time_now + Длительность_перемены());
+		Образец_Приход_клиента .planning(time_now + Интервал_прихода());
+$End
