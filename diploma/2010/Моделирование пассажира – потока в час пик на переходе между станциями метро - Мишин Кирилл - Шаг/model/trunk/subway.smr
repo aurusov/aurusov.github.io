@@ -1,0 +1,12 @@
+Model_name     = subway
+Resource_file  = subway
+OprIev_file    = subway
+Frame_file     = subway
+Statistic_file = subway
+Results_file   = subway
+Trace_file     = subway
+Show_mode      = Animation
+Frame_number   = 1
+Show_rate      = 3600.0
+
+Terminate_if Time_now >= 1.5 * 60 { Смоделируем полтора часа }

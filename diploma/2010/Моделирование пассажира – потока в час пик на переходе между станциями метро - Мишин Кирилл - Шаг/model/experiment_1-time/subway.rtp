@@ -1,0 +1,39 @@
+$Resource_type Станции : permanent
+$Parameters
+	Название : (Чертановская, Серпуховская, Добрынинская, Курская, Нет) = Нет
+	Состояние: (Пустая, ЕстьПоезд) = Пустая
+$End
+
+$Resource_type Перегоны : permanent
+$Parameters
+	От                : such_as Станции.Название = Нет
+	До                : such_as Станции.Название = Нет
+	Количество_поездов: integer = 0
+$End
+
+$Resource_type Поезда: temporary
+$Parameters
+	Приезд              			: real
+	Отъезд              			: real
+	Temp                			: integer
+	Время_в_пути        			: real
+	Начал_движение     				: real
+	Закончил_движение   			: real
+	Маршрут             			: such_as Станции.Название
+	Состояние         				: (Создание, В_пути, Удаление)
+	Перевозим_пассажиров			: integer
+$End
+
+$Resource_type Очереди: permanent
+$Parameters
+	Длинна                        : integer = 0
+	Возможность_принять_пассажиров: (Да, В_процессе, Нет) = Нет
+	Идёт_в_очередь                : integer = 0
+	Время_в_очереди               : real = 0
+$End
+
+$Resource_type Эскалаторы: permanent
+$Parameters
+	Длинна							: integer {Количество ступеней}
+	Возможность_принять_пассажиров	: (Да, Нет)
+$End
