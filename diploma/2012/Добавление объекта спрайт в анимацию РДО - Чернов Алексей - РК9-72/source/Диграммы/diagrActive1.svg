@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="636" version="1.1" width="828" xmlns="http://www.w3.org/2000/svg">
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="277" x2="277" y1="14" y2="622"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="14" x2="14" y1="14" y2="622"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="14" x2="277" y1="14" y2="14"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="14" x2="277" y1="622" y2="622"/>
+<text font-family="Dialog" font-size="12" x="95" y="28">
+frm_sprite_header</text>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="14" x2="277" y1="39" y2="39"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="565" x2="565" y1="14" y2="622"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="278" x2="565" y1="14" y2="14"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="278" x2="565" y1="622" y2="622"/>
+<text font-family="Dialog" font-size="12" x="375" y="28">
+frm_sprite_begin</text>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="278" x2="565" y1="39" y2="39"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="813" x2="813" y1="14" y2="622"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="566" x2="813" y1="14" y2="14"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="566" x2="813" y1="622" y2="622"/>
+<text font-family="Dialog" font-size="12" x="648" y="28">
+frm_sprite_end</text>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="566" x2="813" y1="39" y2="39"/>
+<rect fill="#00ff" height="50" rx="52" ry="52" stroke="#00ff" stroke-width="1" width="174" x="55" y="103"/>
+<rect fill="#ffffff" height="52" rx="52" ry="52" stroke="#000000" stroke-width="1" width="176" x="54" y="102"/>
+<rect fill="#ffffff" height="50" rx="52" ry="52" stroke="#ffffff" stroke-width="1" width="174" x="55" y="103"/>
+<text font-family="Dialog" font-size="12" x="90" y="122">
+Получить из стека</text>
+<text font-family="Dialog" font-size="12" x="79" y="138">
+ парсера имя спрайта</text>
+<rect fill="#00ff" height="50" rx="52" ry="52" stroke="#00ff" stroke-width="1" width="174" x="55" y="183"/>
+<rect fill="#ffffff" height="52" rx="52" ry="52" stroke="#000000" stroke-width="1" width="176" x="54" y="182"/>
+<rect fill="#ffffff" height="50" rx="52" ry="52" stroke="#ffffff" stroke-width="1" width="174" x="55" y="183"/>
+<text font-family="Dialog" font-size="12" x="75" y="202">
+Создать объект спрайт</text>
+<text font-family="Dialog" font-size="12" x="82" y="218">
+ с заданным именем</text>
+<polyline fill="none" points="142,152 142,183" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="135" x2="142" y1="171" y2="183"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="149" x2="142" y1="171" y2="183"/>
+<rect fill="#00ff" height="50" rx="52" ry="52" stroke="#00ff" stroke-width="1" width="173" x="55" y="263"/>
+<rect fill="#ffffff" height="52" rx="52" ry="52" stroke="#000000" stroke-width="1" width="175" x="54" y="262"/>
+<rect fill="#ffffff" height="50" rx="52" ry="52" stroke="#ffffff" stroke-width="1" width="173" x="55" y="263"/>
+<text font-family="Dialog" font-size="12" x="95" y="282">
+Передать в стек</text>
+<text font-family="Dialog" font-size="12" x="70" y="298">
+ парсера объект спрайта</text>
+<polyline fill="none" points="142,232 142,263" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="135" x2="142" y1="251" y2="263"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="149" x2="142" y1="251" y2="263"/>
+<rect fill="#00ff" height="50" rx="52" ry="52" stroke="#00ff" stroke-width="1" width="185" x="327" y="55"/>
+<rect fill="#ffffff" height="52" rx="52" ry="52" stroke="#000000" stroke-width="1" width="187" x="326" y="54"/>
+<rect fill="#ffffff" height="50" rx="52" ry="52" stroke="#ffffff" stroke-width="1" width="185" x="327" y="55"/>
+<text font-family="Dialog" font-size="12" x="368" y="74">
+Получить из стека</text>
+<text font-family="Dialog" font-size="12" x="338" y="90">
+ парсера список выражений</text>
+<rect fill="#00ff" height="50" rx="52" ry="52" stroke="#00ff" stroke-width="1" width="204" x="319" y="135"/>
+<rect fill="#ffffff" height="52" rx="52" ry="52" stroke="#000000" stroke-width="1" width="206" x="318" y="134"/>
+<rect fill="#ffffff" height="50" rx="52" ry="52" stroke="#ffffff" stroke-width="1" width="204" x="319" y="135"/>
+<text font-family="Dialog" font-size="12" x="330" y="154">
+Привидение списка выражений</text>
+<text font-family="Dialog" font-size="12" x="361" y="170">
+ к списку операторов</text>
+<polyline fill="none" points="422,104 422,135" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="415" x2="422" y1="123" y2="135"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="429" x2="422" y1="123" y2="135"/>
+<rect fill="#00ff" height="50" rx="52" ry="52" stroke="#00ff" stroke-width="1" width="204" x="319" y="215"/>
+<rect fill="#ffffff" height="52" rx="52" ry="52" stroke="#000000" stroke-width="1" width="206" x="318" y="214"/>
+<rect fill="#ffffff" height="50" rx="52" ry="52" stroke="#ffffff" stroke-width="1" width="204" x="319" y="215"/>
+<text font-family="Dialog" font-size="12" x="333" y="234">
+Выделение локальной памяти</text>
+<text font-family="Dialog" font-size="12" x="354" y="250">
+под список операторов</text>
+<polyline fill="none" points="422,184 422,215" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="415" x2="422" y1="203" y2="215"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="429" x2="422" y1="203" y2="215"/>
+<rect fill="#00ff" height="50" rx="52" ry="52" stroke="#00ff" stroke-width="1" width="227" x="311" y="287"/>
+<rect fill="#ffffff" height="52" rx="52" ry="52" stroke="#000000" stroke-width="1" width="229" x="310" y="286"/>
+<rect fill="#ffffff" height="50" rx="52" ry="52" stroke="#ffffff" stroke-width="1" width="227" x="311" y="287"/>
+<text font-family="Dialog" font-size="12" x="332" y="306">
+Создание по списку операторов</text>
+<text font-family="Dialog" font-size="12" x="322" y="322">
+ выражений, помещаемых в спрайт </text>
+<rect fill="#00ff" height="50" rx="52" ry="52" stroke="#00ff" stroke-width="1" width="148" x="343" y="391"/>
+<rect fill="#ffffff" height="52" rx="52" ry="52" stroke="#000000" stroke-width="1" width="150" x="342" y="390"/>
+<rect fill="#ffffff" height="50" rx="52" ry="52" stroke="#ffffff" stroke-width="1" width="148" x="343" y="391"/>
+<text font-family="Dialog" font-size="12" x="365" y="410">
+Получить из стека</text>
+<text font-family="Dialog" font-size="12" x="370" y="426">
+ парсера спрайт</text>
+<rect fill="#00ff" height="50" rx="52" ry="52" stroke="#00ff" stroke-width="1" width="190" x="327" y="463"/>
+<rect fill="#ffffff" height="52" rx="52" ry="52" stroke="#000000" stroke-width="1" width="192" x="326" y="462"/>
+<rect fill="#ffffff" height="50" rx="52" ry="52" stroke="#ffffff" stroke-width="1" width="190" x="327" y="463"/>
+<text font-family="Dialog" font-size="12" x="360" y="482">
+Для рантайм-аналога</text>
+<text font-family="Dialog" font-size="12" x="348" y="498">
+спрайта установить калки</text>
+<polyline fill="none" points="150,312 150,366 422,366 422,391" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="415" x2="422" y1="379" y2="391"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="429" x2="422" y1="379" y2="391"/>
+<polyline fill="none" points="422,264 422,287" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="415" x2="422" y1="275" y2="287"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="429" x2="422" y1="275" y2="287"/>
+<polyline fill="none" points="422,336 422,391" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="415" x2="422" y1="379" y2="391"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="429" x2="422" y1="379" y2="391"/>
+<polyline fill="none" points="422,440 422,463" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="415" x2="422" y1="451" y2="463"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="429" x2="422" y1="451" y2="463"/>
+<rect fill="#00ff" height="50" rx="52" ry="52" stroke="#00ff" stroke-width="1" width="165" x="343" y="535"/>
+<rect fill="#ffffff" height="52" rx="52" ry="52" stroke="#000000" stroke-width="1" width="167" x="342" y="534"/>
+<rect fill="#ffffff" height="50" rx="52" ry="52" stroke="#ffffff" stroke-width="1" width="165" x="343" y="535"/>
+<text font-family="Dialog" font-size="12" x="379" y="554">
+Передать в стек</text>
+<text font-family="Dialog" font-size="12" x="354" y="570">
+ парсера объект спрайта</text>
+<polyline fill="none" points="422,512 422,535" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="415" x2="422" y1="523" y2="535"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="429" x2="422" y1="523" y2="535"/>
+<rect fill="#00ff" height="50" rx="52" ry="52" stroke="#00ff" stroke-width="1" width="148" x="615" y="103"/>
+<rect fill="#ffffff" height="52" rx="52" ry="52" stroke="#000000" stroke-width="1" width="150" x="614" y="102"/>
+<rect fill="#ffffff" height="50" rx="52" ry="52" stroke="#ffffff" stroke-width="1" width="148" x="615" y="103"/>
+<text font-family="Dialog" font-size="12" x="637" y="122">
+Получить из стека</text>
+<text font-family="Dialog" font-size="12" x="626" y="138">
+ парсера имя спрайта</text>
+<polyline fill="none" points="422,584 422,606 574,606 574,62 694,62 694,103" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="687" x2="694" y1="91" y2="103"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="701" x2="694" y1="91" y2="103"/>
+<ellipse cx="142" cy="62" fill="#000000" rx="8.0" ry="8.0" stroke="#000000" stroke-width="1"/>
+<polyline fill="none" points="140,69 140,103" stroke="#333399" stroke-width="1"/>
+<line fill="#333399" stroke="#333399" stroke-width="1" x1="133" x2="140" y1="91" y2="103"/>
+<line fill="#333399" stroke="#333399" stroke-width="1" x1="147" x2="140" y1="91" y2="103"/>
+<rect fill="#00ff" height="50" rx="52" ry="52" stroke="#00ff" stroke-width="1" width="159" x="615" y="183"/>
+<rect fill="#ffffff" height="52" rx="52" ry="52" stroke="#000000" stroke-width="1" width="161" x="614" y="182"/>
+<rect fill="#ffffff" height="50" rx="52" ry="52" stroke="#ffffff" stroke-width="1" width="159" x="615" y="183"/>
+<text font-family="Dialog" font-size="12" x="626" y="202">
+Выполнить завершение</text>
+<text font-family="Dialog" font-size="12" x="626" y="218">
+ вормирование спрайта</text>
+<polyline fill="none" points="694,152 694,183" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="687" x2="694" y1="171" y2="183"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="701" x2="694" y1="171" y2="183"/>
+<ellipse cx="698" cy="290" fill="#000000" rx="12.0" ry="12.0" stroke="#000000" stroke-width="1"/>
+<ellipse cx="698" cy="290" fill="#ffffff" rx="11.0" ry="11.0" stroke="#ffffff" stroke-width="1"/>
+<ellipse cx="697" cy="289" fill="#000000" rx="7.5" ry="7.5" stroke="#000000" stroke-width="1"/>
+<polyline fill="none" points="698,232 698,278" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="691" x2="698" y1="266" y2="278"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="705" x2="698" y1="266" y2="278"/>
+</svg>

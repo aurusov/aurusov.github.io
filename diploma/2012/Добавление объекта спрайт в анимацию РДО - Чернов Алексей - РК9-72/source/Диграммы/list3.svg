@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="1090" version="1.1" width="1666" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#ffffff" height="551" stroke="#ffffff" stroke-width="1" width="495" x="130" y="222"/>
+<rect fill="none" height="551" stroke="#000000" stroke-width="1" width="495" x="130" y="222"/>
+<text font-family="Dialog" font-size="12" x="335" y="236">
+RDOFRMSprite</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="495" x="130" y="246"/>
+<text font-family="Dialog" font-size="12" x="134" y="261">
+- m_pSpriteCalc : RDOCalc</text>
+<text font-family="Dialog" font-size="12" x="134" y="278">
+- m_colorLastBg : rdo::animation::Color</text>
+<text font-family="Dialog" font-size="12" x="134" y="295">
+- m_colorLastFg : rdo::animation::Color</text>
+<text font-family="Dialog" font-size="12" x="134" y="312">
+- m_colorLastBgText : rdo::animation::Color</text>
+<text font-family="Dialog" font-size="12" x="134" y="329">
+- m_colorLastFgText : rdo::animation::Color</text>
+<text font-family="Dialog" font-size="12" x="134" y="346">
+- m_lastX : double</text>
+<text font-family="Dialog" font-size="12" x="134" y="363">
+- m_lastY : double</text>
+<text font-family="Dialog" font-size="12" x="134" y="380">
+- m_lastWidth : double</text>
+<text font-family="Dialog" font-size="12" x="134" y="397">
+- m_lastHeight : double</text>
+<text font-family="Dialog" font-size="12" x="134" y="414">
+- m_ruletList : RuletList</text>
+<text font-family="Dialog" font-size="12" x="134" y="431">
+- m_getBitmapList : int</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="495" x="130" y="441"/>
+<text font-family="Dialog" font-size="12" x="134" y="456">
++ name() : String</text>
+<text font-family="Dialog" font-size="12" x="134" y="473">
++ insertItem(pItem : RDOCalc)</text>
+<text font-family="Dialog" font-size="12" x="134" y="490">
++ setSpriteCalc(pSpriteCalc : RDOCalc)</text>
+<text font-family="Dialog" font-size="12" x="134" y="507">
++ setColorLastBG(type : RDOFRMColor::ColorType,lastBg : rdo::animation::Color)</text>
+<text font-family="Dialog" font-size="12" x="134" y="524">
++ setColorLastFG(type : RDOFRMColor::ColorType,lastFg : rdo::animation::Color)</text>
+<text font-family="Dialog" font-size="12" x="134" y="541">
++ setColorLastBGText(type : RDOFRMColor::ColorType,lastBgText : rdo::animation::Color)</text>
+<text font-family="Dialog" font-size="12" x="134" y="558">
++ setColorLastFGText(type : RDOFRMColor::ColorType,lastFgText : rdo::animation::Color)</text>
+<text font-family="Dialog" font-size="12" x="134" y="575">
++ setLastXY(x : double,y : double)</text>
+<text font-family="Dialog" font-size="12" x="134" y="592">
++ setLastXYWH(x : double,y : double,width : double,height : double)</text>
+<text font-family="Dialog" font-size="12" x="134" y="609">
++ getRuletX(pRuntime : RDORuntime,ruletID : int) : int</text>
+<text font-family="Dialog" font-size="12" x="134" y="626">
++ getRuletY(pRuntime : RDORuntime,ruletID : int) : int</text>
+<text font-family="Dialog" font-size="12" x="134" y="643">
++ findRulet(ruletID : int) : RDOFRMRulet</text>
+<text font-family="Dialog" font-size="12" x="134" y="660">
+# RDOFRMSprite(srcInfo : RDOSrcInfo)</text>
+<text font-family="Dialog" font-size="12" x="134" y="677">
+# ~RDOFRMSprite()</text>
+<text font-family="Dialog" font-size="12" x="134" y="694">
+# prepareFrame(pRuntime : RDORuntime) : RDOValue</text>
+<text font-family="Dialog" font-size="12" x="134" y="711">
+# getBitmaps(list : ImageNameList)</text>
+<text font-family="Dialog" font-size="12" x="134" y="728">
+- insertGetBitmap(pGetBitmap : IRDOFRMItemGetBitmap)</text>
+<text font-family="Dialog" font-size="12" x="134" y="745">
+- insertRulet(pRulet : RDOFRMRulet)</text>
+<text font-family="Dialog" font-size="12" x="134" y="762">
+- doCalc(pRuntime : RDORuntime) : RDOValue</text>
+<rect fill="#ffffff" height="68" stroke="#ffffff" stroke-width="1" width="66" x="634" y="14"/>
+<rect fill="none" height="68" stroke="#000000" stroke-width="1" width="66" x="634" y="14"/>
+<text font-family="Dialog" font-size="12" x="641" y="28">
+RDOCalc</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="66" x="634" y="38"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="66" x="634" y="59"/>
+<polyline fill="none" points="378,222 378,134 650,134 650,81" stroke="#333399" stroke-width="1"/>
+<polygon fill="#ffffff" points="650,81 657,93 643,93" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="650,81 657,93 643,93" stroke="#333399" stroke-width="1"/>
+<rect fill="#ffffff" height="68" stroke="#ffffff" stroke-width="1" width="119" x="418" y="14"/>
+<rect fill="none" height="68" stroke="#000000" stroke-width="1" width="119" x="418" y="14"/>
+<text font-family="Dialog" font-size="12" x="423" y="28">
+RDORuntimeObject</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="119" x="418" y="38"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="119" x="418" y="59"/>
+<rect fill="#ffffff" height="68" stroke="#ffffff" stroke-width="1" width="75" x="267" y="14"/>
+<rect fill="none" height="68" stroke="#000000" stroke-width="1" width="75" x="267" y="14"/>
+<text font-family="Dialog" font-size="12" x="272" y="28">
+RDOSrcInfo</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="75" x="267" y="38"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="75" x="267" y="59"/>
+<rect fill="#ffffff" height="68" stroke="#ffffff" stroke-width="1" width="147" x="98" y="14"/>
+<rect fill="none" height="68" stroke="#000000" stroke-width="1" width="147" x="98" y="14"/>
+<text font-family="Dialog" font-size="12" x="103" y="28">
+IRDOFRMItemGetBitmap</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="147" x="98" y="38"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="147" x="98" y="59"/>
+<polyline fill="none" points="378,222 378,134 474,134 474,81" stroke="#333399" stroke-width="1"/>
+<polygon fill="#ffffff" points="474,81 481,93 467,93" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="474,81 481,93 467,93" stroke="#333399" stroke-width="1"/>
+<polyline fill="none" points="378,222 378,134 306,134 306,81" stroke="#333399" stroke-width="1"/>
+<polygon fill="#ffffff" points="306,81 313,93 299,93" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="306,81 313,93 299,93" stroke="#333399" stroke-width="1"/>
+<polyline fill="none" points="378,222 378,134 154,134 154,81" stroke="#333399" stroke-width="1"/>
+<polygon fill="#ffffff" points="154,81 161,93 147,93" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="154,81 161,93 147,93" stroke="#333399" stroke-width="1"/>
+<rect fill="#ffffff" height="245" stroke="#ffffff" stroke-width="1" width="497" x="986" y="222"/>
+<rect fill="none" height="245" stroke="#000000" stroke-width="1" width="497" x="986" y="222"/>
+<text font-family="Dialog" font-size="12" x="1141" y="236">
+RDOFRMSprite::RDOFRMPosition</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="497" x="986" y="246"/>
+<text font-family="Dialog" font-size="12" x="990" y="261">
+- m_pCalc : RDOCalc</text>
+<text font-family="Dialog" font-size="12" x="990" y="278">
+- m_type : PositionType</text>
+<text font-family="Dialog" font-size="12" x="990" y="295">
+- m_ruletID : int</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="497" x="986" y="305"/>
+<text font-family="Dialog" font-size="12" x="990" y="320">
++ getType() : PositionType</text>
+<text font-family="Dialog" font-size="12" x="990" y="337">
++ getCalc() : RDOCalc</text>
+<text font-family="Dialog" font-size="12" x="990" y="354">
++ getX(pRuntime : RDORuntime,pSprite : RDOFRMSprite) : int</text>
+<text font-family="Dialog" font-size="12" x="990" y="371">
++ getY(pRuntime : RDORuntime,pSprite : RDOFRMSprite) : int</text>
+<text font-family="Dialog" font-size="12" x="990" y="388">
++ getHeight(pRuntime : RDORuntime,pSprite : RDOFRMSprite) : int</text>
+<text font-family="Dialog" font-size="12" x="990" y="405">
++ getWidth(pRuntime : RDORuntime,pSprite : RDOFRMSprite = PT_ABSOLUTE) : int</text>
+<text font-family="Dialog" font-size="12" x="990" y="422">
+- RDOFRMPosition(pCalc : RDOCalc,type : PositionType = PT_ABSOLUTE,ruletID = 0)</text>
+<text font-family="Dialog" font-size="12" x="990" y="439">
+- RDOFRMPosition()</text>
+<text font-family="Dialog" font-size="12" x="990" y="456">
+- ~RDOFRMPosition()</text>
+<polyline fill="none" points="1098,222 1098,182 506,182 506,81" stroke="#333399" stroke-width="1"/>
+<polygon fill="#ffffff" points="506,81 513,93 499,93" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="506,81 513,93 499,93" stroke="#333399" stroke-width="1"/>
+<rect fill="#ffffff" height="163" stroke="#ffffff" stroke-width="1" width="128" x="1522" y="222"/>
+<rect fill="none" height="163" stroke="#000000" stroke-width="1" width="128" x="1522" y="222"/>
+<text font-family="Dialog" font-size="12" x="1550" y="256">
+PositionType</text>
+<text font-family="Dialog" font-size="12" x="1556" y="237">
+&lt;&lt;enum&gt;&gt;</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="128" x="1522" y="266"/>
+<text font-family="Dialog" font-size="12" x="1526" y="281">
+PT_ABSOLUTE</text>
+<text font-family="Dialog" font-size="12" x="1526" y="298">
+PT_DELTA</text>
+<text font-family="Dialog" font-size="12" x="1526" y="315">
+PT_GABARIT</text>
+<text font-family="Dialog" font-size="12" x="1526" y="332">
+PT_MULT</text>
+<text font-family="Dialog" font-size="12" x="1526" y="349">
+PT_RULET</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="128" x="1522" y="361"/>
+<polyline fill="none" points="1522,238 1482,238" stroke="#000000" stroke-width="1"/>
+<rect fill="#ffffff" height="228" stroke="#ffffff" stroke-width="1" width="472" x="986" y="486"/>
+<rect fill="none" height="228" stroke="#000000" stroke-width="1" width="472" x="986" y="486"/>
+<text font-family="Dialog" font-size="12" x="1136" y="500">
+RDOFRMSprite::RDOFRMColor</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="472" x="986" y="510"/>
+<text font-family="Dialog" font-size="12" x="990" y="525">
+- m_type : ColorType</text>
+<text font-family="Dialog" font-size="12" x="990" y="542">
+- m_pRedCalc : RDOCalc</text>
+<text font-family="Dialog" font-size="12" x="990" y="559">
+- m_pGreenCalc : RDOCalc</text>
+<text font-family="Dialog" font-size="12" x="990" y="576">
+- m_pBlueCalc : RDOCalc</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="472" x="986" y="586"/>
+<text font-family="Dialog" font-size="12" x="990" y="601">
++ getColor(pRuntime : RDORuntime,pSprite : RDOFRMSprite) : rdo::animation::Color</text>
+<text font-family="Dialog" font-size="12" x="990" y="618">
++ getType() : ColorType</text>
+<text font-family="Dialog" font-size="12" x="990" y="635">
++ setType(type : ColorType)</text>
+<text font-family="Dialog" font-size="12" x="990" y="652">
+- RDOFRMColor(type : ColorType = CT_NONE)</text>
+<text font-family="Dialog" font-size="12" x="990" y="669">
+- RDOFRMColor(red : rbyte,green : rbyte,blue : rbyte,srcInfo : RDOSrcInfo)</text>
+<text font-family="Dialog" font-size="12" x="990" y="686">
+- RDOFRMColor(pRedCalc : RDOCalc,pGreenCalc : RDOCalc,pBlueCalc : RDOCalc)</text>
+<text font-family="Dialog" font-size="12" x="990" y="703">
+- ~RDOFRMColor()</text>
+<polyline fill="none" points="986,510 746,510 746,182 506,182 506,81" stroke="#333399" stroke-width="1"/>
+<polygon fill="#ffffff" points="506,81 513,93 499,93" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="506,81 513,93 499,93" stroke="#333399" stroke-width="1"/>
+<rect fill="#ffffff" height="193" stroke="#ffffff" stroke-width="1" width="128" x="1522" y="438"/>
+<rect fill="none" height="193" stroke="#000000" stroke-width="1" width="128" x="1522" y="438"/>
+<text font-family="Dialog" font-size="12" x="1558" y="472">
+ColorType</text>
+<text font-family="Dialog" font-size="12" x="1556" y="453">
+&lt;&lt;enum&gt;&gt;</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="128" x="1522" y="482"/>
+<text font-family="Dialog" font-size="12" x="1526" y="497">
+CT_NONE</text>
+<text font-family="Dialog" font-size="12" x="1526" y="514">
+CT_RGB</text>
+<text font-family="Dialog" font-size="12" x="1526" y="531">
+CT_TRANSPARENT</text>
+<text font-family="Dialog" font-size="12" x="1526" y="548">
+CT_LAST_BG</text>
+<text font-family="Dialog" font-size="12" x="1526" y="565">
+CT_LAST_FG</text>
+<text font-family="Dialog" font-size="12" x="1526" y="582">
+CT_LAST_BG_TEXT</text>
+<text font-family="Dialog" font-size="12" x="1526" y="599">
+CT_LAST_FG_TEXT</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="128" x="1522" y="609"/>
+<polyline fill="none" points="1522,557 1457,557" stroke="#000000" stroke-width="1"/>
+<rect fill="#ffffff" height="95" stroke="#ffffff" stroke-width="1" width="130" x="1522" y="662"/>
+<rect fill="none" height="95" stroke="#000000" stroke-width="1" width="130" x="1522" y="662"/>
+<text font-family="Dialog" font-size="12" x="1574" y="696">
+rbyte</text>
+<text font-family="Dialog" font-size="12" x="1553" y="677">
+&lt;&lt;typedef&gt;&gt;</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="130" x="1522" y="706"/>
+<text font-family="Dialog" font-size="12" x="1526" y="721">
+unsigned char</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="130" x="1522" y="733"/>
+<polyline fill="none" points="1522,670 1457,670" stroke="#000000" stroke-width="1"/>
+<rect fill="#ffffff" height="211" stroke="#ffffff" stroke-width="1" width="522" x="986" y="726"/>
+<rect fill="none" height="211" stroke="#000000" stroke-width="1" width="522" x="986" y="726"/>
+<text font-family="Dialog" font-size="12" x="1161" y="740">
+RDOFRMSprite::RDOFRMRulet</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="522" x="986" y="750"/>
+<text font-family="Dialog" font-size="12" x="990" y="765">
+- m_index : int</text>
+<text font-family="Dialog" font-size="12" x="990" y="782">
+- m_pX : RDOFRMPosition</text>
+<text font-family="Dialog" font-size="12" x="990" y="799">
+- m_pY : RDOFRMPosition</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="522" x="986" y="809"/>
+<text font-family="Dialog" font-size="12" x="990" y="824">
++ getIndex() : int</text>
+<text font-family="Dialog" font-size="12" x="990" y="841">
++ getX() : RDOFRMPosition</text>
+<text font-family="Dialog" font-size="12" x="990" y="858">
++ getY() : RDOFRMPosition</text>
+<text font-family="Dialog" font-size="12" x="990" y="875">
++ src_info() : RDOSrcInfo</text>
+<text font-family="Dialog" font-size="12" x="990" y="892">
+- RDOFRMRulet(src_info : RDOSrcInfo,index,pX : RDOFRMPosition,pY : RDOFRMPosition)</text>
+<text font-family="Dialog" font-size="12" x="990" y="909">
+- ~RDOFRMRulet()</text>
+<text font-family="Dialog" font-size="12" x="990" y="926">
+- doCalc(pRuntime : RDORuntime) : RDOValue</text>
+<polyline fill="none" points="986,734 690,734 690,81" stroke="#333399" stroke-width="1"/>
+<polygon fill="#ffffff" points="690,81 697,93 683,93" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="690,81 697,93 683,93" stroke="#333399" stroke-width="1"/>
+<rect fill="#ffffff" height="91" stroke="#ffffff" stroke-width="1" width="216" x="722" y="526"/>
+<rect fill="none" height="91" stroke="#000000" stroke-width="1" width="216" x="722" y="526"/>
+<text font-family="Dialog" font-size="12" x="805" y="560">
+RuletList</text>
+<text font-family="Dialog" font-size="12" x="796" y="541">
+&lt;&lt;typedef&gt;&gt;</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="216" x="722" y="570"/>
+<text font-family="Dialog" font-size="12" x="726" y="585">
+std::map&lt;ruint, LPRDOFRMRulet&gt;</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="216" x="722" y="595"/>
+<polyline fill="none" points="722,550 624,550" stroke="#000000" stroke-width="1"/>
+<rect fill="#ffffff" height="91" stroke="#ffffff" stroke-width="1" width="213" x="722" y="630"/>
+<rect fill="none" height="91" stroke="#000000" stroke-width="1" width="213" x="722" y="630"/>
+<text font-family="Dialog" font-size="12" x="789" y="664">
+GetBitmapList</text>
+<text font-family="Dialog" font-size="12" x="795" y="645">
+&lt;&lt;typedef&gt;&gt;</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="213" x="722" y="674"/>
+<text font-family="Dialog" font-size="12" x="726" y="689">
+std::list&lt;LPIRDOFRMItemGetBitmap&gt;</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="213" x="722" y="699"/>
+<polyline fill="none" points="722,670 624,670" stroke="#000000" stroke-width="1"/>
+<rect fill="#ffffff" height="262" stroke="#ffffff" stroke-width="1" width="418" x="130" y="814"/>
+<rect fill="none" height="262" stroke="#000000" stroke-width="1" width="418" x="130" y="814"/>
+<text font-family="Dialog" font-size="12" x="295" y="828">
+RDOFRMFrame</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="418" x="130" y="838"/>
+<text font-family="Dialog" font-size="12" x="134" y="853">
+- m_pBgColor : RDOFRMColor</text>
+<text font-family="Dialog" font-size="12" x="134" y="870">
+- m_picFileName : String</text>
+<text font-family="Dialog" font-size="12" x="134" y="887">
+- m_width : int</text>
+<text font-family="Dialog" font-size="12" x="134" y="904">
+- m_height : int</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="418" x="130" y="922"/>
+<text font-family="Dialog" font-size="12" x="134" y="937">
++ setBackPicture(picFileName : String)</text>
+<text font-family="Dialog" font-size="12" x="134" y="954">
++ setBackPicture(width : int,height : int)</text>
+<text font-family="Dialog" font-size="12" x="134" y="971">
++ prepareFrame(pFrame : rdo::animation::Frame,pRuntime : RDORuntime)</text>
+<text font-family="Dialog" font-size="12" x="134" y="988">
++ setBackgroundColor(pBgColor : RDOFRMColor)</text>
+<text font-family="Dialog" font-size="12" x="134" y="1005">
++ getBitmaps(list : ImageNameList)</text>
+<text font-family="Dialog" font-size="12" x="134" y="1022">
+- RDOFRMFrame(srcInfo : RDOSrcInfo)</text>
+<text font-family="Dialog" font-size="12" x="134" y="1039">
+- ~RDOFRMFrame()</text>
+<text font-family="Dialog" font-size="12" x="134" y="1056">
+- doCalc(pRuntime : RDORuntime) : RDOValue</text>
+<polyline fill="none" points="338,814 338,772" stroke="#333399" stroke-width="1"/>
+<polygon fill="#ffffff" points="338,772 345,784 331,784" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="338,772 345,784 331,784" stroke="#333399" stroke-width="1"/>
+<polyline fill="none" points="986,494 624,494" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="986,494 976,499 966,494 976,489" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="986,494 976,499 966,494 976,489" stroke="#000000" stroke-width="1"/>
+<polyline fill="none" points="986,766 624,766" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="986,766 976,771 966,766 976,761" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="986,766 976,771 966,766 976,761" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="130" x2="125" y1="278" y2="278"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="120" x2="115" y1="278" y2="278"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="110" x2="106" y1="278" y2="278"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="278" y2="273"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="268" y2="263"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="258" y2="253"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="248" y2="243"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="238" y2="233"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="228" y2="223"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="218" y2="213"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="208" y2="203"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="198" y2="193"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="188" y2="183"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="178" y2="173"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="168" y2="163"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="158" y2="153"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="148" y2="143"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="138" y2="133"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="128" y2="123"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="118" y2="113"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="108" y2="103"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="98" y2="93"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="88" y2="83"/>
+<polygon fill="#ffffff" points="106,81 113,93 99,93" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="106,81 113,93 99,93" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="130" x2="125" y1="838" y2="838"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="120" x2="115" y1="838" y2="838"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="110" x2="106" y1="838" y2="838"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="838" y2="833"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="828" y2="823"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="818" y2="813"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="808" y2="803"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="798" y2="793"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="788" y2="783"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="778" y2="773"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="768" y2="763"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="758" y2="753"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="748" y2="743"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="738" y2="733"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="728" y2="723"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="718" y2="713"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="708" y2="703"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="698" y2="693"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="688" y2="683"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="678" y2="673"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="668" y2="663"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="658" y2="653"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="648" y2="643"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="638" y2="633"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="628" y2="623"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="618" y2="613"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="608" y2="603"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="598" y2="593"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="588" y2="583"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="578" y2="573"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="568" y2="563"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="558" y2="553"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="548" y2="543"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="538" y2="533"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="528" y2="523"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="518" y2="513"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="508" y2="503"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="498" y2="493"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="488" y2="483"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="478" y2="473"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="468" y2="463"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="458" y2="453"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="448" y2="443"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="438" y2="433"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="428" y2="423"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="418" y2="413"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="408" y2="403"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="398" y2="393"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="388" y2="383"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="378" y2="373"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="368" y2="363"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="358" y2="353"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="348" y2="343"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="338" y2="333"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="328" y2="323"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="318" y2="313"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="308" y2="303"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="298" y2="293"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="288" y2="283"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="278" y2="273"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="268" y2="263"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="258" y2="253"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="248" y2="243"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="238" y2="233"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="228" y2="223"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="218" y2="213"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="208" y2="203"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="198" y2="193"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="188" y2="183"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="178" y2="173"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="168" y2="163"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="158" y2="153"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="148" y2="143"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="138" y2="133"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="128" y2="123"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="118" y2="113"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="108" y2="103"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="98" y2="93"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="106" x2="106" y1="88" y2="83"/>
+<polygon fill="#ffffff" points="106,81 113,93 99,93" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="106,81 113,93 99,93" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="547" x2="552" y1="854" y2="854"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="557" x2="562" y1="854" y2="854"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="567" x2="572" y1="854" y2="854"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="577" x2="582" y1="854" y2="854"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="587" x2="592" y1="854" y2="854"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="597" x2="602" y1="854" y2="854"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="607" x2="612" y1="854" y2="854"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="617" x2="622" y1="854" y2="854"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="627" x2="632" y1="854" y2="854"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="637" x2="642" y1="854" y2="854"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="647" x2="652" y1="854" y2="854"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="657" x2="662" y1="854" y2="854"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="854" y2="849"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="844" y2="839"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="834" y2="829"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="824" y2="819"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="814" y2="809"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="804" y2="799"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="794" y2="789"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="784" y2="779"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="774" y2="769"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="764" y2="759"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="754" y2="749"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="744" y2="739"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="734" y2="729"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="724" y2="719"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="714" y2="709"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="704" y2="699"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="694" y2="689"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="684" y2="679"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="674" y2="669"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="664" y2="659"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="654" y2="649"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="644" y2="639"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="634" y2="629"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="624" y2="619"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="614" y2="609"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="604" y2="599"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="594" y2="589"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="584" y2="579"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="574" y2="569"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="564" y2="559"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="554" y2="549"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="544" y2="539"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="534" y2="529"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="524" y2="519"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="514" y2="509"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="504" y2="499"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="494" y2="489"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="484" y2="479"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="474" y2="469"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="464" y2="459"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="454" y2="449"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="444" y2="439"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="434" y2="429"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="424" y2="419"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="414" y2="409"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="404" y2="399"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="394" y2="389"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="384" y2="379"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="374" y2="369"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="364" y2="359"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="354" y2="349"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="344" y2="339"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="334" y2="329"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="324" y2="319"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="314" y2="309"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="304" y2="299"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="294" y2="289"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="284" y2="279"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="274" y2="269"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="264" y2="259"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="254" y2="249"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="244" y2="239"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="234" y2="229"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="224" y2="219"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="214" y2="209"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="204" y2="199"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="194" y2="189"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="184" y2="179"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="174" y2="169"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="164" y2="159"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="154" y2="149"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="144" y2="139"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="134" y2="129"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="124" y2="119"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="114" y2="109"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="104" y2="99"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="94" y2="89"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="84" y2="81"/>
+<polygon fill="#ffffff" points="666,81 673,93 659,93" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="666,81 673,93 659,93" stroke="#000000" stroke-width="1"/>
+<polyline fill="none" points="986,262 624,262" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="986,262 976,267 966,262 976,257" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="986,262 976,267 966,262 976,257" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="986" x2="981" y1="742" y2="742"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="976" x2="971" y1="742" y2="742"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="966" x2="961" y1="742" y2="742"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="956" x2="951" y1="742" y2="742"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="946" x2="941" y1="742" y2="742"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="936" x2="931" y1="742" y2="742"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="926" x2="921" y1="742" y2="742"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="916" x2="911" y1="742" y2="742"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="906" x2="901" y1="742" y2="742"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="896" x2="891" y1="742" y2="742"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="886" x2="881" y1="742" y2="742"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="876" x2="871" y1="742" y2="742"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="866" x2="861" y1="742" y2="742"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="856" x2="851" y1="742" y2="742"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="846" x2="841" y1="742" y2="742"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="836" x2="831" y1="742" y2="742"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="826" x2="821" y1="742" y2="742"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="816" x2="811" y1="742" y2="742"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="806" x2="801" y1="742" y2="742"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="796" x2="791" y1="742" y2="742"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="786" x2="781" y1="742" y2="742"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="776" x2="771" y1="742" y2="742"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="766" x2="761" y1="742" y2="742"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="756" x2="751" y1="742" y2="742"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="746" x2="741" y1="742" y2="742"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="736" x2="731" y1="742" y2="742"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="726" x2="721" y1="742" y2="742"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="716" x2="711" y1="742" y2="742"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="706" x2="701" y1="742" y2="742"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="696" x2="691" y1="742" y2="742"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="686" x2="681" y1="742" y2="742"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="676" x2="671" y1="742" y2="742"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="742" y2="737"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="732" y2="727"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="722" y2="717"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="712" y2="707"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="702" y2="697"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="692" y2="687"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="682" y2="677"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="672" y2="667"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="662" y2="657"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="652" y2="647"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="642" y2="637"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="632" y2="627"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="622" y2="617"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="612" y2="607"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="602" y2="597"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="592" y2="587"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="582" y2="577"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="572" y2="567"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="562" y2="557"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="552" y2="547"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="542" y2="537"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="532" y2="527"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="522" y2="517"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="512" y2="507"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="502" y2="497"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="492" y2="487"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="482" y2="477"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="472" y2="467"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="462" y2="457"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="452" y2="447"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="442" y2="437"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="432" y2="427"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="422" y2="417"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="412" y2="407"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="402" y2="397"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="392" y2="387"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="382" y2="377"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="372" y2="367"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="362" y2="357"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="352" y2="347"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="342" y2="337"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="332" y2="327"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="322" y2="317"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="312" y2="307"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="302" y2="297"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="292" y2="287"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="282" y2="277"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="272" y2="267"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="262" y2="257"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="252" y2="247"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="242" y2="237"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="232" y2="227"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="222" y2="217"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="212" y2="207"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="202" y2="197"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="192" y2="187"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="182" y2="177"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="172" y2="167"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="162" y2="157"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="152" y2="147"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="142" y2="137"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="132" y2="127"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="122" y2="117"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="112" y2="107"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="102" y2="97"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="92" y2="87"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="82" y2="81"/>
+<polygon fill="#ffffff" points="666,81 673,93 659,93" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="666,81 673,93 659,93" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="624" x2="629" y1="302" y2="302"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="634" x2="639" y1="302" y2="302"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="644" x2="649" y1="302" y2="302"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="654" x2="659" y1="302" y2="302"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="664" x2="666" y1="302" y2="302"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="302" y2="297"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="292" y2="287"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="282" y2="277"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="272" y2="267"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="262" y2="257"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="252" y2="247"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="242" y2="237"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="232" y2="227"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="222" y2="217"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="212" y2="207"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="202" y2="197"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="192" y2="187"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="182" y2="177"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="172" y2="167"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="162" y2="157"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="152" y2="147"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="142" y2="137"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="132" y2="127"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="122" y2="117"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="112" y2="107"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="102" y2="97"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="92" y2="87"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="666" x2="666" y1="82" y2="81"/>
+<polygon fill="#ffffff" points="666,81 673,93 659,93" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="666,81 673,93 659,93" stroke="#000000" stroke-width="1"/>
+</svg>

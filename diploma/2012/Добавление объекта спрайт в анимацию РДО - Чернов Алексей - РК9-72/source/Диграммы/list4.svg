@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="559" version="1.1" width="962" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#ffffff" height="68" stroke="#ffffff" stroke-width="1" width="78" x="377" y="14"/>
+<rect fill="none" height="68" stroke="#000000" stroke-width="1" width="78" x="377" y="14"/>
+<text font-family="Dialog" font-size="12" x="382" y="28">
+IContextFind</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="78" x="377" y="38"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="78" x="377" y="59"/>
+<rect fill="#ffffff" height="68" stroke="#ffffff" stroke-width="1" width="112" x="193" y="14"/>
+<rect fill="none" height="68" stroke="#000000" stroke-width="1" width="112" x="193" y="14"/>
+<text font-family="Dialog" font-size="12" x="198" y="28">
+RDOParserSrcInfo</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="112" x="193" y="38"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="112" x="193" y="59"/>
+<rect fill="#ffffff" height="67" stroke="#ffffff" stroke-width="1" width="66" x="529" y="14"/>
+<rect fill="none" height="67" stroke="#000000" stroke-width="1" width="66" x="529" y="14"/>
+<text font-family="Dialog" font-size="12" x="541" y="28">
+Context</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="66" x="529" y="38"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="66" x="529" y="59"/>
+<rect fill="#ffffff" height="160" stroke="#ffffff" stroke-width="1" width="323" x="625" y="318"/>
+<rect fill="none" height="160" stroke="#000000" stroke-width="1" width="323" x="625" y="318"/>
+<text font-family="Dialog" font-size="12" x="742" y="332">
+RDOFRMFrame</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="323" x="625" y="342"/>
+<text font-family="Dialog" font-size="12" x="629" y="357">
+- m_pFrame : rdo::runtime::RDOFRMFrame</text>
+<text font-family="Dialog" font-size="12" x="629" y="374">
+- m_pContextMemory : ContextMemory</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="323" x="625" y="384"/>
+<text font-family="Dialog" font-size="12" x="629" y="399">
++ end()</text>
+<text font-family="Dialog" font-size="12" x="629" y="416">
++ frame() : rdo::runtime::RDOFRMFrame</text>
+<text font-family="Dialog" font-size="12" x="629" y="433">
+- RDOFRMFrame(srcInfo : RDOParserSrcInfo)</text>
+<text font-family="Dialog" font-size="12" x="629" y="450">
+- list() : rdo::runtime::RDOFRMSprite</text>
+<text font-family="Dialog" font-size="12" x="629" y="467">
+- onFindContext(pValue : RDOValue) : Context::FindResult</text>
+<rect fill="#ffffff" height="122" stroke="#ffffff" stroke-width="1" width="524" x="209" y="150"/>
+<rect fill="none" height="122" stroke="#000000" stroke-width="1" width="524" x="209" y="150"/>
+<text font-family="Dialog" font-size="12" x="405" y="164">
+RDOFRMCommandList</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="524" x="209" y="174"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="524" x="209" y="195"/>
+<text font-family="Dialog" font-size="12" x="213" y="210">
++ name() : String</text>
+<text font-family="Dialog" font-size="12" x="213" y="227">
++ list() : rdo::runtime::RDOFRMSprite</text>
+<text font-family="Dialog" font-size="12" x="213" y="244">
++ generateExpression(pCalc : rdo::runtime::RDOCalc,srcInfo : RDOParserSrcInfo) : Expression</text>
+<text font-family="Dialog" font-size="12" x="213" y="261">
+- RDOFRMCommandList(src_info : RDOParserSrcInfo)</text>
+<polyline fill="none" points="414,150 414,81" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="414,81 421,93 407,93" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="414,81 421,93 407,93" stroke="#000000" stroke-width="1"/>
+<polyline fill="none" points="414,150 414,126 249,126 249,81" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="249,81 256,93 242,93" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="249,81 256,93 242,93" stroke="#000000" stroke-width="1"/>
+<polyline fill="none" points="414,150 414,126 553,126 553,80" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="553,80 560,92 546,92" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="553,80 560,92 546,92" stroke="#000000" stroke-width="1"/>
+<polyline fill="none" points="665,318 665,271" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="665,271 672,283 658,283" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="665,271 672,283 658,283" stroke="#000000" stroke-width="1"/>
+<rect fill="#ffffff" height="194" stroke="#ffffff" stroke-width="1" width="348" x="209" y="318"/>
+<rect fill="none" height="194" stroke="#000000" stroke-width="1" width="348" x="209" y="318"/>
+<text font-family="Dialog" font-size="12" x="341" y="332">
+RDOFRMSprite</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="348" x="209" y="342"/>
+<text font-family="Dialog" font-size="12" x="213" y="357">
+- m_pSprite : rdo::runtime::RDOFRMSprite</text>
+<text font-family="Dialog" font-size="12" x="213" y="374">
+- m_pContextMemory : ContextMemory</text>
+<text font-family="Dialog" font-size="12" x="213" y="391">
+-m_pFunctionType : FunctionType</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="348" x="209" y="401"/>
+<text font-family="Dialog" font-size="12" x="213" y="416">
++ end()</text>
+<text font-family="Dialog" font-size="12" x="213" y="433">
++ sprite() : rdo::runtime::RDOFRMSprite</text>
+<text font-family="Dialog" font-size="12" x="213" y="450">
++ expression() : Expression</text>
+<text font-family="Dialog" font-size="12" x="213" y="467">
+- RDOFRMSprite(src_info : RDOParserSrcInfo)</text>
+<text font-family="Dialog" font-size="12" x="213" y="484">
+- list() : rdo::runtime::RDOFRMSprite</text>
+<text font-family="Dialog" font-size="12" x="213" y="501">
+- onFindContext(pValue : RDOValue) : Context::FindResult</text>
+<polyline fill="none" points="369,318 369,271" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="369,271 376,283 362,283" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="369,271 376,283 362,283" stroke="#000000" stroke-width="1"/>
+<rect fill="#ffffff" height="67" stroke="#ffffff" stroke-width="1" width="104" x="89" y="446"/>
+<rect fill="none" height="67" stroke="#000000" stroke-width="1" width="104" x="89" y="446"/>
+<text font-family="Dialog" font-size="12" x="104" y="460">
+FunctionType</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="104" x="89" y="470"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="104" x="89" y="491"/>
+<rect fill="#ffffff" height="68" stroke="#ffffff" stroke-width="1" width="94" x="849" y="198"/>
+<rect fill="none" height="68" stroke="#000000" stroke-width="1" width="94" x="849" y="198"/>
+<text font-family="Dialog" font-size="12" x="854" y="212">
+ContextMemory</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="94" x="849" y="222"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="94" x="849" y="243"/>
+<rect fill="#ffffff" height="68" stroke="#ffffff" stroke-width="1" width="72" x="113" y="318"/>
+<rect fill="none" height="68" stroke="#000000" stroke-width="1" width="72" x="113" y="318"/>
+<text font-family="Dialog" font-size="12" x="118" y="332">
+Expression</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="72" x="113" y="342"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="72" x="113" y="363"/>
+<polyline fill="none" points="145,318 145,294 201,294 201,81" stroke="#333399" stroke-width="1"/>
+<polygon fill="#ffffff" points="201,81 208,93 194,93" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="201,81 208,93 194,93" stroke="#333399" stroke-width="1"/>
+<polyline fill="none" points="137,446 137,406 201,406 201,81" stroke="#333399" stroke-width="1"/>
+<polygon fill="#ffffff" points="201,81 208,93 194,93" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="201,81 208,93 194,93" stroke="#333399" stroke-width="1"/>
+<rect fill="#ffffff" height="67" stroke="#ffffff" stroke-width="1" width="66" x="55" y="14"/>
+<rect fill="none" height="67" stroke="#000000" stroke-width="1" width="66" x="55" y="14"/>
+<text font-family="Dialog" font-size="12" x="61" y="28">
+RDOType</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="66" x="55" y="38"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="66" x="55" y="59"/>
+<polyline fill="none" points="137,446 137,406 89,406 89,80" stroke="#333399" stroke-width="1"/>
+<polygon fill="#ffffff" points="89,80 96,92 82,92" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="89,80 96,92 82,92" stroke="#333399" stroke-width="1"/>
+<rect fill="#ffffff" height="69" stroke="#ffffff" stroke-width="1" width="98" x="673" y="14"/>
+<rect fill="none" height="69" stroke="#000000" stroke-width="1" width="98" x="673" y="14"/>
+<text font-family="Dialog" font-size="12" x="678" y="28">
+IContextMemory</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="98" x="673" y="38"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="98" x="673" y="60"/>
+<polyline fill="none" points="896,198 896,126 728,126 728,82" stroke="#333399" stroke-width="1"/>
+<polygon fill="#ffffff" points="728,82 735,94 721,94" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="728,82 735,94 721,94" stroke="#333399" stroke-width="1"/>
+<rect fill="#ffffff" height="71" stroke="#ffffff" stroke-width="1" width="95" x="849" y="14"/>
+<rect fill="none" height="71" stroke="#000000" stroke-width="1" width="95" x="849" y="14"/>
+<text font-family="Dialog" font-size="12" x="862" y="28">
+IContextFind</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="95" x="849" y="38"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="95" x="849" y="61"/>
+<polyline fill="none" points="895,198 895,84" stroke="#333399" stroke-width="1"/>
+<polygon fill="#ffffff" points="895,84 902,96 888,96" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="895,84 902,96 888,96" stroke="#333399" stroke-width="1"/>
+<polyline fill="none" points="896,198 896,126 577,126 577,80" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="577,80 584,92 570,92" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="577,80 584,92 570,92" stroke="#000000" stroke-width="1"/>
+<polyline fill="none" points="209,478 192,478" stroke="#000000" stroke-width="1"/>
+<polyline fill="none" points="209,358 184,358" stroke="#000000" stroke-width="1"/>
+<polyline fill="none" points="897,318 897,265" stroke="#000000" stroke-width="1"/>
+<polyline fill="none" points="556,382 593,382 593,302 873,302 873,265" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="425" x2="425" y1="318" y2="313"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="425" x2="425" y1="308" y2="303"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="425" x2="425" y1="298" y2="293"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="425" x2="425" y1="288" y2="283"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="425" x2="425" y1="278" y2="273"/>
+<polygon fill="#ffffff" points="425,271 432,283 418,283" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="425,271 432,283 418,283" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="705" x2="705" y1="318" y2="313"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="705" x2="705" y1="308" y2="303"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="705" x2="705" y1="298" y2="293"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="705" x2="705" y1="288" y2="283"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="705" x2="705" y1="278" y2="273"/>
+<polygon fill="#ffffff" points="705,271 712,283 698,283" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="705,271 712,283 698,283" stroke="#000000" stroke-width="1"/>
+</svg>
