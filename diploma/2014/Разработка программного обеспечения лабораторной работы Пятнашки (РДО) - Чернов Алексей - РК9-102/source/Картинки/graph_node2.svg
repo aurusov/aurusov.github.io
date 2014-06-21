@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="1530" version="1.1" width="1471" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#ffffff" height="262" stroke="#ffffff" stroke-width="1" width="552" x="818" y="1254"/>
+<rect fill="none" height="262" stroke="#000000" stroke-width="1" width="552" x="818" y="1254"/>
+<text font-family="Dialog" font-size="12" x="1057" y="1268">
++ GraphEdge</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="552" x="818" y="1278"/>
+<text font-family="Dialog" font-size="12" x="822" y="1293">
+-source : GraphNode</text>
+<text font-family="Dialog" font-size="12" x="822" y="1310">
+-dest : GraphNode</text>
+<text font-family="Dialog" font-size="12" x="822" y="1327">
+-sourcePoint : QPointF</text>
+<text font-family="Dialog" font-size="12" x="822" y="1344">
+-destPoint : QPointF</text>
+<text font-family="Dialog" font-size="12" x="822" y="1361">
+-arrowSize : double</text>
+<text font-family="Dialog" font-size="12" x="822" y="1378">
++pointSize : double</text>
+<text font-family="Dialog" font-size="12" x="822" y="1395">
++penWidth : double</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="552" x="818" y="1405"/>
+<text font-family="Dialog" font-size="12" x="822" y="1420">
++GraphEdge(sourceNode : GraphNode,destNode : GraphNode)</text>
+<text font-family="Dialog" font-size="12" x="822" y="1437">
++~GraphEdge()</text>
+<text font-family="Dialog" font-size="12" font-style="italic" x="822" y="1454">
++type() : int</text>
+<text font-family="Dialog" font-size="12" font-style="italic" x="822" y="1471">
+-boundingRect() : QRectF</text>
+<text font-family="Dialog" font-size="12" font-style="italic" x="822" y="1488">
+-paint(painter : QPainter*,option : QStyleOptionGraphicsItem*,widget : QWidget*)</text>
+<text font-family="Dialog" font-size="12" x="822" y="1505">
+-adjust()</text>
+<rect fill="#ffffff" height="68" stroke="#ffffff" stroke-width="1" width="160" x="818" y="238"/>
+<rect fill="none" height="68" stroke="#000000" stroke-width="1" width="160" x="818" y="238"/>
+<text font-family="Dialog" font-size="12" x="851" y="252">
++ QGraphicsItem</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="160" x="818" y="262"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="160" x="818" y="283"/>
+<rect fill="#ffffff" height="789" stroke="#ffffff" stroke-width="1" width="568" x="58" y="349"/>
+<rect fill="none" height="789" stroke="#000000" stroke-width="1" width="568" x="58" y="349"/>
+<text font-family="Dialog" font-size="12" x="305" y="363">
++ GraphNode</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="568" x="58" y="373"/>
+<text font-family="Dialog" font-size="12" x="62" y="388">
+-childrenList : std::list&lt;GraphNode&gt;</text>
+<text font-family="Dialog" font-size="12" x="62" y="405">
+-m_pParentGraphNode : GraphNode</text>
+<text font-family="Dialog" font-size="12" x="62" y="422">
+-m_graphOnLevelOrder : int</text>
+<text font-family="Dialog" font-size="12" x="62" y="439">
+-m_isChecked : bool</text>
+<text font-family="Dialog" font-size="12" x="62" y="456">
+-m_width : double</text>
+<text font-family="Dialog" font-size="12" x="62" y="473">
+-m_height : double</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="568" x="58" y="483"/>
+<text font-family="Dialog" font-size="12" x="62" y="498">
++GraphNode(info : GraphNodeInfo,parentGraphNode : GraphNode,width : int,height : int)</text>
+<text font-family="Dialog" font-size="12" x="62" y="515">
++~GraphNode()</text>
+<text font-family="Dialog" font-size="12" font-style="italic" x="62" y="532">
++type() : int</text>
+<text font-family="Dialog" font-size="12" font-style="italic" x="62" y="549">
++boundingRect() : QRectF</text>
+<text font-family="Dialog" font-size="12" font-style="italic" x="62" y="566">
++paint(painter : QPainter*,option : QStyleOptionGraphicsItem*,widget : QWidget*)</text>
+<text font-family="Dialog" font-size="12" x="62" y="583">
++setGraphOnLevelOrder(value : int)</text>
+<text font-family="Dialog" font-size="12" x="62" y="600">
++setRelatedToSolution(value : bool)</text>
+<text font-family="Dialog" font-size="12" x="62" y="617">
++getChildrenList() : std::list&lt;GraphNode&gt;</text>
+<text font-family="Dialog" font-size="12" x="62" y="634">
++getParentGraphNode() : GraphNode</text>
+<text font-family="Dialog" font-size="12" x="62" y="651">
++getBoardState() : std::vector&lt;int&gt;</text>
+<text font-family="Dialog" font-size="12" x="62" y="668">
++getNodeId() : int</text>
+<text font-family="Dialog" font-size="12" x="62" y="685">
++getPathCost() : int</text>
+<text font-family="Dialog" font-size="12" x="62" y="702">
++getRestPathCost() : int</text>
+<text font-family="Dialog" font-size="12" x="62" y="719">
++getMoveDirection() : int</text>
+<text font-family="Dialog" font-size="12" x="62" y="736">
++getMoveCost() : int</text>
+<text font-family="Dialog" font-size="12" x="62" y="753">
++getRelevantTile() : int</text>
+<text font-family="Dialog" font-size="12" x="62" y="770">
++getGraphLevel() : int</text>
+<text font-family="Dialog" font-size="12" x="62" y="787">
++getGraphOnLevelOrder() : int</text>
+<text font-family="Dialog" font-size="12" x="62" y="804">
++getTileMoveFrom() : int</text>
+<text font-family="Dialog" font-size="12" x="62" y="821">
++getTileMoveTo() : int</text>
+<text font-family="Dialog" font-size="12" x="62" y="838">
++isRelatedToSolution() : bool</text>
+<text font-family="Dialog" font-size="12" x="62" y="855">
++haveChild() : bool</text>
+<text font-family="Dialog" font-size="12" x="62" y="872">
++childrenMeanX() : double</text>
+<text font-family="Dialog" font-size="12" x="62" y="889">
++childrenMeanY() : double</text>
+<text font-family="Dialog" font-size="12" x="62" y="906">
++addChild(child : GraphNode)</text>
+<text font-family="Dialog" font-size="12" x="62" y="923">
++forceShift(deltaX : double)</text>
+<text font-family="Dialog" font-size="12" x="62" y="940">
++setChecked(state : bool)</text>
+<text font-family="Dialog" font-size="12" x="62" y="957">
++getBorderPointByAngle(angle : double) : QPointF</text>
+<text font-family="Dialog" font-size="12" x="62" y="974">
++generateNodeTextLargeView(nodeID : int,pathCost : int,restPathCost : int,moveCost : int) : QString</text>
+<text font-family="Dialog" font-size="12" x="62" y="991">
++generateNodeTextLargeView(relevantTile : int,tileMoveTo : int,moveDirection : QString) : QString</text>
+<text font-family="Dialog" font-size="12" x="62" y="1008">
++generateNodeTextMediumView(nodeID : int,pathCost : int,restPathCost : int,moveCost : int) : QString</text>
+<text font-family="Dialog" font-size="12" x="62" y="1025">
++generateNodeTextSmallView(nodeID : int) : QString</text>
+<text font-family="Dialog" font-size="12" x="62" y="1042">
++clickedNode(node : GraphNode)</text>
+<text font-family="Dialog" font-size="12" x="62" y="1059">
++doubleClicked()</text>
+<text font-family="Dialog" font-size="12" x="62" y="1076">
++positionChanged()</text>
+<text font-family="Dialog" font-size="12" font-style="italic" x="62" y="1093">
+-itemChange(change : GraphicsItemChange,value : QVariant) : QVariant</text>
+<text font-family="Dialog" font-size="12" font-style="italic" x="62" y="1110">
+-mousePressEvent(mEvent : QGraphicsSceneMouseEvent*)</text>
+<text font-family="Dialog" font-size="12" font-style="italic" x="62" y="1127">
+-mouseDoubleClickEvent(mEvent : QGraphicsSceneMouseEvent*)</text>
+<rect fill="#ffffff" height="71" stroke="#ffffff" stroke-width="1" width="112" x="658" y="1438"/>
+<rect fill="none" height="71" stroke="#000000" stroke-width="1" width="112" x="658" y="1438"/>
+<text font-family="Dialog" font-size="12" x="689" y="1452">
++ QLineF</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="112" x="658" y="1462"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="112" x="658" y="1485"/>
+<rect fill="#ffffff" height="67" stroke="#ffffff" stroke-width="1" width="112" x="658" y="1342"/>
+<rect fill="none" height="67" stroke="#000000" stroke-width="1" width="112" x="658" y="1342"/>
+<text font-family="Dialog" font-size="12" x="679" y="1356">
++ QPolygonF</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="112" x="658" y="1366"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="112" x="658" y="1387"/>
+<polyline fill="none" points="818,1360 769,1360" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="781" x2="769" y1="1353" y2="1360"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="781" x2="769" y1="1367" y2="1360"/>
+<text font-family="Dialog" font-size="12" x="763" y="1340">
+ </text>
+<polyline fill="none" points="818,1470 769,1470" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="781" x2="769" y1="1463" y2="1470"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="781" x2="769" y1="1477" y2="1470"/>
+<text font-family="Dialog" font-size="12" x="763" y="1450">
+ </text>
+<rect fill="#ffffff" height="68" stroke="#ffffff" stroke-width="1" width="114" x="514" y="238"/>
+<rect fill="none" height="68" stroke="#000000" stroke-width="1" width="114" x="514" y="238"/>
+<text font-family="Dialog" font-size="12" x="519" y="252">
++ QGraphicsObject</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="114" x="514" y="262"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="114" x="514" y="283"/>
+<polyline fill="none" points="627,270 818,270" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="818,270 806,277 806,263" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="818,270 806,277 806,263" stroke="#000000" stroke-width="1"/>
+<polyline fill="none" points="594,349 594,305" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="594,305 601,317 587,317" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="594,305 601,317 587,317" stroke="#000000" stroke-width="1"/>
+<rect fill="#ffffff" height="68" stroke="#ffffff" stroke-width="1" width="66" x="522" y="14"/>
+<rect fill="none" height="68" stroke="#000000" stroke-width="1" width="66" x="522" y="14"/>
+<text font-family="Dialog" font-size="12" x="528" y="28">
++ QObject</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="66" x="522" y="38"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="66" x="522" y="59"/>
+<polyline fill="none" points="570,238 570,81" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="570,81 577,93 563,93" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="570,81 577,93 563,93" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="410" x2="410" y1="349" y2="344"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="410" x2="410" y1="339" y2="334"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="410" x2="410" y1="329" y2="324"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="410" x2="410" y1="319" y2="314"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="410" x2="410" y1="309" y2="304"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="410" x2="410" y1="299" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="410" x2="410" y1="289" y2="284"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="410" x2="410" y1="279" y2="274"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="410" x2="410" y1="269" y2="264"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="410" x2="410" y1="259" y2="254"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="410" x2="410" y1="249" y2="244"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="410" x2="410" y1="239" y2="234"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="410" x2="410" y1="229" y2="224"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="410" x2="410" y1="219" y2="214"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="410" x2="410" y1="209" y2="204"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="410" x2="410" y1="199" y2="194"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="410" x2="410" y1="189" y2="184"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="410" x2="410" y1="179" y2="174"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="410" x2="410" y1="169" y2="164"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="410" x2="410" y1="159" y2="154"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="410" x2="410" y1="149" y2="144"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="410" x2="410" y1="139" y2="134"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="410" x2="410" y1="129" y2="124"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="410" x2="410" y1="119" y2="114"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="410" x2="410" y1="109" y2="104"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="410" x2="410" y1="99" y2="94"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="410" x2="410" y1="89" y2="84"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="410" x2="410" y1="79" y2="74"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="410" x2="415" y1="70" y2="70"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="420" x2="425" y1="70" y2="70"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="430" x2="435" y1="70" y2="70"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="440" x2="445" y1="70" y2="70"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="450" x2="455" y1="70" y2="70"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="460" x2="465" y1="70" y2="70"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="470" x2="475" y1="70" y2="70"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="480" x2="485" y1="70" y2="70"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="490" x2="495" y1="70" y2="70"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="500" x2="505" y1="70" y2="70"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="510" x2="515" y1="70" y2="70"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="520" x2="522" y1="70" y2="70"/>
+<polygon fill="#ffffff" points="522,70 510,77 510,63" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="522,70 510,77 510,63" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="12" x="332" y="77">
+&lt;&lt;realize&gt;&gt;</text>
+<rect fill="#ffffff" height="67" stroke="#ffffff" stroke-width="1" width="112" x="658" y="766"/>
+<rect fill="none" height="67" stroke="#000000" stroke-width="1" width="112" x="658" y="766"/>
+<text font-family="Dialog" font-size="12" x="692" y="780">
++ QRect</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="112" x="658" y="790"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="112" x="658" y="811"/>
+<rect fill="#ffffff" height="67" stroke="#ffffff" stroke-width="1" width="112" x="658" y="862"/>
+<rect fill="none" height="67" stroke="#000000" stroke-width="1" width="112" x="658" y="862"/>
+<text font-family="Dialog" font-size="12" x="693" y="876">
++ QPen</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="112" x="658" y="886"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="112" x="658" y="907"/>
+<rect fill="#ffffff" height="67" stroke="#ffffff" stroke-width="1" width="112" x="658" y="670"/>
+<rect fill="none" height="67" stroke="#000000" stroke-width="1" width="112" x="658" y="670"/>
+<text font-family="Dialog" font-size="12" x="688" y="684">
++ QBrush</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="112" x="658" y="694"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="112" x="658" y="715"/>
+<rect fill="#ffffff" height="67" stroke="#ffffff" stroke-width="1" width="112" x="658" y="582"/>
+<rect fill="none" height="67" stroke="#000000" stroke-width="1" width="112" x="658" y="582"/>
+<text font-family="Dialog" font-size="12" x="688" y="596">
++ QString</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="112" x="658" y="606"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="112" x="658" y="627"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="546" x2="546" y1="349" y2="344"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="546" x2="546" y1="339" y2="334"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="546" x2="546" y1="329" y2="324"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="546" x2="546" y1="319" y2="314"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="546" x2="546" y1="309" y2="305"/>
+<polygon fill="#ffffff" points="546,305 553,317 539,317" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="546,305 553,317 539,317" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="12" x="461" y="340">
+&lt;&lt;realize&gt;&gt;</text>
+<polyline fill="none" points="625,632 658,632" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="646" x2="658" y1="639" y2="632"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="646" x2="658" y1="625" y2="632"/>
+<text font-family="Dialog" font-size="12" x="609" y="649">
+ </text>
+<polyline fill="none" points="625,790 658,790" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="646" x2="658" y1="797" y2="790"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="646" x2="658" y1="783" y2="790"/>
+<text font-family="Dialog" font-size="12" x="610" y="770">
+ </text>
+<polyline fill="none" points="625,928 658,928" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="646" x2="658" y1="935" y2="928"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="646" x2="658" y1="921" y2="928"/>
+<text font-family="Dialog" font-size="12" x="602" y="1018">
+ </text>
+<polyline fill="none" points="625,720 658,720" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="646" x2="658" y1="727" y2="720"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="646" x2="658" y1="713" y2="720"/>
+<text font-family="Dialog" font-size="12" x="636" y="706">
+ </text>
+<polyline fill="none" points="818,1294 730,1294 730,928" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="737" x2="730" y1="940" y2="928"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="723" x2="730" y1="940" y2="928"/>
+<text font-family="Dialog" font-size="12" x="720" y="1093">
+ </text>
+<rect fill="#ffffff" height="440" stroke="#ffffff" stroke-width="1" width="568" x="818" y="350"/>
+<rect fill="none" height="440" stroke="#000000" stroke-width="1" width="568" x="818" y="350"/>
+<text font-family="Dialog" font-size="12" x="1061" y="364">
++ GraphWidget</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="568" x="818" y="373"/>
+<text font-family="Dialog" font-size="12" x="822" y="388">
+-m_graphInfo : GraphInfo</text>
+<text font-family="Dialog" font-size="12" x="822" y="404">
+-m_dragModeCtrl : bool</text>
+<text font-family="Dialog" font-size="12" x="822" y="420">
+-m_dragModeClick : bool</text>
+<text font-family="Dialog" font-size="12" x="822" y="436">
+-m_autoScale : bool</text>
+<text font-family="Dialog" font-size="12" x="822" y="452">
+-zoomInAct : QAction</text>
+<text font-family="Dialog" font-size="12" x="822" y="468">
+-zoomOutAct : QAction</text>
+<text font-family="Dialog" font-size="12" x="822" y="484">
+-zoomFitAct : QAction</text>
+<text font-family="Dialog" font-size="12" x="822" y="500">
+-normalSizeAct : QAction</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="568" x="818" y="525"/>
+<text font-family="Dialog" font-size="12" x="822" y="540">
++GraphWidget(parent : QWidget*)</text>
+<text font-family="Dialog" font-size="12" x="822" y="556">
++~GraphWidget()</text>
+<text font-family="Dialog" font-size="12" x="822" y="572">
++updateGraphInfo(solutionCost : QString,numOfOpenNodes : QString,totalNumberOfNodes : QString)</text>
+<text font-family="Dialog" font-size="12" x="822" y="588">
++zoomIn()</text>
+<text font-family="Dialog" font-size="12" x="822" y="604">
++zoomOut()</text>
+<text font-family="Dialog" font-size="12" x="822" y="620">
++zoomFit()</text>
+<text font-family="Dialog" font-size="12" x="822" y="636">
++normalSize()</text>
+<text font-family="Dialog" font-size="12" font-style="italic" x="822" y="652">
+-wheelEvent(wEvent : QWheelEvent*)</text>
+<text font-family="Dialog" font-size="12" font-style="italic" x="822" y="668">
+-keyPressEvent(kEvent : QKeyEvent*)</text>
+<text font-family="Dialog" font-size="12" font-style="italic" x="822" y="684">
+-keyReleaseEvent(kEvent : QKeyEvent*)</text>
+<text font-family="Dialog" font-size="12" font-style="italic" x="822" y="700">
+-mousePressEvent(mEvent : QMouseEvent*)</text>
+<text font-family="Dialog" font-size="12" font-style="italic" x="822" y="716">
+-mouseReleaseEvent(mEvent : QMouseEvent*)</text>
+<text font-family="Dialog" font-size="12" x="822" y="732">
+-scaleView(scaleFactor : double)</text>
+<text font-family="Dialog" font-size="12" font-style="italic" x="822" y="748">
+-resizeEvent(event : QResizeEvent*)</text>
+<text font-family="Dialog" font-size="12" x="822" y="764">
+-callContextMenu(pos : QPointF)</text>
+<polyline fill="none" points="874,350 874,305" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="874,305 881,317 867,317" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="874,305 881,317 867,317" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="938" x2="938" y1="350" y2="345"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="938" x2="938" y1="340" y2="335"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="938" x2="938" y1="330" y2="325"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="938" x2="938" y1="320" y2="315"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="938" x2="938" y1="310" y2="305"/>
+<polygon fill="#ffffff" points="938,305 945,317 931,317" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="938,305 945,317 931,317" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="12" x="961" y="341">
+&lt;&lt;realize&gt;&gt;</text>
+<rect fill="#ffffff" height="67" stroke="#ffffff" stroke-width="1" width="114" x="666" y="350"/>
+<rect fill="none" height="67" stroke="#000000" stroke-width="1" width="114" x="666" y="350"/>
+<text font-family="Dialog" font-size="12" x="671" y="364">
++ QGraphicsScene</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="114" x="666" y="374"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="114" x="666" y="395"/>
+<rect fill="#ffffff" height="177" stroke="#ffffff" stroke-width="1" width="552" x="818" y="1046"/>
+<rect fill="none" height="177" stroke="#000000" stroke-width="1" width="552" x="818" y="1046"/>
+<text font-family="Dialog" font-size="12" x="1062" y="1060">
++ GraphInfo</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="552" x="818" y="1070"/>
+<text font-family="Dialog" font-size="12" x="822" y="1085">
+-m_solutionCostLabel : QLabel</text>
+<text font-family="Dialog" font-size="12" x="822" y="1102">
+-m_solutionCostValue : QLabel</text>
+<text font-family="Dialog" font-size="12" x="822" y="1119">
+-m_numberOfOpenNodesLabel : QLabel</text>
+<text font-family="Dialog" font-size="12" x="822" y="1136">
+-m_numberOfOpenNodesValue : QLabel</text>
+<text font-family="Dialog" font-size="12" x="822" y="1153">
+-m_totalNumberOfNodesLabel : QLabel</text>
+<text font-family="Dialog" font-size="12" x="822" y="1170">
+-m_totalNumberOfNodesValue : QLabel</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="552" x="818" y="1180"/>
+<text font-family="Dialog" font-size="12" x="822" y="1195">
++GraphInfo(solutionCost : QString,numOfOpenNodes : QString,totalNumOfNodes : QString)</text>
+<text font-family="Dialog" font-size="12" x="822" y="1212">
++~GraphInfo()</text>
+<rect fill="#ffffff" height="68" stroke="#ffffff" stroke-width="1" width="112" x="1114" y="926"/>
+<rect fill="none" height="68" stroke="#000000" stroke-width="1" width="112" x="1114" y="926"/>
+<text font-family="Dialog" font-size="12" x="1145" y="940">
++ QLabel</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="112" x="1114" y="950"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="112" x="1114" y="971"/>
+<polyline fill="none" points="1178,1046 1178,993" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1185" x2="1178" y1="1005" y2="993"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1171" x2="1178" y1="1005" y2="993"/>
+<text font-family="Dialog" font-size="12" x="1100" y="1026">
+ </text>
+<rect fill="#ffffff" height="68" stroke="#ffffff" stroke-width="1" width="112" x="938" y="918"/>
+<rect fill="none" height="68" stroke="#000000" stroke-width="1" width="112" x="938" y="918"/>
+<text font-family="Dialog" font-size="12" x="957" y="932">
++ QGroupBox</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="112" x="938" y="942"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="112" x="938" y="963"/>
+<polyline fill="none" points="1017,1046 1017,985" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="1017,985 1024,997 1010,997" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="1017,985 1024,997 1010,997" stroke="#000000" stroke-width="1"/>
+<polyline fill="none" points="898,789 898,1046" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="891" x2="898" y1="1034" y2="1046"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="905" x2="898" y1="1034" y2="1046"/>
+<text font-family="Dialog" font-size="12" x="914" y="922">
+ </text>
+<rect fill="#ffffff" height="68" stroke="#ffffff" stroke-width="1" width="142" x="58" y="246"/>
+<rect fill="none" height="68" stroke="#000000" stroke-width="1" width="142" x="58" y="246"/>
+<text font-family="Dialog" font-size="12" x="65" y="260">
++ std::list&lt;GraphNode&gt;</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="142" x="58" y="270"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="142" x="58" y="291"/>
+<polyline fill="none" points="106,349 106,313" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="106,313 113,325 99,325" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="106,313 113,325 99,325" stroke="#000000" stroke-width="1"/>
+<polyline fill="none" points="154,349 154,313" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="161" x2="154" y1="325" y2="313"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="147" x2="154" y1="325" y2="313"/>
+<text font-family="Dialog" font-size="12" x="175" y="336">
+ </text>
+<rect fill="#ffffff" height="347" stroke="#ffffff" stroke-width="1" width="573" x="58" y="1166"/>
+<rect fill="none" height="347" stroke="#000000" stroke-width="1" width="573" x="58" y="1166"/>
+<text font-family="Dialog" font-size="12" x="297" y="1180">
++ GraphNodeInfo</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="573" x="58" y="1190"/>
+<text font-family="Dialog" font-size="12" x="62" y="1205">
++m_nodeID : int</text>
+<text font-family="Dialog" font-size="12" x="62" y="1222">
++m_parentNodeId : int</text>
+<text font-family="Dialog" font-size="12" x="62" y="1239">
++m_pathCost : int</text>
+<text font-family="Dialog" font-size="12" x="62" y="1256">
++m_restPathCost : int</text>
+<text font-family="Dialog" font-size="12" x="62" y="1273">
++m_moveDirection : QString</text>
+<text font-family="Dialog" font-size="12" x="62" y="1290">
++m_moveCost : int</text>
+<text font-family="Dialog" font-size="12" x="62" y="1307">
++m_relevantTile : int</text>
+<text font-family="Dialog" font-size="12" x="62" y="1324">
++m_graphLevel : int</text>
+<text font-family="Dialog" font-size="12" x="62" y="1341">
++m_tileMoveFrom : int</text>
+<text font-family="Dialog" font-size="12" x="62" y="1358">
++m_tileMoveTo : int</text>
+<text font-family="Dialog" font-size="12" x="62" y="1375">
++m_relatedToSolutionState : bool</text>
+<text font-family="Dialog" font-size="12" x="62" y="1392">
++m_boardState : std::vector&lt;int&gt;</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="573" x="58" y="1402"/>
+<text font-family="Dialog" font-size="12" x="62" y="1417">
++GraphNodeInfo(nodeID : int,parentNodeId : int,pathCost : int,restPathCost : int,moveDirection : QString)</text>
+<text font-family="Dialog" font-size="12" x="62" y="1434">
++GraphNodeInfo(moveCost : int,relevantTile : int,graphLevel : int,tileMoveFrom : int,tileMoveTo : int)</text>
+<text font-family="Dialog" font-size="12" x="62" y="1451">
++GraphNodeInfo(boardState : std::vector&lt;int&gt;)</text>
+<text font-family="Dialog" font-size="12" x="62" y="1468">
++GraphNodeInfo(other : GraphNodeInfo)</text>
+<text font-family="Dialog" font-size="12" x="62" y="1485">
++GraphNodeInfo()</text>
+<text font-family="Dialog" font-size="12" font-style="italic" x="62" y="1502">
++~GraphNodeInfo()</text>
+<polyline fill="none" points="354,1137 354,1166" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="354,1166 347,1154 361,1154" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="354,1166 347,1154 361,1154" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1369" x2="1374" y1="1278" y2="1278"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1379" x2="1384" y1="1278" y2="1278"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1389" x2="1394" y1="1278" y2="1278"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1399" x2="1404" y1="1278" y2="1278"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1409" x2="1410" y1="1278" y2="1278"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1410" x2="1410" y1="1278" y2="1273"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1410" x2="1410" y1="1268" y2="1263"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1410" x2="1410" y1="1258" y2="1253"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1410" x2="1410" y1="1248" y2="1243"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1410" x2="1410" y1="1238" y2="1233"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1410" x2="1410" y1="1228" y2="1223"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1410" x2="1410" y1="1218" y2="1213"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1410" x2="1410" y1="1208" y2="1203"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1410" x2="1410" y1="1198" y2="1193"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1410" x2="1410" y1="1188" y2="1183"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1410" x2="1410" y1="1178" y2="1173"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1410" x2="1410" y1="1168" y2="1163"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1410" x2="1411" y1="1158" y2="1153"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1411" x2="1411" y1="1148" y2="1143"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1411" x2="1411" y1="1138" y2="1133"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1411" x2="1411" y1="1128" y2="1123"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1411" x2="1411" y1="1118" y2="1113"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1411" x2="1411" y1="1108" y2="1103"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1411" x2="1411" y1="1098" y2="1093"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1411" x2="1411" y1="1088" y2="1083"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1411" x2="1411" y1="1078" y2="1073"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1411" x2="1411" y1="1068" y2="1063"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1411" x2="1411" y1="1058" y2="1053"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1411" x2="1411" y1="1048" y2="1043"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1411" x2="1411" y1="1038" y2="1033"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1412" x2="1412" y1="1028" y2="1023"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1412" x2="1412" y1="1018" y2="1013"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1412" x2="1412" y1="1008" y2="1003"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1412" x2="1412" y1="998" y2="993"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1412" x2="1412" y1="988" y2="983"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1412" x2="1412" y1="978" y2="973"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1412" x2="1412" y1="968" y2="963"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1412" x2="1412" y1="958" y2="953"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1412" x2="1412" y1="948" y2="943"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1412" x2="1412" y1="938" y2="933"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1412" x2="1412" y1="928" y2="923"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1412" x2="1412" y1="918" y2="913"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1413" x2="1413" y1="908" y2="903"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1413" x2="1413" y1="898" y2="893"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1413" x2="1413" y1="888" y2="883"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1413" x2="1413" y1="878" y2="873"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1413" x2="1413" y1="868" y2="863"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1413" x2="1413" y1="858" y2="853"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1413" x2="1413" y1="848" y2="843"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1413" x2="1413" y1="838" y2="833"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1413" x2="1413" y1="828" y2="823"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1413" x2="1413" y1="818" y2="813"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1413" x2="1413" y1="808" y2="803"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1413" x2="1413" y1="798" y2="793"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1413" x2="1414" y1="788" y2="783"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1414" x2="1414" y1="778" y2="773"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1414" x2="1414" y1="768" y2="763"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1414" x2="1414" y1="758" y2="753"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1414" x2="1414" y1="748" y2="743"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1414" x2="1414" y1="738" y2="733"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1414" x2="1414" y1="728" y2="723"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1414" x2="1414" y1="718" y2="713"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1414" x2="1414" y1="708" y2="703"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1414" x2="1414" y1="698" y2="693"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1414" x2="1414" y1="688" y2="683"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1414" x2="1414" y1="678" y2="673"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1414" x2="1415" y1="668" y2="663"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1415" x2="1415" y1="658" y2="653"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1415" x2="1415" y1="648" y2="643"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1415" x2="1415" y1="638" y2="633"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1415" x2="1415" y1="628" y2="623"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1415" x2="1415" y1="618" y2="613"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1415" x2="1415" y1="608" y2="603"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1415" x2="1415" y1="598" y2="593"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1415" x2="1415" y1="588" y2="583"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1415" x2="1415" y1="578" y2="573"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1415" x2="1415" y1="568" y2="563"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1415" x2="1415" y1="558" y2="553"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1415" x2="1415" y1="548" y2="543"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1416" x2="1416" y1="538" y2="533"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1416" x2="1416" y1="528" y2="523"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1416" x2="1416" y1="518" y2="513"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1416" x2="1416" y1="508" y2="503"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1416" x2="1416" y1="498" y2="493"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1416" x2="1416" y1="488" y2="483"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1416" x2="1416" y1="478" y2="473"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1416" x2="1416" y1="468" y2="463"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1416" x2="1416" y1="458" y2="453"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1416" x2="1416" y1="448" y2="443"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1416" x2="1416" y1="438" y2="433"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1416" x2="1416" y1="428" y2="423"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1416" x2="1417" y1="418" y2="413"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1417" x2="1417" y1="408" y2="403"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1417" x2="1417" y1="398" y2="393"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1417" x2="1417" y1="388" y2="383"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1417" x2="1417" y1="378" y2="373"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1417" x2="1417" y1="368" y2="363"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1417" x2="1417" y1="358" y2="353"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1417" x2="1417" y1="348" y2="343"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1417" x2="1417" y1="338" y2="333"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1417" x2="1417" y1="328" y2="323"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1417" x2="1417" y1="318" y2="313"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1417" x2="1417" y1="308" y2="303"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1417" x2="1418" y1="298" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1418" x2="1413" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1408" x2="1403" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1398" x2="1393" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1388" x2="1383" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1378" x2="1373" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1368" x2="1363" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1358" x2="1353" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1348" x2="1343" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1338" x2="1333" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1328" x2="1323" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1318" x2="1313" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1308" x2="1303" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1298" x2="1293" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1288" x2="1283" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1278" x2="1273" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1268" x2="1263" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1258" x2="1253" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1248" x2="1243" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1238" x2="1233" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1228" x2="1223" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1218" x2="1213" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1208" x2="1203" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1198" x2="1193" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1188" x2="1183" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1178" x2="1173" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1168" x2="1163" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1158" x2="1153" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1148" x2="1143" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1138" x2="1133" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1128" x2="1123" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1118" x2="1113" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1108" x2="1103" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1098" x2="1093" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1088" x2="1083" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1078" x2="1073" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1068" x2="1063" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1058" x2="1053" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1048" x2="1043" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1038" x2="1033" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1028" x2="1023" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1018" x2="1013" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="1008" x2="1003" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="998" x2="993" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="988" x2="983" y1="294" y2="294"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="978" x2="977" y1="294" y2="294"/>
+<polygon fill="#ffffff" points="977,294 989,287 989,301" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="977,294 989,287 989,301" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="12" x="1276" y="287">
+&lt;&lt;realize&gt;&gt;</text>
+<polyline fill="none" points="1369,1302 1442,1302 1442,262 977,262" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="977,262 989,255 989,269" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="977,262 989,255 989,269" stroke="#000000" stroke-width="1"/>
+<polyline fill="none" points="818,382 779,382" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="791" x2="779" y1="375" y2="382"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="791" x2="779" y1="389" y2="382"/>
+<text font-family="Dialog" font-size="12" x="751" y="336">
+ </text>
+<polyline fill="none" points="722,416 722,550 794,550 794,1270 818,1270" stroke="#000000" stroke-width="1"/>
+<polygon fill="#000000" points="722,416 727,426 722,436 717,426" stroke="#000000" stroke-width="1"/>
+<polygon fill="none" points="722,416 727,426 722,436 717,426" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="12" x="810" y="824">
+ </text>
+<text font-family="Dialog" font-size="12" x="730" y="443">
+0..*</text>
+<polyline fill="none" points="666,382 625,382" stroke="#000000" stroke-width="1"/>
+<polygon fill="#000000" points="666,382 656,387 646,382 656,377" stroke="#000000" stroke-width="1"/>
+<polygon fill="none" points="666,382 656,387 646,382 656,377" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="12" x="615" y="362">
+ </text>
+<text font-family="Dialog" font-size="12" x="642" y="377">
+0..*</text>
+<polyline fill="none" points="625,982 690,982 690,1310 818,1310" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="625,982 635,977 645,982 635,987" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="625,982 635,977 645,982 635,987" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="12" x="822" y="1182">
+ </text>
+<text font-family="Dialog" font-size="12" x="631" y="977">
+1..*</text>
+</svg>

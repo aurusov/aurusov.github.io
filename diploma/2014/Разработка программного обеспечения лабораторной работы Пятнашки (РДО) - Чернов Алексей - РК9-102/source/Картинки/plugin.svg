@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="625" version="1.1" width="724" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#ffffff" height="392" stroke="#ffffff" stroke-width="1" width="369" x="182" y="214"/>
+<rect fill="none" height="392" stroke="#000000" stroke-width="1" width="369" x="182" y="214"/>
+<text font-family="Dialog" font-size="12" x="323" y="228">
++ PluginGame5</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="369" x="182" y="238"/>
+<text font-family="Dialog" font-size="12" x="186" y="253">
++m_generateSituationDlg : PluginGame5GenerateSituationDialog</text>
+<text font-family="Dialog" font-size="12" x="186" y="270">
++m_graphDlg : PluginGame5GraphDialog</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="369" x="182" y="311"/>
+<text font-family="Dialog" font-size="12" font-style="italic" x="186" y="326">
++getGUID() : QUuid</text>
+<text font-family="Dialog" font-size="12" font-style="italic" x="186" y="343">
++getPluginName() : QString</text>
+<text font-family="Dialog" font-size="12" font-style="italic" x="186" y="360">
++getAuthor() : QString</text>
+<text font-family="Dialog" font-size="12" font-style="italic" x="186" y="377">
++getVersion() : QString</text>
+<text font-family="Dialog" font-size="12" font-style="italic" x="186" y="394">
++plgnStartAction(parent : QWidget*)</text>
+<text font-family="Dialog" font-size="12" font-style="italic" x="186" y="411">
++plgnStopAction(parent : QWidget*)</text>
+<text font-family="Dialog" font-size="12" x="186" y="428">
+-initDialogs(pParent : QWidget*)</text>
+<text font-family="Dialog" font-size="12" x="186" y="445">
+-initToolBar(pParent : MainWindow)</text>
+<text font-family="Dialog" font-size="12" x="186" y="462">
+-pluginActivation()</text>
+<text font-family="Dialog" font-size="12" x="186" y="479">
+-reemitGraphDlgAction()</text>
+<text font-family="Dialog" font-size="12" x="186" y="496">
+-enablePluginActions(pModel : rdo::gui::model::Model)</text>
+<text font-family="Dialog" font-size="12" x="186" y="513">
++onGraphDlgAction(string : QString)</text>
+<text font-family="Dialog" font-size="12" x="186" y="530">
++setGraphDlgActionEnabled(value : bool)</text>
+<text font-family="Dialog" font-size="12" x="186" y="547">
++setGenerateSituationDlgActionEnabled(value : bool)</text>
+<text font-family="Dialog" font-size="12" x="186" y="564">
++executeCommand(commandLine : bool)</text>
+<rect fill="#ffffff" height="67" stroke="#ffffff" stroke-width="1" width="102" x="326" y="110"/>
+<rect fill="none" height="67" stroke="#000000" stroke-width="1" width="102" x="326" y="110"/>
+<text font-family="Dialog" font-size="12" x="331" y="124">
++ PluginInterface</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="102" x="326" y="134"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="102" x="326" y="155"/>
+<polyline fill="none" points="398,214 398,176" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="398,176 405,188 391,188" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="398,176 405,188 391,188" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="374" x2="374" y1="214" y2="209"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="374" x2="374" y1="204" y2="199"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="374" x2="374" y1="194" y2="189"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="374" x2="374" y1="184" y2="179"/>
+<polygon fill="#ffffff" points="374,176 381,188 367,188" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="374,176 381,188 367,188" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="12" x="296" y="209">
+&lt;&lt;realize&gt;&gt;</text>
+<rect fill="#ffffff" height="67" stroke="#ffffff" stroke-width="1" width="104" x="14" y="310"/>
+<rect fill="none" height="67" stroke="#000000" stroke-width="1" width="104" x="14" y="310"/>
+<text font-family="Dialog" font-size="12" x="43" y="324">
++ QUuid</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="104" x="14" y="334"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="104" x="14" y="355"/>
+<rect fill="#ffffff" height="67" stroke="#ffffff" stroke-width="1" width="104" x="606" y="214"/>
+<rect fill="none" height="67" stroke="#000000" stroke-width="1" width="104" x="606" y="214"/>
+<text font-family="Dialog" font-size="12" x="633" y="228">
++ QMenu</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="104" x="606" y="238"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="104" x="606" y="259"/>
+<rect fill="#ffffff" height="67" stroke="#ffffff" stroke-width="1" width="104" x="606" y="318"/>
+<rect fill="none" height="67" stroke="#000000" stroke-width="1" width="104" x="606" y="318"/>
+<text font-family="Dialog" font-size="12" x="630" y="332">
++ QACtion</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="104" x="606" y="342"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="104" x="606" y="363"/>
+<rect fill="#ffffff" height="71" stroke="#ffffff" stroke-width="1" width="104" x="606" y="430"/>
+<rect fill="none" height="71" stroke="#000000" stroke-width="1" width="104" x="606" y="430"/>
+<text font-family="Dialog" font-size="12" x="624" y="444">
++ QMenuBar</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="104" x="606" y="454"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="104" x="606" y="477"/>
+<rect fill="#ffffff" height="67" stroke="#ffffff" stroke-width="1" width="104" x="14" y="414"/>
+<rect fill="none" height="67" stroke="#000000" stroke-width="1" width="104" x="14" y="414"/>
+<text font-family="Dialog" font-size="12" x="21" y="428">
++ QMessageBox</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="104" x="14" y="438"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="104" x="14" y="459"/>
+<polyline fill="none" points="182,342 117,342" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="129" x2="117" y1="335" y2="342"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="129" x2="117" y1="349" y2="342"/>
+<text font-family="Dialog" font-size="12" x="119" y="322">
+ </text>
+<polyline fill="none" points="550,254 606,254" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="594" x2="606" y1="261" y2="254"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="594" x2="606" y1="247" y2="254"/>
+<text font-family="Dialog" font-size="12" x="547" y="234">
+ </text>
+<polyline fill="none" points="550,350 606,350" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="594" x2="606" y1="357" y2="350"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="594" x2="606" y1="343" y2="350"/>
+<text font-family="Dialog" font-size="12" x="547" y="330">
+ </text>
+<polyline fill="none" points="550,470 606,470" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="594" x2="606" y1="477" y2="470"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="594" x2="606" y1="463" y2="470"/>
+<text font-family="Dialog" font-size="12" x="547" y="450">
+ </text>
+<polyline fill="none" points="182,446 117,446" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="129" x2="117" y1="439" y2="446"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="129" x2="117" y1="453" y2="446"/>
+<text font-family="Dialog" font-size="12" x="119" y="426">
+ </text>
+<rect fill="#ffffff" height="68" stroke="#ffffff" stroke-width="1" width="231" x="478" y="102"/>
+<rect fill="none" height="68" stroke="#000000" stroke-width="1" width="231" x="478" y="102"/>
+<text font-family="Dialog" font-size="12" x="483" y="116">
++ PluginGame5GenerateSituationDialog</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="231" x="478" y="126"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="231" x="478" y="147"/>
+<rect fill="#ffffff" height="67" stroke="#ffffff" stroke-width="1" width="232" x="478" y="14"/>
+<rect fill="none" height="67" stroke="#000000" stroke-width="1" width="232" x="478" y="14"/>
+<text font-family="Dialog" font-size="12" x="516" y="28">
++ PluginGame5GraphDialog</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="232" x="478" y="38"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="232" x="478" y="59"/>
+<rect fill="#ffffff" height="67" stroke="#ffffff" stroke-width="1" width="104" x="606" y="540"/>
+<rect fill="none" height="67" stroke="#000000" stroke-width="1" width="104" x="606" y="540"/>
+<text font-family="Dialog" font-size="12" x="627" y="554">
++ QToolBar</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="104" x="606" y="564"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="104" x="606" y="585"/>
+<rect fill="#ffffff" height="67" stroke="#ffffff" stroke-width="1" width="104" x="14" y="214"/>
+<rect fill="none" height="67" stroke="#000000" stroke-width="1" width="104" x="14" y="214"/>
+<text font-family="Dialog" font-size="12" x="40" y="228">
++ QString</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="104" x="14" y="238"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="104" x="14" y="259"/>
+<polyline fill="none" points="182,246 117,246" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="129" x2="117" y1="239" y2="246"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="129" x2="117" y1="253" y2="246"/>
+<text font-family="Dialog" font-size="12" x="119" y="226">
+ </text>
+<polyline fill="none" points="510,214 510,169" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="517" x2="510" y1="181" y2="169"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="503" x2="510" y1="181" y2="169"/>
+<text font-family="Dialog" font-size="12" x="431" y="197">
+ </text>
+<polyline fill="none" points="454,214 454,54 478,54" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="466" x2="478" y1="61" y2="54"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="466" x2="478" y1="47" y2="54"/>
+<text font-family="Dialog" font-size="12" x="376" y="127">
+ </text>
+<polyline fill="none" points="550,574 606,574" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="594" x2="606" y1="581" y2="574"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="594" x2="606" y1="567" y2="574"/>
+<text font-family="Dialog" font-size="12" x="547" y="554">
+ </text>
+<rect fill="#ffffff" height="67" stroke="#ffffff" stroke-width="1" width="104" x="182" y="110"/>
+<rect fill="none" height="67" stroke="#000000" stroke-width="1" width="104" x="182" y="110"/>
+<text font-family="Dialog" font-size="12" x="207" y="124">
++ QObject</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="104" x="182" y="134"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="104" x="182" y="155"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="230" x2="230" y1="214" y2="209"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="230" x2="230" y1="204" y2="199"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="230" x2="230" y1="194" y2="189"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="230" x2="230" y1="184" y2="179"/>
+<polygon fill="#ffffff" points="230,176 237,188 223,188" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="230,176 237,188 223,188" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="12" x="151" y="203">
+&lt;&lt;realize&gt;&gt;</text>
+<polyline fill="none" points="254,214 254,176" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="254,176 261,188 247,188" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="254,176 261,188 247,188" stroke="#000000" stroke-width="1"/>
+</svg>
