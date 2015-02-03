@@ -1,0 +1,2293 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2104.7244"
+   height="1488.189"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="3_a2_component_diagram_release.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="1588.4438"
+     inkscape:cy="148.04603"
+     inkscape:document-units="px"
+     inkscape:current-layer="g5190"
+     showgrid="false"
+     units="mm"
+     inkscape:showpageshadow="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,435.82692)">
+    <g
+       transform="matrix(0,-1.25,-1.25,0,2106.0874,1052.245)"
+       inkscape:label="рамка_а2_гориз"
+       id="g5190">
+      <g
+         transform="matrix(0.12,0,0,0.12,-1.0101525,0.20203051)"
+         id="g5192">
+        <path
+           id="path5194"
+           style="fill:none;stroke:#000000;stroke-width:19;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
+           d="m 118,122.34 9684,0 0,13440 -9684,0 0,-13440 z"
+           inkscape:connector-curvature="0" />
+        <path
+           id="path5196"
+           style="fill:none;stroke:#000000;stroke-width:19;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
+           d="m 1417,4492.34 0,-4370"
+           inkscape:connector-curvature="0" />
+        <path
+           id="path5198"
+           style="fill:none;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
+           d="m 1299,4492.34 0,-1536 m -118,1536 0,-1536"
+           inkscape:connector-curvature="0" />
+        <path
+           id="path5200"
+           style="fill:none;stroke:#000000;stroke-width:19;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
+           d="m 1062,4492.34 0,-4370"
+           inkscape:connector-curvature="0" />
+        <path
+           id="path5202"
+           style="fill:none;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
+           d="m 944,4492.34 0,-1536"
+           inkscape:connector-curvature="0" />
+        <path
+           id="path5204"
+           style="fill:none;stroke:#000000;stroke-width:19;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
+           d="m 944,1303.34 0,-1181 m -118,4370 0,-1536"
+           inkscape:connector-curvature="0" />
+        <path
+           id="path5206"
+           style="fill:none;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
+           d="m 708,4492.34 0,-1536 m -118,1536 0,-1536"
+           inkscape:connector-curvature="0" />
+        <path
+           id="path5208"
+           style="fill:none;stroke:#000000;stroke-width:19;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
+           d="m 590,1303.34 0,-1181"
+           inkscape:connector-curvature="0" />
+        <path
+           id="path5210"
+           style="fill:none;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
+           d="m 472,4492.34 0,-1536"
+           inkscape:connector-curvature="0" />
+        <path
+           id="path5212"
+           style="fill:none;stroke:#000000;stroke-width:19;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
+           d="m 472,2956.34 0,-2834"
+           inkscape:connector-curvature="0" />
+        <path
+           id="path5214"
+           style="fill:none;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
+           d="m 354,4492.34 0,-1536 m -118,1536 0,-1536"
+           inkscape:connector-curvature="0" />
+        <path
+           id="path5216"
+           style="fill:none;stroke:#000000;stroke-width:19;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
+           d="m 118,4492.34 1299,0 m -591,-166 591,0 m -1299,-236 1299,0 m -1299,-543 1299,0 m -1299,-355 1299,0 m -1299,-236 1299,0 m -1299,-1653 944,0 m -590,-473 118,0"
+           inkscape:connector-curvature="0" />
+        <path
+           id="path5218"
+           style="fill:none;stroke:#000000;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
+           d="m 590,1185.34 354,0 m -354,-119 354,0"
+           inkscape:connector-curvature="0" />
+        <path
+           id="path5220"
+           style="fill:none;stroke:#000000;stroke-width:19;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
+           d="m 590,948.34 472,0 m -472,-401 472,0"
+           inkscape:connector-curvature="0" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:28.79999924px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:GOST Common;-inkscape-font-specification:GOST Common"
+         x="-287.9548"
+         y="-140.81911"
+         id="text7226"
+         sodipodi:linespacing="125%"
+         transform="matrix(0,-1,-1,0,0,0)"><tspan
+           sodipodi:role="line"
+           id="tspan7228"
+           x="-287.9548"
+           y="-140.81911">Курсовой проект</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:GOST Common;-inkscape-font-specification:GOST Common"
+         x="-84.33564"
+         y="-43.440456"
+         id="text7230"
+         sodipodi:linespacing="125%"
+         transform="matrix(0,-1,-1,0,0,0)"><tspan
+           sodipodi:role="line"
+           id="tspan7232"
+           x="-84.33564"
+           y="-43.440456"
+           style="font-size:9.60000038px">МГТУ им. Н. Э. Баумана</tspan><tspan
+           sodipodi:role="line"
+           x="-84.33564"
+           y="-31.440454"
+           id="tspan7234"
+           style="font-size:9.60000038px">Кафедра РК9</tspan><tspan
+           sodipodi:role="line"
+           x="-84.33564"
+           y="-19.440454"
+           id="tspan7236"
+           style="font-size:9.60000038px">Группа РК9-92</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:9.60000038px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:GOST Common;-inkscape-font-specification:GOST Common"
+         x="-144.60689"
+         y="-115.26529"
+         id="text7246"
+         sodipodi:linespacing="125%"
+         transform="matrix(0,-1,-1,0,0,0)"><tspan
+           sodipodi:role="line"
+           id="tspan7248"
+           x="-144.60689"
+           y="-115.26529">Лит.</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:9.60000038px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:GOST Common;-inkscape-font-specification:GOST Common"
+         x="-102.8475"
+         y="-115.08046"
+         id="text7250"
+         sodipodi:linespacing="125%"
+         transform="matrix(0,-1,-1,0,0,0)"><tspan
+           sodipodi:role="line"
+           id="tspan7252"
+           x="-102.8475"
+           y="-115.08046">Масса</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:9.60000038px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:GOST Common;-inkscape-font-specification:GOST Common"
+         x="-59.256168"
+         y="-115.16127"
+         id="text7254"
+         sodipodi:linespacing="125%"
+         transform="matrix(0,-1,-1,0,0,0)"><tspan
+           sodipodi:role="line"
+           id="tspan7256"
+           x="-59.256168"
+           y="-115.16127">Масштаб</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:9.60000038px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:GOST Common;-inkscape-font-specification:GOST Common"
+         x="-152.05489"
+         y="-59.112087"
+         id="text7258"
+         sodipodi:linespacing="125%"
+         transform="matrix(0,-1,-1,0,0,0)"><tspan
+           sodipodi:role="line"
+           id="tspan7260"
+           x="-152.05489"
+           y="-59.112087">Лист          3</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:9.60000038px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:GOST Common;-inkscape-font-specification:GOST Common"
+         x="-97.769127"
+         y="-59.112087"
+         id="text7262"
+         sodipodi:linespacing="125%"
+         transform="matrix(0,-1,-1,0,0,0)"><tspan
+           sodipodi:role="line"
+           id="tspan7264"
+           x="-97.769127"
+           y="-59.112087">Листов          6</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:GOST Common;-inkscape-font-specification:GOST Common"
+         x="-254.35114"
+         y="-101.92852"
+         id="text7266"
+         sodipodi:linespacing="125%"
+         transform="matrix(0,-1,-1,0,0,0)"><tspan
+           sodipodi:role="line"
+           x="-254.35114"
+           y="-101.92852"
+           id="tspan7276"
+           style="font-size:11.19999981px">Диаграмма компонентов</tspan><tspan
+           sodipodi:role="line"
+           x="-254.35114"
+           y="-87.92852"
+           style="font-size:11.19999981px"
+           id="tspan3323">подсистемы визуализации поиска</tspan><tspan
+           sodipodi:role="line"
+           x="-254.35114"
+           y="-73.92852"
+           style="font-size:11.19999981px"
+           id="tspan3325">на графе пространства состояний</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:9.60000038px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:GOST Common;-inkscape-font-specification:GOST Common"
+         x="-536.65424"
+         y="-87.887108"
+         id="text7286"
+         sodipodi:linespacing="125%"
+         transform="matrix(0,-1,-1,0,0,0)"><tspan
+           sodipodi:role="line"
+           id="tspan7288"
+           x="-536.65424"
+           y="-87.887108">Разраб.</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:9.60000038px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:GOST Common;-inkscape-font-specification:GOST Common"
+         x="-536.65424"
+         y="-73.555199"
+         id="text7290"
+         sodipodi:linespacing="125%"
+         transform="matrix(0,-1,-1,0,0,0)"><tspan
+           sodipodi:role="line"
+           id="tspan7292"
+           x="-536.65424"
+           y="-73.555199">Пров.</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:9.60000038px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:GOST Common;-inkscape-font-specification:GOST Common"
+         x="-488.43231"
+         y="-87.823753"
+         id="text7294"
+         sodipodi:linespacing="125%"
+         transform="matrix(0,-1,-1,0,0,0)"><tspan
+           sodipodi:role="line"
+           id="tspan7296"
+           x="-488.43231"
+           y="-87.823753">Стрижов К. А.</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:9.60000038px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:GOST Common;-inkscape-font-specification:GOST Common"
+         x="-488.14667"
+         y="-73.814232"
+         id="text7298"
+         sodipodi:linespacing="125%"
+         transform="matrix(0,-1,-1,0,0,0)"><tspan
+           sodipodi:role="line"
+           id="tspan7300"
+           x="-488.14667"
+           y="-73.814232">Урусов А. В.</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:9.60000038px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:GOST Common;-inkscape-font-specification:GOST Common"
+         x="-421.19379"
+         y="-101.01919"
+         id="text7302"
+         sodipodi:linespacing="125%"
+         transform="matrix(0,-1,-1,0,0,0)"><tspan
+           sodipodi:role="line"
+           id="tspan7304"
+           x="-421.19379"
+           y="-101.01919">Подпись</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:9.60000038px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:GOST Common;-inkscape-font-specification:GOST Common"
+         x="-380.88873"
+         y="-100.91811"
+         id="text7306"
+         sodipodi:linespacing="125%"
+         transform="matrix(0,-1,-1,0,0,0)"><tspan
+           sodipodi:role="line"
+           id="tspan7308"
+           x="-380.88873"
+           y="-100.91811">Дата</tspan></text>
+    </g>
+    <g
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;font-family:Dialog"
+       id="g4425"
+       transform="matrix(1.7538454,0,0,1.7538454,237.57232,-247.61597)">
+      <g
+         id="g3857">
+        <defs
+           id="defs1">
+          <clipPath
+             id="clipPath1"
+             clipPathUnits="userSpaceOnUse">
+            <path
+               id="path3861"
+               d="m -3,-3 940,0 0,300 -940,0 0,-300 z"
+               inkscape:connector-curvature="0" />
+          </clipPath>
+          <clipPath
+             id="clipPath2"
+             clipPathUnits="userSpaceOnUse">
+            <path
+               id="path3864"
+               d="M 0,0 930,0 930,15 0,15 0,0 z"
+               inkscape:connector-curvature="0" />
+          </clipPath>
+          <clipPath
+             id="clipPath3"
+             clipPathUnits="userSpaceOnUse">
+            <path
+               id="path3867"
+               d="m -3,-3 700,0 0,230 -700,0 0,-230 z"
+               inkscape:connector-curvature="0" />
+          </clipPath>
+          <clipPath
+             id="clipPath4"
+             clipPathUnits="userSpaceOnUse">
+            <path
+               id="path3870"
+               d="M 0,0 690,0 690,15 0,15 0,0 z"
+               inkscape:connector-curvature="0" />
+          </clipPath>
+          <clipPath
+             id="clipPath5"
+             clipPathUnits="userSpaceOnUse">
+            <path
+               id="path3873"
+               d="m -3,-3 180,0 0,90 -180,0 0,-90 z"
+               inkscape:connector-curvature="0" />
+          </clipPath>
+          <clipPath
+             id="clipPath6"
+             clipPathUnits="userSpaceOnUse">
+            <path
+               id="path3876"
+               d="M 0,0 146,0 146,48 0,48 0,0 z"
+               inkscape:connector-curvature="0" />
+          </clipPath>
+          <clipPath
+             id="clipPath7"
+             clipPathUnits="userSpaceOnUse">
+            <path
+               id="path3879"
+               d="M 0,0 144,0 144,49 0,49 0,0 z"
+               inkscape:connector-curvature="0" />
+          </clipPath>
+          <clipPath
+             id="clipPath8"
+             clipPathUnits="userSpaceOnUse">
+            <path
+               id="path3882"
+               d="M 0,0 144,0 144,64 0,64 0,0 z"
+               inkscape:connector-curvature="0" />
+          </clipPath>
+          <clipPath
+             id="clipPath9"
+             clipPathUnits="userSpaceOnUse">
+            <path
+               id="path3885"
+               d="M 0,0 146,0 146,49 0,49 0,0 z"
+               inkscape:connector-curvature="0" />
+          </clipPath>
+          <clipPath
+             id="clipPath10"
+             clipPathUnits="userSpaceOnUse">
+            <path
+               id="path3888"
+               d="m -3,-3 220,0 0,170 -220,0 0,-170 z"
+               inkscape:connector-curvature="0" />
+          </clipPath>
+          <clipPath
+             id="clipPath11"
+             clipPathUnits="userSpaceOnUse">
+            <path
+               id="path3891"
+               d="M 0,0 210,0 210,15 0,15 0,0 z"
+               inkscape:connector-curvature="0" />
+          </clipPath>
+          <clipPath
+             id="clipPath12"
+             clipPathUnits="userSpaceOnUse">
+            <path
+               id="path3894"
+               d="M 0,0 173,0 173,104 0,104 0,0 z"
+               inkscape:connector-curvature="0" />
+          </clipPath>
+          <clipPath
+             id="clipPath13"
+             clipPathUnits="userSpaceOnUse">
+            <path
+               id="path3897"
+               d="M 0,0 275,0 275,184 0,184 0,0 z"
+               inkscape:connector-curvature="0" />
+          </clipPath>
+          <clipPath
+             id="clipPath14"
+             clipPathUnits="userSpaceOnUse">
+            <path
+               id="path3900"
+               d="M 0,0 115,0 115,184 0,184 0,0 z"
+               inkscape:connector-curvature="0" />
+          </clipPath>
+          <clipPath
+             id="clipPath15"
+             clipPathUnits="userSpaceOnUse">
+            <path
+               id="path3903"
+               d="M 0,0 184,0 184,324 0,324 0,0 z"
+               inkscape:connector-curvature="0" />
+          </clipPath>
+          <clipPath
+             id="clipPath16"
+             clipPathUnits="userSpaceOnUse">
+            <path
+               id="path3906"
+               d="M 0,0 394,0 394,115 0,115 0,0 z"
+               inkscape:connector-curvature="0" />
+          </clipPath>
+          <clipPath
+             id="clipPath17"
+             clipPathUnits="userSpaceOnUse">
+            <path
+               id="path3909"
+               d="M 0,0 104,0 104,173 0,173 0,0 z"
+               inkscape:connector-curvature="0" />
+          </clipPath>
+          <clipPath
+             id="clipPath18"
+             clipPathUnits="userSpaceOnUse">
+            <path
+               id="path3912"
+               d="M 0,0 164,0 164,115 0,115 0,0 z"
+               inkscape:connector-curvature="0" />
+          </clipPath>
+          <clipPath
+             id="clipPath19"
+             clipPathUnits="userSpaceOnUse">
+            <path
+               id="path3915"
+               d="M 0,0 163,0 163,104 0,104 0,0 z"
+               inkscape:connector-curvature="0" />
+          </clipPath>
+          <clipPath
+             id="clipPath20"
+             clipPathUnits="userSpaceOnUse">
+            <path
+               id="path3918"
+               d="M 0,0 153,0 153,104 0,104 0,0 z"
+               inkscape:connector-curvature="0" />
+          </clipPath>
+          <clipPath
+             id="clipPath21"
+             clipPathUnits="userSpaceOnUse">
+            <path
+               id="path3921"
+               d="M 0,0 694,0 694,574 0,574 0,0 z"
+               inkscape:connector-curvature="0" />
+          </clipPath>
+          <clipPath
+             id="clipPath22"
+             clipPathUnits="userSpaceOnUse">
+            <path
+               id="path3924"
+               d="M 0,0 359,0 359,198 0,198 0,0 z"
+               inkscape:connector-curvature="0" />
+          </clipPath>
+          <clipPath
+             id="clipPath23"
+             clipPathUnits="userSpaceOnUse">
+            <path
+               id="path3927"
+               d="M 0,0 203,0 203,104 0,104 0,0 z"
+               inkscape:connector-curvature="0" />
+          </clipPath>
+        </defs>
+        <g
+           id="g3929"
+           style="fill:#ffffff;stroke:#ffffff">
+          <rect
+             id="rect3931"
+             height="556"
+             style="stroke:none"
+             width="976"
+             y="0"
+             x="0" />
+        </g>
+        <g
+           id="g3933"
+           style="font-size:11px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;font-family:sans-serif"
+           transform="translate(2,2)">
+          <rect
+             clip-path="url(#clipPath1)"
+             id="rect3935"
+             height="20"
+             style="fill:none"
+             width="185"
+             y="0"
+             x="0" />
+          <rect
+             clip-path="url(#clipPath1)"
+             id="rect3937"
+             height="269"
+             style="fill:none"
+             width="929"
+             y="20"
+             x="0" />
+        </g>
+        <g
+           id="g3939"
+           transform="translate(2,22)"
+           style="font-size:11px;font-family:sans-serif">
+          <text
+             clip-path="url(#clipPath2)"
+             id="text3941"
+             xml:space="preserve"
+             style="stroke:none"
+             y="12"
+             x="450">rdo.lib</text>
+        </g>
+        <g
+           id="g3943"
+           style="font-size:11px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;font-family:sans-serif"
+           transform="translate(242,312)">
+          <rect
+             clip-path="url(#clipPath3)"
+             id="rect3945"
+             height="20"
+             style="fill:none"
+             width="137"
+             y="0"
+             x="0" />
+          <rect
+             clip-path="url(#clipPath3)"
+             id="rect3947"
+             height="199"
+             style="fill:none"
+             width="689"
+             y="20"
+             x="0" />
+        </g>
+        <g
+           id="g3949"
+           transform="translate(242,332)"
+           style="font-size:11px;font-family:sans-serif">
+          <text
+             clip-path="url(#clipPath4)"
+             id="text3951"
+             xml:space="preserve"
+             style="stroke:none"
+             y="12"
+             x="331">rdo.ui</text>
+        </g>
+        <g
+           id="g3953"
+           style="font-size:11px;font-weight:bold;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;font-family:sans-serif"
+           transform="translate(22,412)">
+          <rect
+             clip-path="url(#clipPath5)"
+             id="rect3955"
+             height="79"
+             style="fill:none"
+             width="169"
+             y="0"
+             x="0" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line3957"
+             y2="5"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="5"
+             x2="164"
+             x1="154" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line3959"
+             y2="21"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="5"
+             x2="164"
+             x1="164" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line3961"
+             y2="21"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="21"
+             x2="164"
+             x1="154" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line3963"
+             y2="8"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="5"
+             x2="154"
+             x1="154" />
+          <rect
+             clip-path="url(#clipPath5)"
+             id="rect3965"
+             height="4"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             width="7"
+             y="8"
+             x="151" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line3967"
+             y2="14"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="12"
+             x2="154"
+             x1="154" />
+          <rect
+             clip-path="url(#clipPath5)"
+             id="rect3969"
+             height="4"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             width="7"
+             y="14"
+             x="151" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line3971"
+             y2="21"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="18"
+             x2="154"
+             x1="154" />
+        </g>
+        <g
+           id="g3973"
+           transform="translate(22,412)"
+           style="font-size:11px;font-family:sans-serif">
+          <text
+             clip-path="url(#clipPath6)"
+             id="text3975"
+             xml:space="preserve"
+             style="stroke:none"
+             y="15"
+             x="32">&lt;&lt;component&gt;&gt;</text>
+          <text
+             clip-path="url(#clipPath6)"
+             id="text3977"
+             xml:space="preserve"
+             style="font-weight:bold;stroke:none"
+             y="30"
+             x="42">&lt;&lt;library&gt;&gt;</text>
+          <text
+             clip-path="url(#clipPath6)"
+             id="text3979"
+             xml:space="preserve"
+             style="font-weight:bold;stroke:none"
+             y="45"
+             x="56">Swing</text>
+        </g>
+        <g
+           id="g3981"
+           style="font-size:11px;font-weight:bold;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;font-family:sans-serif"
+           transform="translate(292,42)">
+          <rect
+             clip-path="url(#clipPath5)"
+             id="rect3983"
+             height="79"
+             style="fill:none"
+             width="169"
+             y="0"
+             x="0" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line3985"
+             y2="5"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="5"
+             x2="164"
+             x1="154" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line3987"
+             y2="21"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="5"
+             x2="164"
+             x1="164" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line3989"
+             y2="21"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="21"
+             x2="164"
+             x1="154" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line3991"
+             y2="8"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="5"
+             x2="154"
+             x1="154" />
+          <rect
+             clip-path="url(#clipPath5)"
+             id="rect3993"
+             height="4"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             width="7"
+             y="8"
+             x="151" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line3995"
+             y2="14"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="12"
+             x2="154"
+             x1="154" />
+          <rect
+             clip-path="url(#clipPath5)"
+             id="rect3997"
+             height="4"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             width="7"
+             y="14"
+             x="151" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line3999"
+             y2="21"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="18"
+             x2="154"
+             x1="154" />
+        </g>
+        <g
+           id="g4001"
+           transform="translate(292,42)"
+           style="font-size:11px;font-family:sans-serif">
+          <text
+             clip-path="url(#clipPath7)"
+             id="text4003"
+             xml:space="preserve"
+             style="stroke:none"
+             y="15"
+             x="31">&lt;&lt;component&gt;&gt;</text>
+          <text
+             clip-path="url(#clipPath7)"
+             id="text4005"
+             xml:space="preserve"
+             style="font-weight:bold;stroke:none"
+             y="30"
+             x="51">&lt;&lt;file&gt;&gt;</text>
+          <text
+             clip-path="url(#clipPath7)"
+             id="text4007"
+             xml:space="preserve"
+             style="font-weight:bold;stroke:none"
+             y="45"
+             x="40">TreeBuilder</text>
+        </g>
+        <g
+           id="g4009"
+           style="font-size:11px;font-weight:bold;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;font-family:sans-serif"
+           transform="translate(522,192)">
+          <rect
+             clip-path="url(#clipPath5)"
+             id="rect4011"
+             height="79"
+             style="fill:none"
+             width="169"
+             y="0"
+             x="0" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4013"
+             y2="5"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="5"
+             x2="164"
+             x1="154" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4015"
+             y2="21"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="5"
+             x2="164"
+             x1="164" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4017"
+             y2="21"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="21"
+             x2="164"
+             x1="154" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4019"
+             y2="8"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="5"
+             x2="154"
+             x1="154" />
+          <rect
+             clip-path="url(#clipPath5)"
+             id="rect4021"
+             height="4"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             width="7"
+             y="8"
+             x="151" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4023"
+             y2="14"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="12"
+             x2="154"
+             x1="154" />
+          <rect
+             clip-path="url(#clipPath5)"
+             id="rect4025"
+             height="4"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             width="7"
+             y="14"
+             x="151" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4027"
+             y2="21"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="18"
+             x2="154"
+             x1="154" />
+        </g>
+        <g
+           id="g4029"
+           transform="translate(522,192)"
+           style="font-size:11px;font-family:sans-serif">
+          <text
+             clip-path="url(#clipPath8)"
+             id="text4031"
+             xml:space="preserve"
+             style="stroke:none"
+             y="15"
+             x="31">&lt;&lt;component&gt;&gt;</text>
+          <text
+             clip-path="url(#clipPath8)"
+             id="text4033"
+             xml:space="preserve"
+             style="font-weight:bold;stroke:none"
+             y="30"
+             x="41">&lt;&lt;library&gt;&gt;</text>
+          <text
+             clip-path="url(#clipPath8)"
+             id="text4035"
+             xml:space="preserve"
+             style="font-weight:bold;stroke:none"
+             y="45"
+             x="51">&lt;&lt;file&gt;&gt;</text>
+          <text
+             clip-path="url(#clipPath8)"
+             id="text4037"
+             xml:space="preserve"
+             style="font-weight:bold;stroke:none"
+             y="60"
+             x="47">Database</text>
+        </g>
+        <g
+           id="g4039"
+           style="font-size:11px;font-weight:bold;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;font-family:sans-serif"
+           transform="translate(742,42)">
+          <rect
+             clip-path="url(#clipPath5)"
+             id="rect4041"
+             height="79"
+             style="fill:none"
+             width="169"
+             y="0"
+             x="0" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4043"
+             y2="5"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="5"
+             x2="164"
+             x1="154" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4045"
+             y2="21"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="5"
+             x2="164"
+             x1="164" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4047"
+             y2="21"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="21"
+             x2="164"
+             x1="154" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4049"
+             y2="8"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="5"
+             x2="154"
+             x1="154" />
+          <rect
+             clip-path="url(#clipPath5)"
+             id="rect4051"
+             height="4"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             width="7"
+             y="8"
+             x="151" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4053"
+             y2="14"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="12"
+             x2="154"
+             x1="154" />
+          <rect
+             clip-path="url(#clipPath5)"
+             id="rect4055"
+             height="4"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             width="7"
+             y="14"
+             x="151" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4057"
+             y2="21"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="18"
+             x2="154"
+             x1="154" />
+        </g>
+        <g
+           id="g4059"
+           transform="translate(742,42)"
+           style="font-size:11px;font-family:sans-serif">
+          <text
+             clip-path="url(#clipPath8)"
+             id="text4061"
+             xml:space="preserve"
+             style="stroke:none"
+             y="15"
+             x="30">&lt;&lt;component&gt;&gt;</text>
+          <text
+             clip-path="url(#clipPath8)"
+             id="text4063"
+             xml:space="preserve"
+             style="font-weight:bold;stroke:none"
+             y="30"
+             x="50">&lt;&lt;file&gt;&gt;</text>
+          <text
+             clip-path="url(#clipPath8)"
+             id="text4065"
+             xml:space="preserve"
+             style="font-weight:bold;stroke:none"
+             y="45"
+             x="30">&lt;&lt;executable&gt;&gt;</text>
+          <text
+             clip-path="url(#clipPath8)"
+             id="text4067"
+             xml:space="preserve"
+             style="font-weight:bold;stroke:none"
+             y="60"
+             x="46">Simulator</text>
+        </g>
+        <g
+           id="g4069"
+           style="font-size:11px;font-weight:bold;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;font-family:sans-serif"
+           transform="translate(742,192)">
+          <rect
+             clip-path="url(#clipPath5)"
+             id="rect4071"
+             height="79"
+             style="fill:none"
+             width="169"
+             y="0"
+             x="0" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4073"
+             y2="5"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="5"
+             x2="164"
+             x1="154" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4075"
+             y2="21"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="5"
+             x2="164"
+             x1="164" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4077"
+             y2="21"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="21"
+             x2="164"
+             x1="154" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4079"
+             y2="8"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="5"
+             x2="154"
+             x1="154" />
+          <rect
+             clip-path="url(#clipPath5)"
+             id="rect4081"
+             height="4"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             width="7"
+             y="8"
+             x="151" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4083"
+             y2="14"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="12"
+             x2="154"
+             x1="154" />
+          <rect
+             clip-path="url(#clipPath5)"
+             id="rect4085"
+             height="4"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             width="7"
+             y="14"
+             x="151" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4087"
+             y2="21"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="18"
+             x2="154"
+             x1="154" />
+        </g>
+        <g
+           id="g4089"
+           transform="translate(742,192)"
+           style="font-size:11px;font-family:sans-serif">
+          <text
+             clip-path="url(#clipPath7)"
+             id="text4091"
+             xml:space="preserve"
+             style="stroke:none"
+             y="15"
+             x="31">&lt;&lt;component&gt;&gt;</text>
+          <text
+             clip-path="url(#clipPath7)"
+             id="text4093"
+             xml:space="preserve"
+             style="font-weight:bold;stroke:none"
+             y="30"
+             x="51">&lt;&lt;file&gt;&gt;</text>
+          <text
+             clip-path="url(#clipPath7)"
+             id="text4095"
+             xml:space="preserve"
+             style="font-weight:bold;stroke:none"
+             y="45"
+             x="55">Tracer</text>
+        </g>
+        <g
+           id="g4097"
+           style="font-size:11px;font-weight:bold;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;font-family:sans-serif"
+           transform="translate(262,412)">
+          <rect
+             clip-path="url(#clipPath5)"
+             id="rect4099"
+             height="79"
+             style="fill:none"
+             width="169"
+             y="0"
+             x="0" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4101"
+             y2="5"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="5"
+             x2="164"
+             x1="154" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4103"
+             y2="21"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="5"
+             x2="164"
+             x1="164" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4105"
+             y2="21"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="21"
+             x2="164"
+             x1="154" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4107"
+             y2="8"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="5"
+             x2="154"
+             x1="154" />
+          <rect
+             clip-path="url(#clipPath5)"
+             id="rect4109"
+             height="4"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             width="7"
+             y="8"
+             x="151" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4111"
+             y2="14"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="12"
+             x2="154"
+             x1="154" />
+          <rect
+             clip-path="url(#clipPath5)"
+             id="rect4113"
+             height="4"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             width="7"
+             y="14"
+             x="151" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4115"
+             y2="21"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="18"
+             x2="154"
+             x1="154" />
+        </g>
+        <g
+           id="g4117"
+           transform="translate(262,412)"
+           style="font-size:11px;font-family:sans-serif">
+          <text
+             clip-path="url(#clipPath6)"
+             id="text4119"
+             xml:space="preserve"
+             style="stroke:none"
+             y="15"
+             x="32">&lt;&lt;component&gt;&gt;</text>
+          <text
+             clip-path="url(#clipPath6)"
+             id="text4121"
+             xml:space="preserve"
+             style="font-weight:bold;stroke:none"
+             y="30"
+             x="42">&lt;&lt;library&gt;&gt;</text>
+          <text
+             clip-path="url(#clipPath6)"
+             id="text4123"
+             xml:space="preserve"
+             style="font-weight:bold;stroke:none"
+             y="45"
+             x="50">JGraphx</text>
+        </g>
+        <g
+           id="g4125"
+           style="font-size:11px;font-weight:bold;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;font-family:sans-serif"
+           transform="translate(292,192)">
+          <rect
+             clip-path="url(#clipPath5)"
+             id="rect4127"
+             height="79"
+             style="fill:none"
+             width="169"
+             y="0"
+             x="0" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4129"
+             y2="5"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="5"
+             x2="164"
+             x1="154" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4131"
+             y2="21"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="5"
+             x2="164"
+             x1="164" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4133"
+             y2="21"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="21"
+             x2="164"
+             x1="154" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4135"
+             y2="8"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="5"
+             x2="154"
+             x1="154" />
+          <rect
+             clip-path="url(#clipPath5)"
+             id="rect4137"
+             height="4"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             width="7"
+             y="8"
+             x="151" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4139"
+             y2="14"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="12"
+             x2="154"
+             x1="154" />
+          <rect
+             clip-path="url(#clipPath5)"
+             id="rect4141"
+             height="4"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             width="7"
+             y="14"
+             x="151" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4143"
+             y2="21"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="18"
+             x2="154"
+             x1="154" />
+        </g>
+        <g
+           id="g4145"
+           transform="translate(292,192)"
+           style="font-size:11px;font-family:sans-serif">
+          <text
+             clip-path="url(#clipPath9)"
+             id="text4147"
+             xml:space="preserve"
+             style="stroke:none"
+             y="15"
+             x="32">&lt;&lt;component&gt;&gt;</text>
+          <text
+             clip-path="url(#clipPath9)"
+             id="text4149"
+             xml:space="preserve"
+             style="font-weight:bold;stroke:none"
+             y="30"
+             x="52">&lt;&lt;file&gt;&gt;</text>
+          <text
+             clip-path="url(#clipPath9)"
+             id="text4151"
+             xml:space="preserve"
+             style="font-weight:bold;stroke:none"
+             y="45"
+             x="17">DecisionPointSearch</text>
+        </g>
+        <g
+           id="g4153"
+           style="font-size:11px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;font-family:sans-serif"
+           transform="translate(462,352)">
+          <rect
+             clip-path="url(#clipPath10)"
+             id="rect4155"
+             height="20"
+             style="fill:none"
+             width="41"
+             y="0"
+             x="0" />
+          <rect
+             clip-path="url(#clipPath10)"
+             id="rect4157"
+             height="139"
+             style="fill:none"
+             width="209"
+             y="20"
+             x="0" />
+        </g>
+        <g
+           id="g4159"
+           transform="translate(462,372)"
+           style="font-size:11px;font-family:sans-serif">
+          <text
+             clip-path="url(#clipPath11)"
+             id="text4161"
+             xml:space="preserve"
+             style="stroke:none"
+             y="12"
+             x="75">rdo.ui.graph</text>
+        </g>
+        <g
+           id="g4163"
+           style="font-size:11px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;font-family:sans-serif"
+           transform="translate(702,352)">
+          <rect
+             clip-path="url(#clipPath10)"
+             id="rect4165"
+             height="20"
+             style="fill:none"
+             width="41"
+             y="0"
+             x="0" />
+          <rect
+             clip-path="url(#clipPath10)"
+             id="rect4167"
+             height="139"
+             style="fill:none"
+             width="209"
+             y="20"
+             x="0" />
+        </g>
+        <g
+           id="g4169"
+           transform="translate(702,372)"
+           style="font-size:11px;font-family:sans-serif">
+          <text
+             clip-path="url(#clipPath11)"
+             id="text4171"
+             xml:space="preserve"
+             style="stroke:none"
+             y="12"
+             x="58">rdo.ui.contributions</text>
+        </g>
+        <g
+           id="g4173"
+           style="font-size:11px;font-weight:bold;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;font-family:sans-serif"
+           transform="translate(22,42)">
+          <rect
+             clip-path="url(#clipPath5)"
+             id="rect4175"
+             height="79"
+             style="fill:none"
+             width="169"
+             y="0"
+             x="0" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4177"
+             y2="5"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="5"
+             x2="164"
+             x1="154" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4179"
+             y2="21"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="5"
+             x2="164"
+             x1="164" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4181"
+             y2="21"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="21"
+             x2="164"
+             x1="154" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4183"
+             y2="8"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="5"
+             x2="154"
+             x1="154" />
+          <rect
+             clip-path="url(#clipPath5)"
+             id="rect4185"
+             height="4"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             width="7"
+             y="8"
+             x="151" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4187"
+             y2="14"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="12"
+             x2="154"
+             x1="154" />
+          <rect
+             clip-path="url(#clipPath5)"
+             id="rect4189"
+             height="4"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             width="7"
+             y="14"
+             x="151" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4191"
+             y2="21"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="18"
+             x2="154"
+             x1="154" />
+        </g>
+        <g
+           id="g4193"
+           transform="translate(22,42)"
+           style="font-size:11px;font-family:sans-serif">
+          <text
+             clip-path="url(#clipPath6)"
+             id="text4195"
+             xml:space="preserve"
+             style="stroke:none"
+             y="15"
+             x="32">&lt;&lt;component&gt;&gt;</text>
+          <text
+             clip-path="url(#clipPath6)"
+             id="text4197"
+             xml:space="preserve"
+             style="font-weight:bold;stroke:none"
+             y="30"
+             x="52">&lt;&lt;file&gt;&gt;</text>
+          <text
+             clip-path="url(#clipPath6)"
+             id="text4199"
+             xml:space="preserve"
+             style="font-weight:bold;stroke:none"
+             y="45"
+             x="35">DecisionPoint</text>
+        </g>
+        <g
+           id="g4201"
+           style="font-size:11px;font-weight:bold;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;font-family:sans-serif"
+           transform="translate(482,412)">
+          <rect
+             clip-path="url(#clipPath5)"
+             id="rect4203"
+             height="79"
+             style="fill:none"
+             width="169"
+             y="0"
+             x="0" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4205"
+             y2="5"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="5"
+             x2="164"
+             x1="154" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4207"
+             y2="21"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="5"
+             x2="164"
+             x1="164" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4209"
+             y2="21"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="21"
+             x2="164"
+             x1="154" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4211"
+             y2="8"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="5"
+             x2="154"
+             x1="154" />
+          <rect
+             clip-path="url(#clipPath5)"
+             id="rect4213"
+             height="4"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             width="7"
+             y="8"
+             x="151" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4215"
+             y2="14"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="12"
+             x2="154"
+             x1="154" />
+          <rect
+             clip-path="url(#clipPath5)"
+             id="rect4217"
+             height="4"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             width="7"
+             y="14"
+             x="151" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4219"
+             y2="21"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="18"
+             x2="154"
+             x1="154" />
+        </g>
+        <g
+           id="g4221"
+           transform="translate(482,412)"
+           style="font-size:11px;font-family:sans-serif">
+          <text
+             clip-path="url(#clipPath6)"
+             id="text4223"
+             xml:space="preserve"
+             style="stroke:none"
+             y="15"
+             x="32">&lt;&lt;component&gt;&gt;</text>
+          <text
+             clip-path="url(#clipPath6)"
+             id="text4225"
+             xml:space="preserve"
+             style="font-weight:bold;stroke:none"
+             y="30"
+             x="52">&lt;&lt;file&gt;&gt;</text>
+          <text
+             clip-path="url(#clipPath6)"
+             id="text4227"
+             xml:space="preserve"
+             style="font-weight:bold;stroke:none"
+             y="45"
+             x="39">GraphFrame</text>
+        </g>
+        <g
+           id="g4229"
+           style="font-size:11px;font-weight:bold;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;font-family:sans-serif"
+           transform="translate(722,412)">
+          <rect
+             clip-path="url(#clipPath5)"
+             id="rect4231"
+             height="79"
+             style="fill:none"
+             width="169"
+             y="0"
+             x="0" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4233"
+             y2="5"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="5"
+             x2="164"
+             x1="154" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4235"
+             y2="21"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="5"
+             x2="164"
+             x1="164" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4237"
+             y2="21"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="21"
+             x2="164"
+             x1="154" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4239"
+             y2="8"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="5"
+             x2="154"
+             x1="154" />
+          <rect
+             clip-path="url(#clipPath5)"
+             id="rect4241"
+             height="4"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             width="7"
+             y="8"
+             x="151" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4243"
+             y2="14"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="12"
+             x2="154"
+             x1="154" />
+          <rect
+             clip-path="url(#clipPath5)"
+             id="rect4245"
+             height="4"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             width="7"
+             y="14"
+             x="151" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4247"
+             y2="21"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="18"
+             x2="154"
+             x1="154" />
+        </g>
+        <g
+           id="g4249"
+           transform="translate(722,412)"
+           style="font-size:11px;font-family:sans-serif">
+          <text
+             clip-path="url(#clipPath6)"
+             id="text4251"
+             xml:space="preserve"
+             style="stroke:none"
+             y="15"
+             x="32">&lt;&lt;component&gt;&gt;</text>
+          <text
+             clip-path="url(#clipPath6)"
+             id="text4253"
+             xml:space="preserve"
+             style="font-weight:bold;stroke:none"
+             y="30"
+             x="52">&lt;&lt;file&gt;&gt;</text>
+          <text
+             clip-path="url(#clipPath6)"
+             id="text4255"
+             xml:space="preserve"
+             style="font-weight:bold;stroke:none"
+             y="45"
+             x="33">RDOTraceView</text>
+        </g>
+        <g
+           id="g4257"
+           style="font-size:11px;font-weight:bold;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;font-family:sans-serif"
+           transform="translate(22,192)">
+          <rect
+             clip-path="url(#clipPath5)"
+             id="rect4259"
+             height="79"
+             style="fill:none"
+             width="169"
+             y="0"
+             x="0" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4261"
+             y2="5"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="5"
+             x2="164"
+             x1="154" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4263"
+             y2="21"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="5"
+             x2="164"
+             x1="164" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4265"
+             y2="21"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="21"
+             x2="164"
+             x1="154" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4267"
+             y2="8"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="5"
+             x2="154"
+             x1="154" />
+          <rect
+             clip-path="url(#clipPath5)"
+             id="rect4269"
+             height="4"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             width="7"
+             y="8"
+             x="151" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4271"
+             y2="14"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="12"
+             x2="154"
+             x1="154" />
+          <rect
+             clip-path="url(#clipPath5)"
+             id="rect4273"
+             height="4"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             width="7"
+             y="14"
+             x="151" />
+          <line
+             clip-path="url(#clipPath5)"
+             id="line4275"
+             y2="21"
+             style="fill:none;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10"
+             y1="18"
+             x2="154"
+             x1="154" />
+        </g>
+        <g
+           id="g4277"
+           transform="translate(22,192)"
+           style="font-size:11px;font-family:sans-serif">
+          <text
+             clip-path="url(#clipPath6)"
+             id="text4279"
+             xml:space="preserve"
+             style="stroke:none"
+             y="15"
+             x="32">&lt;&lt;component&gt;&gt;</text>
+          <text
+             clip-path="url(#clipPath6)"
+             id="text4281"
+             xml:space="preserve"
+             style="font-weight:bold;stroke:none"
+             y="30"
+             x="52">&lt;&lt;file&gt;&gt;</text>
+          <text
+             clip-path="url(#clipPath6)"
+             id="text4283"
+             xml:space="preserve"
+             style="font-weight:bold;stroke:none"
+             y="45"
+             x="43">ModelState</text>
+        </g>
+        <g
+           id="g4285"
+           style="font-size:11px;stroke-linecap:butt;stroke-linejoin:round;font-family:sans-serif"
+           transform="translate(142,402)">
+          <line
+             clip-path="url(#clipPath12)"
+             id="line4287"
+             y2="50"
+             style="fill:none"
+             y1="50"
+             x2="119"
+             x1="74" />
+          <polygon
+             clip-path="url(#clipPath12)"
+             id="polygon4289"
+             points="62,56 74,50 62,44 50,50 "
+             style="stroke:none" />
+          <polygon
+             clip-path="url(#clipPath12)"
+             id="polygon4291"
+             points="62,56 74,50 62,44 50,50 "
+             style="fill:none" />
+        </g>
+        <g
+           id="g4293"
+           style="font-size:11px;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:5;stroke-dashoffset:1;font-family:sans-serif"
+           transform="translate(576,66)">
+          <line
+             clip-path="url(#clipPath13)"
+             id="line4295"
+             y2="86"
+             style="fill:none"
+             y1="56"
+             x2="216"
+             x1="216" />
+          <line
+             clip-path="url(#clipPath13)"
+             id="line4297"
+             y2="86"
+             style="fill:none"
+             y1="86"
+             x2="56"
+             x1="216" />
+          <line
+             clip-path="url(#clipPath13)"
+             id="line4299"
+             y2="124"
+             style="fill:none"
+             y1="86"
+             x2="56"
+             x1="56" />
+          <line
+             clip-path="url(#clipPath13)"
+             id="line4301"
+             y2="112"
+             style="fill:none;stroke-dasharray:none;stroke-dashoffset:0"
+             y1="124"
+             x2="62"
+             x1="56" />
+          <line
+             clip-path="url(#clipPath13)"
+             id="line4303"
+             y2="112"
+             style="fill:none;stroke-dasharray:none;stroke-dashoffset:0"
+             y1="124"
+             x2="50"
+             x1="56" />
+        </g>
+        <g
+           id="g4305"
+           style="font-size:11px;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:5;stroke-dashoffset:1;font-family:sans-serif"
+           transform="translate(806,66)">
+          <line
+             clip-path="url(#clipPath14)"
+             id="line4307"
+             y2="124"
+             style="fill:none"
+             y1="56"
+             x2="56"
+             x1="56" />
+          <line
+             clip-path="url(#clipPath14)"
+             id="line4309"
+             y2="112"
+             style="fill:none;stroke-dasharray:none;stroke-dashoffset:0"
+             y1="124"
+             x2="62"
+             x1="56" />
+          <line
+             clip-path="url(#clipPath14)"
+             id="line4311"
+             y2="112"
+             style="fill:none;stroke-dasharray:none;stroke-dashoffset:0"
+             y1="124"
+             x2="50"
+             x1="56" />
+        </g>
+        <g
+           id="g4313"
+           style="font-size:11px;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:5;stroke-dashoffset:1;font-family:sans-serif"
+           transform="translate(842,182)">
+          <line
+             clip-path="url(#clipPath15)"
+             id="line4315"
+             y2="270"
+             style="fill:none"
+             y1="270"
+             x2="130"
+             x1="50" />
+          <line
+             clip-path="url(#clipPath15)"
+             id="line4317"
+             y2="50"
+             style="fill:none"
+             y1="270"
+             x2="130"
+             x1="130" />
+          <line
+             clip-path="url(#clipPath15)"
+             id="line4319"
+             y2="50"
+             style="fill:none"
+             y1="50"
+             x2="70"
+             x1="130" />
+          <line
+             clip-path="url(#clipPath15)"
+             id="line4321"
+             y2="56"
+             style="fill:none;stroke-dasharray:none;stroke-dashoffset:0"
+             y1="50"
+             x2="82"
+             x1="70" />
+          <line
+             clip-path="url(#clipPath15)"
+             id="line4323"
+             y2="44"
+             style="fill:none;stroke-dasharray:none;stroke-dashoffset:0"
+             y1="50"
+             x2="82"
+             x1="70" />
+        </g>
+        <g
+           id="g4325"
+           style="font-size:11px;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:5;stroke-dashoffset:1;font-family:sans-serif"
+           transform="translate(406,26)">
+          <line
+             clip-path="url(#clipPath16)"
+             id="line4327"
+             y2="56"
+             style="fill:none"
+             y1="56"
+             x2="334"
+             x1="56" />
+          <line
+             clip-path="url(#clipPath16)"
+             id="line4329"
+             y2="50"
+             style="fill:none;stroke-dasharray:none;stroke-dashoffset:0"
+             y1="56"
+             x2="322"
+             x1="334" />
+          <line
+             clip-path="url(#clipPath16)"
+             id="line4331"
+             y2="62"
+             style="fill:none;stroke-dasharray:none;stroke-dashoffset:0"
+             y1="56"
+             x2="322"
+             x1="334" />
+        </g>
+        <g
+           id="g4333"
+           style="font-size:11px;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:5;stroke-dashoffset:1;font-family:sans-serif"
+           transform="translate(322,72)">
+          <line
+             clip-path="url(#clipPath17)"
+             id="line4335"
+             y2="119"
+             style="fill:none"
+             y1="50"
+             x2="50"
+             x1="50" />
+          <line
+             clip-path="url(#clipPath17)"
+             id="line4337"
+             y2="107"
+             style="fill:none;stroke-dasharray:none;stroke-dashoffset:0"
+             y1="119"
+             x2="56"
+             x1="50" />
+          <line
+             clip-path="url(#clipPath17)"
+             id="line4339"
+             y2="107"
+             style="fill:none;stroke-dasharray:none;stroke-dashoffset:0"
+             y1="119"
+             x2="44"
+             x1="50" />
+        </g>
+        <g
+           id="g4341"
+           style="font-size:11px;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:5;stroke-dashoffset:1;font-family:sans-serif"
+           transform="translate(356,66)">
+          <line
+             clip-path="url(#clipPath13)"
+             id="line4343"
+             y2="86"
+             style="fill:none"
+             y1="56"
+             x2="56"
+             x1="56" />
+          <line
+             clip-path="url(#clipPath13)"
+             id="line4345"
+             y2="86"
+             style="fill:none"
+             y1="86"
+             x2="216"
+             x1="56" />
+          <line
+             clip-path="url(#clipPath13)"
+             id="line4347"
+             y2="124"
+             style="fill:none"
+             y1="86"
+             x2="216"
+             x1="216" />
+          <line
+             clip-path="url(#clipPath13)"
+             id="line4349"
+             y2="112"
+             style="fill:none;stroke-dasharray:none;stroke-dashoffset:0"
+             y1="124"
+             x2="222"
+             x1="216" />
+          <line
+             clip-path="url(#clipPath13)"
+             id="line4351"
+             y2="112"
+             style="fill:none;stroke-dasharray:none;stroke-dashoffset:0"
+             y1="124"
+             x2="210"
+             x1="216" />
+        </g>
+        <g
+           id="g4353"
+           style="font-size:11px;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:5;stroke-dashoffset:1;font-family:sans-serif"
+           transform="translate(636,166)">
+          <line
+             clip-path="url(#clipPath18)"
+             id="line4355"
+             y2="56"
+             style="fill:none"
+             y1="56"
+             x2="56"
+             x1="104" />
+          <line
+             clip-path="url(#clipPath18)"
+             id="line4357"
+             y2="62"
+             style="fill:none;stroke-dasharray:none;stroke-dashoffset:0"
+             y1="56"
+             x2="68"
+             x1="56" />
+          <line
+             clip-path="url(#clipPath18)"
+             id="line4359"
+             y2="50"
+             style="fill:none;stroke-dasharray:none;stroke-dashoffset:0"
+             y1="56"
+             x2="68"
+             x1="56" />
+        </g>
+        <g
+           id="g4361"
+           style="font-size:11px;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:5;stroke-dashoffset:1;font-family:sans-serif"
+           transform="translate(412,172)">
+          <line
+             clip-path="url(#clipPath19)"
+             id="line4363"
+             y2="50"
+             style="fill:none"
+             y1="50"
+             x2="50"
+             x1="109" />
+          <line
+             clip-path="url(#clipPath19)"
+             id="line4365"
+             y2="56"
+             style="fill:none;stroke-dasharray:none;stroke-dashoffset:0"
+             y1="50"
+             x2="62"
+             x1="50" />
+          <line
+             clip-path="url(#clipPath19)"
+             id="line4367"
+             y2="44"
+             style="fill:none;stroke-dasharray:none;stroke-dashoffset:0"
+             y1="50"
+             x2="62"
+             x1="50" />
+        </g>
+        <g
+           id="g4369"
+           style="font-size:11px;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:5;stroke-dashoffset:1;font-family:sans-serif"
+           transform="translate(602,402)">
+          <line
+             clip-path="url(#clipPath12)"
+             id="line4371"
+             y2="50"
+             style="fill:none"
+             y1="50"
+             x2="50"
+             x1="119" />
+          <line
+             clip-path="url(#clipPath12)"
+             id="line4373"
+             y2="56"
+             style="fill:none;stroke-dasharray:none;stroke-dashoffset:0"
+             y1="50"
+             x2="62"
+             x1="50" />
+          <line
+             clip-path="url(#clipPath12)"
+             id="line4375"
+             y2="44"
+             style="fill:none;stroke-dasharray:none;stroke-dashoffset:0"
+             y1="50"
+             x2="62"
+             x1="50" />
+        </g>
+        <g
+           id="g4377"
+           style="font-size:11px;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:5;stroke-dashoffset:1;font-family:sans-serif"
+           transform="translate(382,402)">
+          <line
+             clip-path="url(#clipPath20)"
+             id="line4379"
+             y2="50"
+             style="fill:none"
+             y1="50"
+             x2="50"
+             x1="99" />
+          <line
+             clip-path="url(#clipPath20)"
+             id="line4381"
+             y2="56"
+             style="fill:none;stroke-dasharray:none;stroke-dashoffset:0"
+             y1="50"
+             x2="62"
+             x1="50" />
+          <line
+             clip-path="url(#clipPath20)"
+             id="line4383"
+             y2="44"
+             style="fill:none;stroke-dasharray:none;stroke-dashoffset:0"
+             y1="50"
+             x2="62"
+             x1="50" />
+        </g>
+        <g
+           id="g4385"
+           style="font-size:11px;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:5;stroke-dashoffset:1;font-family:sans-serif"
+           transform="translate(172,32)">
+          <line
+             clip-path="url(#clipPath21)"
+             id="line4387"
+             y2="520"
+             style="fill:none"
+             y1="460"
+             x2="640"
+             x1="640" />
+          <line
+             clip-path="url(#clipPath21)"
+             id="line4389"
+             y2="520"
+             style="fill:none"
+             y1="520"
+             x2="50"
+             x1="640" />
+          <line
+             clip-path="url(#clipPath21)"
+             id="line4391"
+             y2="50"
+             style="fill:none"
+             y1="520"
+             x2="50"
+             x1="50" />
+          <line
+             clip-path="url(#clipPath21)"
+             id="line4393"
+             y2="50"
+             style="fill:none"
+             y1="50"
+             x2="119"
+             x1="50" />
+          <line
+             clip-path="url(#clipPath21)"
+             id="line4395"
+             y2="44"
+             style="fill:none;stroke-dasharray:none;stroke-dashoffset:0"
+             y1="50"
+             x2="107"
+             x1="119" />
+          <line
+             clip-path="url(#clipPath21)"
+             id="line4397"
+             y2="56"
+             style="fill:none;stroke-dasharray:none;stroke-dashoffset:0"
+             y1="50"
+             x2="107"
+             x1="119" />
+        </g>
+        <g
+           id="g4399"
+           style="font-size:11px;stroke-linecap:butt;stroke-linejoin:round;font-family:sans-serif"
+           transform="translate(40,60)">
+          <line
+             clip-path="url(#clipPath22)"
+             id="line4401"
+             y2="103"
+             style="fill:none"
+             y1="63"
+             x2="63"
+             x1="63" />
+          <line
+             clip-path="url(#clipPath22)"
+             id="line4403"
+             y2="103"
+             style="fill:none"
+             y1="103"
+             x2="293"
+             x1="63" />
+          <line
+             clip-path="url(#clipPath22)"
+             id="line4405"
+             y2="131"
+             style="fill:none"
+             y1="103"
+             x2="293"
+             x1="293" />
+          <polygon
+             clip-path="url(#clipPath22)"
+             id="polygon4407"
+             points="69,75 63,63 57,75 "
+             style="fill:#ffffff;stroke:none" />
+          <polygon
+             clip-path="url(#clipPath22)"
+             id="polygon4409"
+             points="69,75 63,63 57,75 "
+             style="fill:none" />
+        </g>
+        <g
+           id="g4411"
+           style="font-size:11px;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:5;stroke-dashoffset:1;font-family:sans-serif"
+           transform="translate(142,182)">
+          <line
+             clip-path="url(#clipPath23)"
+             id="line4413"
+             y2="50"
+             style="fill:none"
+             y1="50"
+             x2="149"
+             x1="50" />
+        </g>
+        <g
+           id="g4415"
+           style="font-size:11px;fill:#ffffff;stroke:#ffffff;stroke-linecap:butt;stroke-linejoin:round;font-family:sans-serif"
+           transform="translate(142,182)">
+          <polygon
+             clip-path="url(#clipPath23)"
+             id="polygon4417"
+             points="62,44 50,50 62,56 "
+             style="stroke:none" />
+          <polygon
+             clip-path="url(#clipPath23)"
+             id="polygon4419"
+             points="62,44 50,50 62,56 "
+             style="fill:none;stroke:#000000" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
