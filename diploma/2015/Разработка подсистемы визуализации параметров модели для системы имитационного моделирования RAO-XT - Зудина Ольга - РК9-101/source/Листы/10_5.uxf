@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.2">
+  <zoom_level>6</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>702</x>
+      <y>546</y>
+      <w>402</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>RDOPlotView
+--
++ ID : String
+- openedPlotMap :  Map&lt;CollectedDataNode, Integer&gt;
+- frame : ChartComposite
+- partNode : CollectedDataNode
+--
++ getFrame() : ChartComposite
++ getOpenedPlotMap() : Map&lt;CollectedDataNode, Integer&gt;
++ setName(name : String) : void
++ setNode(node : CollectedDataNode) : void
++ addToOpenedPlotMap(node : CollectedDataNode, secondaryID : int) : void
++ createPartControl(parent : Composite) : void &lt;&lt;override&gt;&gt;
++ plotXY(dataset : XYSeriesCollection, enumNames : List&lt;String&gt;) : void
+- createChart(dataset : XYDataset, enumNames : List&lt;String&gt;) : JFreeChart
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>936</x>
+      <y>978</y>
+      <w>126</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>KeyListener
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>654</x>
+      <y>60</y>
+      <w>378</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>RDOSerializedObjectsView
+--
+# serializedObjectsTreeViewer : TreeViewer
++ ID : String
++ secondaryID : int
+- haveNewRealTimeData : boolean
++ realTimeUpdater : Subscriber
++ commonUpdater : Subscriber
+--
++ createPartControl(parent : Composite) : void &lt;&lt;override&gt;&gt;
+- updateAllOpenedCharts() : void
++ readyForInput() : boolean
++ getRealTimeUpdaterTask() : TimerTask
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1194</x>
+      <y>66</y>
+      <w>402</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>PlotDataParser
+--
+- lastItemMap : Map&lt;AbstractIndex, Integer&gt;
+- lastPatternCountMap : Map&lt;AbstractIndex, Integer&gt;
+--
++ removeIndexFromMaps(index : AbstractIndex) : void
++ parseEntries(node : CollectedDataNode) : List&lt;PlotItem&gt;
+- parsePattern(patternIndex : PatternIndex, startItemNumber : int) : List&lt;PlotItem&gt;
+- parseResult(resultIndex : ResultIndex, startItemNuber : int) : List&lt;PlotItem&gt;
+- parseResourceParameter(resourceParameterIndex : ResourceParameterIndex,
+        resourceIndex : ResourceIndex, startItemNumber : int) : List&lt;PlotItem&gt;
++ getEnumNames(node : CollectedDataNode) : List&lt;String&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>204</x>
+      <y>342</y>
+      <w>192</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>/AbstractIndex/
+--
+
+--
++ getEntryNumbers() : List&lt;Integer&gt;
++ addEntry(entry : Integer) : void
++ getNumber() : int
++ isEmpty() : boolean
++ getType() : IndexType</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>168</x>
+      <y>486</y>
+      <w>264</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>Index
+--
+# entryNumbers : List&lt;Integer&gt;
+# number : int
+- type : IndexType
+--
++ Index(number : int, type : IndexType) &lt;&lt;constructor&gt;&gt;
++ getEntryNumbers() : List&lt;Integer&gt; &lt;&lt;override&gt;&gt;
++ addEntry(entry : Integer) : void &lt;&lt;override&gt;&gt;
++ getNumber() : int &lt;&lt;override&gt;&gt;
++ isEmpty() : boolean &lt;&lt;override&gt;&gt;
++ getType() : IndexType &lt;&lt;override&gt;&gt;
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>48</x>
+      <y>690</y>
+      <w>228</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>PatternIndex
+--
+~ structure : JSONObject
+~ timesExecuted : int
+--
++ PatternIndex(number : int,
+        structure : JSONObject) &lt;&lt;constructor&gt;&gt;
++ getStructure() : JSONObject</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>48</x>
+      <y>822</y>
+      <w>228</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>ResourceIndex
+--
+~ erased : boolean
+--
++ ResourceIndex(number : int) &lt;&lt;constructor&gt;&gt;
++ isErased() : boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>282</x>
+      <y>690</y>
+      <w>228</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>ResourceTypeIndex
+--
+- structure : JSONObject
+--
+~ ResourceTypeIndex(number : int,
+        structure : JSONObject) &lt;&lt;constructor&gt;&gt;
++ getStructure() : JSONObject</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>138</x>
+      <y>954</y>
+      <w>294</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>ResultIndex
+--
+- type : ResultType
+--
+~ ResultIndex(number : int, type : ResultType) &lt;&lt;constructor&gt;&gt;
++ getResultType() : ResultType</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>282</x>
+      <y>822</y>
+      <w>252</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>ResourceParameterIndex
+--
+- cache : ValueCache
+- offset : int
+--
+~ ResourceParameterIndex(number : int,
+        cache : ValueCache, offset : int) &lt;&lt;constructor&gt;&gt;
++ getValueCache() : ValueCache
++ getOffset() : int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1218</x>
+      <y>438</y>
+      <w>372</w>
+      <h>330</h>
+    </coordinates>
+    <panel_attributes>Database
+--
+~ modelStructure : JSONObject
+- sensitivityList : HashSet&lt;String&gt;
+- allEntries : List&lt;Entry&gt;
+- notificationManager : NotificationManager
+- indexHelper : DbIndexHelper
+- patternPool : Map&lt;Pattern, PatternPoolEntry&gt;
+--
+~ Database(modelStructure : JSONObject) &lt;&lt;constructor&gt;&gt;
++ getModelStructure() : JSONObject
++ addSensitivity(name : String) : void
++ removeSensitivity(name : String) : boolean
++ sensitiveTo(name : String) : boolean
++ getAllEntries() : List&lt;Entry&gt;
+- addEntry(entry : Entry) : void
++ getNotifier() : Notifier
+- notifyChange(category : String) : void
++ getIndexHelper() : DbIndexHelper
+~ addSystemEntry(type : SystemEntryType) : void
++ addResourceEntry(status : ResourceEntryType, resource : Resource,
+        sender : String) : void
++ addDecisionEntry(dpt : DecisionPoint, activity : DecisionPoint.Activity,
+        type : PatternType, pattern : Pattern) : void
++ addEventEntry(type : PatternType, pattern : Pattern) : void
+- fillRelevantResources(data : ByteBuffer, relevantResources : int[ ]) : void
+~ addSearchEntry(dpt : DecisionPointSearch&lt;?&gt;, type : SearchEntryType,
+        data : ByteBuffer) : void
++ addResultEntry(result : Result) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1218</x>
+      <y>828</y>
+      <w>306</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Entry
+--
+~ header : ByteBuffer
+~ data : ByteBuffer
+--
+~ Entry(header : ByteBuffer, data : ByteBuffer) &lt;&lt;constructor&gt;&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1236</x>
+      <y>294</y>
+      <w>240</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>PlotItem
+--
++ x : double
++ y : double
+--
++ PlotItem(x : double, y : double) &lt;&lt;constructor&gt;&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>66</x>
+      <y>60</y>
+      <w>504</w>
+      <h>192</h>
+    </coordinates>
+    <panel_attributes>CollectedDataNode
+--
+- index : AbstractIndex
+- name : String
+- parent : CollectedDataNode
+- children : Map&lt;String, CollectedDataNode&gt;
+--
++ CollectedDataNode(name : String, parent : CollectedDataNode) &lt;&lt;constructor&gt;&gt;
++ addChild(name : String) : CollectedDataNode
++ setIndex(index : AbstractIndex) : void
++ getIndex() : AbstractIndex
++ addEntry(entry : Integer) : void
++ getParent() : CollectedDataNode
++ hasChildren() : boolean
++ getChildren() : Map&lt;String, CollectedDataNode&gt;
++ getFullName() : String
++ getName() : String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>654</x>
+      <y>792</y>
+      <w>504</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>RDOChartComposite
+--
+- horizontalSlider : Slider
+- verticalSlider : Slider
+--
++ RDOChartComposite(comp : Composite, style : int) &lt;&lt;constructor&gt;&gt;
++ setSliders(horizontalSlider : Slider, verticalSlider : Slider) : void
++ setSlidersMaximum(horizontalSliderMaximum : double, verticalSliderMaximum : double) : void
++ keyPressed(e : KeyEvent) : void &lt;&lt;override&gt;&gt;
++ keyReleased(e : KeyEvent) : void &lt;&lt;override&gt;&gt;
++ zoom(selection : Rectangle) : void &lt;&lt;override&gt;&gt;
++ restoreAutoBounds() : void &lt;&lt;override&gt;&gt;
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>702</x>
+      <y>978</y>
+      <w>126</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>ChartComposite
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>750</x>
+      <y>918</y>
+      <w>30</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>18;60;18;18</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>984</x>
+      <y>918</y>
+      <w>30</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>18;60;18;18</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>996</x>
+      <y>426</y>
+      <w>30</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>lt=&gt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>18;120;18;18</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>282</x>
+      <y>420</y>
+      <w>30</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>18;18;18;66</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>12</x>
+      <y>582</y>
+      <w>168</w>
+      <h>252</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>156;18;18;18;18;216;138;216;138;240</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>132</x>
+      <y>600</y>
+      <w>102</w>
+      <h>102</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>90;18;90;48;18;48;18;90</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>384</x>
+      <y>534</y>
+      <w>156</w>
+      <h>300</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>48;18;144;18;144;264;18;264;18;288</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>0</x>
+      <y>540</y>
+      <w>180</w>
+      <h>468</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>168;18;18;18;18;456;138;456</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>378</x>
+      <y>600</y>
+      <w>30</w>
+      <h>102</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>18;18;18;90</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>978</x>
+      <y>186</y>
+      <w>296</w>
+      <h>462</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1..n
+r1=Инициирует создание окна</panel_attributes>
+    <additional_attributes>126;450;180;450;180;96;18;96;18;18</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>918</x>
+      <y>0</y>
+      <w>596</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1..n
+r1=Получение данных для построения графика</panel_attributes>
+    <additional_attributes>480;66;480;18;18;18;18;60</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>282</x>
+      <y>0</y>
+      <w>494</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-&gt;
+m1=1...n</panel_attributes>
+    <additional_attributes>480;60;480;18;18;18;18;60</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>666</x>
+      <y>276</y>
+      <w>126</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>Subscriber
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>708</x>
+      <y>186</y>
+      <w>30</w>
+      <h>102</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;</panel_attributes>
+    <additional_attributes>18;18;18;90</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>1308</x>
+      <y>192</y>
+      <w>54</w>
+      <h>114</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-&gt;
+m1=1..n
+r1=создает</panel_attributes>
+    <additional_attributes>30;18;30;102</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>1476</x>
+      <y>192</y>
+      <w>98</w>
+      <h>258</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=источник данных </panel_attributes>
+    <additional_attributes>54;246;54;18</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>1350</x>
+      <y>750</y>
+      <w>70</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-&gt;
+n1=1..n</panel_attributes>
+    <additional_attributes>36;18;36;78</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>282</x>
+      <y>234</y>
+      <w>30</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-&gt;
+m1=1..1</panel_attributes>
+    <additional_attributes>18;18;18;108</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>954</x>
+      <y>402</y>
+      <w>126</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>JFreeChart
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>870</x>
+      <y>186</y>
+      <w>30</w>
+      <h>102</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>18;90;18;18</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>828</x>
+      <y>276</y>
+      <w>126</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>ViewPart
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>870</x>
+      <y>300</y>
+      <w>30</w>
+      <h>258</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>18;18;18;246</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>354</x>
+      <y>156</y>
+      <w>312</w>
+      <h>732</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=передает информацию об обновлении данных графика</panel_attributes>
+    <additional_attributes>300;720;246;720;246;18;300;18</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>882</x>
+      <y>696</y>
+      <w>30</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&lt;&gt;
+m1=1..1
+</panel_attributes>
+    <additional_attributes>18;18;18;96</additional_attributes>
+  </element>
+</diagram>
