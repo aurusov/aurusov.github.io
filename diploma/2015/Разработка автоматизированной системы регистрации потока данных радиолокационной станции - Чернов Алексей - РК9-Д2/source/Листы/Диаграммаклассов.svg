@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="575" version="1.1" width="743" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#ffffff" height="146" stroke="#ffffff" stroke-width="1" width="255" x="474" y="414"/>
+<rect fill="none" height="146" stroke="#000000" stroke-width="1" width="255" x="474" y="414"/>
+<text font-family="Dialog" font-size="12" x="548" y="428">
++ CommandPacket</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="255" x="474" y="438"/>
+<text font-family="Dialog" font-size="12" x="478" y="453">
+-p_size : Integer</text>
+<text font-family="Dialog" font-size="12" x="478" y="470">
+-p_packet : u_char[]</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="255" x="474" y="481"/>
+<text font-family="Dialog" font-size="12" x="478" y="496">
++CommandPacket(size : int,packet : u_char[])</text>
+<text font-family="Dialog" font-size="12" x="478" y="513">
++~CommandPacket()</text>
+<text font-family="Dialog" font-size="12" x="478" y="530">
++size() : int</text>
+<text font-family="Dialog" font-size="12" x="478" y="547">
++packet() : u_char[]</text>
+<rect fill="#ffffff" height="227" stroke="#ffffff" stroke-width="1" width="339" x="82" y="334"/>
+<rect fill="none" height="227" stroke="#000000" stroke-width="1" width="339" x="82" y="334"/>
+<text font-family="Dialog" font-size="12" x="200" y="348">
++ PacketGenerator</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="339" x="82" y="358"/>
+<text font-family="Dialog" font-size="12" x="86" y="373">
+-packet : u_char</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="339" x="82" y="399"/>
+<text font-family="Dialog" font-size="12" x="86" y="414">
++PacketGenerator()</text>
+<text font-family="Dialog" font-size="12" x="86" y="431">
++generateCommand(command : u_char) : CommandPacket</text>
+<text font-family="Dialog" font-size="12" x="86" y="448">
++setDestMac(destMac : u_char[])</text>
+<text font-family="Dialog" font-size="12" x="86" y="465">
++setSourceMac(sourceMac : u_char[])</text>
+<text font-family="Dialog" font-size="12" x="86" y="482">
++setSourceIp(sourceIp : u_char[])</text>
+<text font-family="Dialog" font-size="12" x="86" y="499">
++setDestIp(destIp : u_char[])</text>
+<text font-family="Dialog" font-size="12" x="86" y="516">
++setSourcePort(sourcePort : u_char[])</text>
+<text font-family="Dialog" font-size="12" x="86" y="533">
++setDestPort(destPort : u_char[])</text>
+<rect fill="#ffffff" height="68" stroke="#ffffff" stroke-width="1" width="66" x="82" y="14"/>
+<rect fill="none" height="68" stroke="#000000" stroke-width="1" width="66" x="82" y="14"/>
+<text font-family="Dialog" font-size="12" x="97" y="28">
++ FILE</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="66" x="82" y="38"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="66" x="82" y="59"/>
+<rect fill="#ffffff" height="68" stroke="#ffffff" stroke-width="1" width="66" x="170" y="14"/>
+<rect fill="none" height="68" stroke="#000000" stroke-width="1" width="66" x="170" y="14"/>
+<text font-family="Dialog" font-size="12" x="179" y="28">
++ pcap_t</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="66" x="170" y="38"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="66" x="170" y="59"/>
+<rect fill="#ffffff" height="188" stroke="#ffffff" stroke-width="1" width="227" x="82" y="118"/>
+<rect fill="none" height="188" stroke="#000000" stroke-width="1" width="227" x="82" y="118"/>
+<text font-family="Dialog" font-size="12" x="152" y="132">
++ SocketService</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="227" x="82" y="142"/>
+<text font-family="Dialog" font-size="12" x="86" y="157">
+-pg : PacketGenerator</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="227" x="82" y="172"/>
+<text font-family="Dialog" font-size="12" x="86" y="187">
++sendResetCommand()</text>
+<text font-family="Dialog" font-size="12" x="86" y="204">
++sendPreconfigCommand()</text>
+<text font-family="Dialog" font-size="12" x="86" y="221">
++sendConfigCommand()</text>
+<text font-family="Dialog" font-size="12" x="86" y="238">
++mainLoop()</text>
+<text font-family="Dialog" font-size="12" x="86" y="255">
++finish()</text>
+<text font-family="Dialog" font-size="12" x="86" y="272">
+-initDriver() : bool</text>
+<text font-family="Dialog" font-size="12" x="86" y="289">
+-sendCommand(command : u_char)</text>
+<rect fill="#ffffff" height="211" stroke="#ffffff" stroke-width="1" width="183" x="546" y="118"/>
+<rect fill="none" height="211" stroke="#000000" stroke-width="1" width="183" x="546" y="118"/>
+<text font-family="Dialog" font-size="12" x="587" y="132">
++ StatisticsService</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="183" x="546" y="142"/>
+<text font-family="Dialog" font-size="12" x="550" y="157">
+-packetReceived : Integer</text>
+<text font-family="Dialog" font-size="12" x="550" y="174">
+-dataReceived : Integer</text>
+<text font-family="Dialog" font-size="12" x="550" y="191">
+-start : Integer</text>
+<text font-family="Dialog" font-size="12" x="550" y="208">
+-end : Integer</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="183" x="546" y="218"/>
+<text font-family="Dialog" font-size="12" x="550" y="233">
++packetReceivedInc()</text>
+<text font-family="Dialog" font-size="12" x="550" y="250">
++dataReceive(dataLen : Integer)</text>
+<text font-family="Dialog" font-size="12" x="550" y="267">
++timerStart()</text>
+<text font-family="Dialog" font-size="12" x="550" y="284">
++timerStop()</text>
+<text font-family="Dialog" font-size="12" x="550" y="301">
++getStatistics()</text>
+<text font-family="Dialog" font-size="12" x="550" y="318">
++getPacketReceived() : Integer</text>
+<polyline fill="none" points="474,478 420,478" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="432" x2="420" y1="471" y2="478"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="432" x2="420" y1="485" y2="478"/>
+<text font-family="Dialog" font-size="12" x="416" y="458">
+ </text>
+<polyline fill="none" points="178,334 178,305" stroke="#000000" stroke-width="1"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="185" x2="178" y1="317" y2="305"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="171" x2="178" y1="317" y2="305"/>
+<text font-family="Dialog" font-size="12" x="100" y="325">
+ </text>
+<polyline fill="none" points="506,414 506,286 308,286" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="12" x="440" y="266">
+ </text>
+<polyline fill="none" points="106,118 106,81" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="12" x="28" y="105">
+ </text>
+<polyline fill="none" points="195,118 195,81" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="12" x="117" y="105">
+ </text>
+<rect fill="#ffffff" height="68" stroke="#ffffff" stroke-width="1" width="70" x="258" y="14"/>
+<rect fill="none" height="68" stroke="#000000" stroke-width="1" width="70" x="258" y="14"/>
+<text font-family="Dialog" font-size="12" x="263" y="28">
++ pcap_if_t</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="70" x="258" y="38"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="70" x="258" y="59"/>
+<polyline fill="none" points="268,118 268,81" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="12" x="190" y="105">
+ </text>
+<rect fill="#ffffff" height="68" stroke="#ffffff" stroke-width="1" width="97" x="626" y="22"/>
+<rect fill="none" height="68" stroke="#000000" stroke-width="1" width="97" x="626" y="22"/>
+<text font-family="Dialog" font-size="12" x="632" y="36">
++ SYSTEMTIME</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="97" x="626" y="46"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="97" x="626" y="67"/>
+<polyline fill="none" points="674,118 674,89" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="12" x="596" y="109">
+ </text>
+<polyline fill="none" points="546,134 308,134" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="12" x="396" y="114">
+ </text>
+</svg>
