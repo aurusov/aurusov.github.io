@@ -1,0 +1,1101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.3">
+  <zoom_level>5</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>775</x>
+      <y>120</y>
+      <w>280</w>
+      <h>95</h>
+    </coordinates>
+    <panel_attributes>+ Advance
+--
+- inputDock : InputDock
+- outputDock : OutputDock
+- duration : Supplier&lt;Integer&gt;
+- temporaryTransactOnOutput : Transact
+--
++ Advance(duration : Supplier&lt;Integer&gt;) &lt;&lt;Constructor&gt;&gt;
++ getInputDock() : InputDock
++ getOutputDock() : OutputDock
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>815</x>
+      <y>490</y>
+      <w>285</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>+ Link
+--
++ linkDocks(outputDock : OutputDock, inputDock : InputDock) : void 
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1160</x>
+      <y>455</y>
+      <w>235</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>+ Process
+--
+- blocks : List&lt;Block&gt;
+--
++ scan() : ProcessStatus
++ addBlocks(blocks : List&lt;Blocks&gt;) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>495</x>
+      <y>460</y>
+      <w>235</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>+ OutputDock
+--
+- storedTransact : Transact
+--
++ pushTransact(transact : Transact) : boolean
++ pullTransact() : Transact
++ hasTransact() : boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>880</x>
+      <y>790</y>
+      <w>105</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
++ Serializable
+--
+ 
+--
++ serialize() : ByteBuffer</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>495</x>
+      <y>330</y>
+      <w>235</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>+ InputDock
+--
+- linkedDocks : List&lt;OutputDock&gt;
+--
++ addLinkedDock(outputDock : OutputDock) : void
++ pullTransact() : Transact</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>195</x>
+      <y>0</y>
+      <w>235</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>+ Queue
+--
+- inputDock : InputDock
+- outputDock : OutputDock
+- queue : Queue&lt;Transact&gt;
+--
++ getOutputDock() : OutputDock
++ getInputDock() : InputDock</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>245</x>
+      <y>175</y>
+      <w>105</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>+ RuntimeException
+--
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>65</x>
+      <y>245</y>
+      <w>300</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>+ ProcessException
+--
+
+--
++ ProcessException(exceptionMessage : String) &lt;&lt;Constructor&gt;&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>695</x>
+      <y>805</y>
+      <w>125</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
++ Resource
+--
+
+--
++ getName() : String 
++ getNumber() : Integer
++ getTypeName() : String
+ </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>530</x>
+      <y>705</y>
+      <w>280</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>+ Transact
+--
+- transactManager : ResourceManager&lt;Transact&gt;
+- number : Integer
+--
++ register() : void
++ eraseTransact(transact : Transact) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>480</x>
+      <y>180</y>
+      <w>235</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>+ Terminate
+--
+- inputDock : InputDock
+--
++ getInputDock() : InputDock</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>110</x>
+      <y>335</y>
+      <w>235</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>+ Release
+--
+- resource : Resource
+- inputDock : InputDock
+- outputDock : OutputDock
+--
++ Release(resource : Resource) &lt;&lt;Constructor&gt;&gt;
++ getOutputDock() : OutputDock
++ getInputDock() : InputDock</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>785</x>
+      <y>25</y>
+      <w>280</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>- AdvanceEvent
+--
+- time : double
+- transact : Transact
+--
++ AdvanceEvent(time : double, transact : Transact) &lt;&lt;Constructor&gt;&gt;
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>610</x>
+      <y>25</y>
+      <w>105</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
++ Event
+--
+
+--
++ getName() : String 
++ getTime() : double
++ run() : void </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>210</x>
+      <y>680</y>
+      <w>145</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
++ ResourceComparison&lt;T&gt;
+--
+ 
+--
++ checkEqual(other : T) : boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>825</x>
+      <y>295</y>
+      <w>235</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>+ Test
+--
+- inputDock : InputDock
+- trueOutputDock : OutputDock
+- falseOutputDock : OutputDock
+--
++ getInputDock() : InputDock
++ getTrueOutputDock() : OutputDock
++ getFalseOutputDock() : OutputDock</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>505</x>
+      <y>595</y>
+      <w>235</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>+ Generate
+--
+- interval : Supplier&lt;Integer&gt;
+- ready : boolean
+- outputDock : OutputDock
+--
++ Generate(interval : Supplier&lt;Integer&gt;) &lt;&lt;Constructor&gt;&gt;
++ getOutputDock() : OutputDock</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>200</x>
+      <y>580</y>
+      <w>235</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>+ Seize
+--
+- resource : Resource
+- inputDock : InputDock
+- outputDock : OutputDock
+--
++ Seize(resource : Resource) &lt;&lt;Constructor&gt;&gt;
++ getOutputDock() : OutputDock
++ getInputDock() : InputDock</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>65</x>
+      <y>455</y>
+      <w>280</w>
+      <h>95</h>
+    </coordinates>
+    <panel_attributes>+ Resource
+--
+- resourceManager : ResourceManager&lt;Resource&gt;
+- state : ResourceState
+- number : Integer
+--
++ lock() : void
++ unlock() : void
++ register() : Resource
++ isLocked() : boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>710</x>
+      <y>35</y>
+      <w>85</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;150.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>100</x>
+      <y>545</y>
+      <w>15</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;340.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>570</x>
+      <y>765</y>
+      <w>15</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>750</x>
+      <y>765</y>
+      <w>15</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>815</x>
+      <y>815</y>
+      <w>75</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>130.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>610</x>
+      <y>385</y>
+      <w>30</w>
+      <h>85</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+m2=1..n</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1205</x>
+      <y>550</y>
+      <w>105</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
++ Block
+--
+ 
+--
++ check() : BlockStatus</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>875</x>
+      <y>705</y>
+      <w>210</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>- GenerateEvent
+--
+- time : double
+--
++ GenerateEvent(time : double) &lt;&lt;Constructor&gt;&gt;
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1130</x>
+      <y>10</y>
+      <w>290</w>
+      <h>380</h>
+    </coordinates>
+    <panel_attributes>+ Simulator
+--
+- INSTANCE : Simulator
+- simulatorState : SimulatorState
+- simulatorStateNotifier  : Notifier&lt;SimulatorState&gt;
+- database : Database
+- modelStructureCache : ModelStructureCache
+- time : double
+- eventScheduler : EventScheduler
+- terminateList : LinkedList&lt;TerminateCondition&gt;
+- dptManager : DPTManager
+- processManager : Process
+- resultManager : ResultManager
+- executionStateNotifier : Notifier&lt;ExecutionState&gt;
+- isRunning : boolean
+- executionAborted : boolean
+--
++ initSimulation(modelStructure : JSONObject) : void
+- setSimulationState(simulatorState : SimulatorState( : void
++ notifyError() : void
++ getSimulatorStateNotifier() : Notifier&lt;SimulatorState&gt;
++ isInitialized() : boolean
++ isRunning() : boolean
++ getDatabase() : Database
++ getModelStructureCache() : ModelStructureCache
++ getTime() : double
++ pushEvent(event : Event) : void
++ addTerminateCondition(c : TerminateCondition) : void
++ getProcess() : Process
++ addDecisionPoint(dpt : DecisionPoint) : void
++ addResult(result : Result) : void
++ getResults() : LinkedList&lt;Result&gt;
++ getExecutionStateNotifier() : Notifier&lt;ExecutionState&gt;
+- notifyChange(category : ExecutionState) : void
++ stopExecution() : void
+- checkTerminate() : boolean
++ run() : SimulatioStopCode
+- onFinish(simFinishType : Database.SystemEntryType) : void
+- stop(code : SimulatioStopCode) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>140</x>
+      <y>545</y>
+      <w>80</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>140.0;300.0;10.0;300.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1055</x>
+      <y>595</y>
+      <w>105</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
++ Event
+--
+
+--
++ getName() : String 
++ getTime() : double
++ run() : void </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>70</y>
+      <w>105</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
++ Block
+--
+ 
+--
++ check() : BlockStatus</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1080</x>
+      <y>660</y>
+      <w>65</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>110.0;10.0;110.0;160.0;10.0;160.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>725</x>
+      <y>450</y>
+      <w>170</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+&lt; связывает с InputDock</panel_attributes>
+    <additional_attributes>10.0;30.0;320.0;30.0;320.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>680</x>
+      <y>265</y>
+      <w>415</w>
+      <h>235</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+&lt; связывает с OutputDock</panel_attributes>
+    <additional_attributes>10.0;130.0;10.0;30.0;810.0;30.0;810.0;450.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>610</x>
+      <y>215</y>
+      <w>15</w>
+      <h>125</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;230.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>645</x>
+      <y>210</y>
+      <w>260</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>500.0;10.0;500.0;70.0;10.0;70.0;10.0;240.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>550</x>
+      <y>515</y>
+      <w>15</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>10.0;160.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>725</x>
+      <y>315</y>
+      <w>110</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>200.0;10.0;120.0;10.0;120.0;80.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>685</x>
+      <y>370</y>
+      <w>195</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+m2=1..n</panel_attributes>
+    <additional_attributes>370.0;10.0;370.0;100.0;10.0;100.0;10.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>700</x>
+      <y>155</y>
+      <w>425</w>
+      <h>400</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>710.0;10.0;830.0;10.0;830.0;780.0;10.0;780.0;10.0;730.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>425</x>
+      <y>45</y>
+      <w>125</w>
+      <h>295</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;10.0;60.0;480.0;230.0;480.0;230.0;570.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>340</x>
+      <y>365</y>
+      <w>165</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>10.0;10.0;310.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>415</x>
+      <y>495</y>
+      <w>90</w>
+      <h>95</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>10.0;170.0;10.0;10.0;160.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>20</x>
+      <y>135</y>
+      <w>485</w>
+      <h>760</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>790.0;1050.0;790.0;1500.0;10.0;1500.0;10.0;10.0;720.0;10.0;720.0;400.0;950.0;400.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>60</x>
+      <y>715</y>
+      <w>125</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
++ Resource
+--
+
+--
++ getName() : String 
++ getNumber() : Integer
++ getTypeName() : String
+ </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>505</x>
+      <y>805</y>
+      <w>145</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
++ ResourceComparison&lt;T&gt;
+--
+ 
+--
++ checkEqual(other : T) : boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>70</x>
+      <y>820</y>
+      <w>105</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
++ Serializable
+--
+ 
+--
++ serialize() : ByteBuffer</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>245</x>
+      <y>770</y>
+      <w>105</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
++ Block
+--
+ 
+--
++ check() : BlockStatus</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>340</x>
+      <y>390</y>
+      <w>185</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>10.0;10.0;180.0;10.0;180.0;70.0;350.0;70.0;350.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>0</x>
+      <y>20</y>
+      <w>510</w>
+      <h>895</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>390.0;10.0;10.0;10.0;10.0;1770.0;930.0;1770.0;930.0;1030.0;1000.0;1030.0;1000.0;1000.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>480</x>
+      <y>515</y>
+      <w>85</w>
+      <h>235</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1
+m2=1
+временно хранит</panel_attributes>
+    <additional_attributes>100.0;440.0;10.0;440.0;10.0;80.0;90.0;80.0;90.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>735</x>
+      <y>645</y>
+      <w>255</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+планирует &gt;
+&lt; устанавливает готовность</panel_attributes>
+    <additional_attributes>280.0;140.0;250.0;140.0;250.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>845</x>
+      <y>70</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+планирует
+"выставляет выходной транзакт</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>920</x>
+      <y>75</y>
+      <w>220</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+добавляет события в планировщик &gt;</panel_attributes>
+    <additional_attributes>420.0;30.0;10.0;30.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>615</x>
+      <y>385</y>
+      <w>540</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+добавляет события в планировщик &gt;</panel_attributes>
+    <additional_attributes>1060.0;10.0;1060.0;360.0;10.0;360.0;10.0;420.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>335</x>
+      <y>505</y>
+      <w>65</w>
+      <h>85</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+захватывает</panel_attributes>
+    <additional_attributes>20.0;30.0;100.0;30.0;100.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>325</x>
+      <y>410</y>
+      <w>125</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+освобождает</panel_attributes>
+    <additional_attributes>40.0;160.0;120.0;160.0;120.0;30.0;10.0;30.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>120</x>
+      <y>780</y>
+      <w>15</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>345</x>
+      <y>655</y>
+      <w>60</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;260.0;100.0;260.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1225</x>
+      <y>505</y>
+      <w>30</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+m2=1..n</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1195</x>
+      <y>385</y>
+      <w>190</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+запускает сканирование &gt;</panel_attributes>
+    <additional_attributes>360.0;10.0;360.0;90.0;10.0;90.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>70</x>
+      <y>165</y>
+      <w>105</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
++ Block
+--
+ 
+--
++ check() : BlockStatus</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>40</x>
+      <y>175</y>
+      <w>80</w>
+      <h>205</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>60.0;10.0;10.0;10.0;10.0;390.0;140.0;390.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>295</x>
+      <y>210</y>
+      <w>15</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>155</x>
+      <y>285</y>
+      <w>15</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>150</x>
+      <y>65</y>
+      <w>90</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;60.0;160.0;60.0;160.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>485</x>
+      <y>90</y>
+      <w>105</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
++ Block
+--
+ 
+--
++ check() : BlockStatus</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>525</x>
+      <y>135</y>
+      <w>15</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>880</x>
+      <y>615</y>
+      <w>105</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
++ Block
+--
+ 
+--
++ check() : BlockStatus</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>735</x>
+      <y>575</y>
+      <w>200</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>380.0;80.0;380.0;10.0;180.0;10.0;180.0;90.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>580</x>
+      <y>100</y>
+      <w>205</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;110.0;10.0;110.0;60.0;390.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>955</x>
+      <y>400</y>
+      <w>105</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
++ Block
+--
+ 
+--
++ check() : BlockStatus</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>915</x>
+      <y>370</y>
+      <w>50</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>80.0;110.0;10.0;110.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1155</x>
+      <y>385</y>
+      <w>265</w>
+      <h>265</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+&lt; выполняет</panel_attributes>
+    <additional_attributes>10.0;510.0;510.0;510.0;510.0;10.0</additional_attributes>
+  </element>
+</diagram>
