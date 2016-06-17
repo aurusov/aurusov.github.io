@@ -1,0 +1,2482 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1488.189"
+   height="2104.7244"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="А2.svg">
+  <defs
+     id="defs4">
+    <symbol
+       id="*Paper_Space0" />
+    <symbol
+       id="*Paper_Space" />
+    <symbol
+       id="*Model_Space" />
+    <pattern
+       id="Hatch"
+       x="0"
+       y="0"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       height="8">
+      <path
+         id="path2995"
+         d="M8 4 l-4,4"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square" />
+      <path
+         id="path2997"
+         d="M6 2 l-4,4"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square" />
+      <path
+         id="path2999"
+         d="M4 0 l-4,4"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square" />
+    </pattern>
+    <marker
+       orient="auto"
+       id="DistanceX"
+       style="overflow:visible"
+       refX="0.0"
+       refY="0.0">
+      <path
+         id="path2992"
+         d="M 3,-3 L -3,3 M 0,-5 L  0,5"
+         style="stroke:#000000; stroke-width:0.5" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.24748737"
+     inkscape:cx="1348.5603"
+     inkscape:cy="1068.5797"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1015"
+     inkscape:window-x="1276"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,1052.3622)">
+    <g
+       id="g3004"
+       inkscape:label="0"
+       transform="translate(-0.15361122,-0.04486086)">
+      <path
+         id="path3006"
+         d="m 0,1052.3622 1488.189,0 0,-2104.7244 -1488.189,0 0,2104.7244 z"
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path3008"
+         d="m 70.866142,1034.6457 1399.606258,0 0,-2069.2914 -1399.606258,0 0,2069.2914 z"
+         style="fill:none;stroke:#000000;stroke-width:2.5"
+         inkscape:connector-curvature="0" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:GOST type B;-inkscape-font-specification:Sans Oblique"
+       x="1099.6333"
+       y="874.32275"
+       id="text3107"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3109"
+         x="1099.6333"
+         y="874.32275">Курсовой проект</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:26px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:GOST type B;-inkscape-font-specification:Sans Oblique"
+       x="1171.1683"
+       y="912.05988"
+       id="text3111"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="1171.1683"
+         y="932.05988"
+         id="tspan3115"
+         style="font-size:26px">Диаграмма пакетов</tspan><tspan
+         sodipodi:role="line"
+         x="1171.1683"
+         y="957.05988"
+         style="font-size:26px"
+         id="tspan10380">системы Rao X</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:GOST type B;-inkscape-font-specification:Sans Oblique"
+       x="1295.7991"
+       y="976.66559"
+       id="text3117"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3119"
+         x="1295.7991"
+         y="976.66559">Лист 2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:GOST type B;-inkscape-font-specification:Sans Oblique"
+       x="1365.7866"
+       y="976.58972"
+       id="text3117-1"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3119-7"
+         x="1365.7866"
+         y="976.58972">Листов</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:GOST type B;-inkscape-font-specification:Sans Oblique"
+       x="1294.0874"
+       y="1001.7679"
+       id="text3142"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3144"
+         x="1294.0874"
+         y="1001.7679"
+         style="font-size:14px">МГТУ им. Н.Э.Баумана</tspan><tspan
+         sodipodi:role="line"
+         x="1294.0874"
+         y="1023.0179"
+         id="tspan3146"
+         style="font-size:14px">фак.РК, группа РК9-28М</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:GOST type B;-inkscape-font-specification:Sans Oblique"
+       x="817.29559"
+       y="940.23517"
+       id="text3148"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3150"
+         x="817.29559"
+         y="940.23517">Разраб.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:GOST type B;-inkscape-font-specification:Sans Oblique"
+       x="815.78021"
+       y="957.91284"
+       id="text3152"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3154"
+         x="815.78021"
+         y="957.91284">Проверил</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:GOST type B;-inkscape-font-specification:Sans Oblique"
+       x="814.01233"
+       y="975.59045"
+       id="text3156"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3158"
+         x="814.01233"
+         y="975.59045">Т.контр.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:GOST type B;-inkscape-font-specification:Sans Oblique"
+       x="814.71674"
+       y="1011.339"
+       id="text3156-4"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3158-0"
+         x="814.71674"
+         y="1011.339">Н.контр.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:GOST type B;-inkscape-font-specification:Sans Oblique"
+       x="813.79315"
+       y="1028.7642"
+       id="text3156-9"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3158-4"
+         x="813.79315"
+         y="1028.7642">Утвердил</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:GOST type B;-inkscape-font-specification:Sans Oblique"
+       x="875.97888"
+       y="940.30176"
+       id="text3156-8"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3158-8"
+         x="875.97888"
+         y="940.30176">Чернов А.О.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:GOST type B;-inkscape-font-specification:Sans Oblique"
+       x="875.19061"
+       y="957.97949"
+       id="text3156-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3158-45"
+         x="875.19061"
+         y="957.97949">Урусов А.В.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:GOST type B;-inkscape-font-specification:Sans Oblique"
+       x="813.92841"
+       y="922.74396"
+       id="text3156-5"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3158-1"
+         x="813.92841"
+         y="922.74396">Изм.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:GOST type B;-inkscape-font-specification:Sans Oblique"
+       x="839.69012"
+       y="923.0119"
+       id="text3156-52"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3158-7"
+         x="839.69012"
+         y="923.0119">Лист</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:GOST type B;-inkscape-font-specification:Sans Oblique"
+       x="873.16742"
+       y="922.65472"
+       id="text3156-6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3158-14"
+         x="873.16742"
+         y="922.65472">№ документа</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:GOST type B;-inkscape-font-specification:Sans Oblique"
+       x="956.82538"
+       y="922.75037"
+       id="text3156-23"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3158-2"
+         x="956.82538"
+         y="922.75037">Подпись</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:GOST type B;-inkscape-font-specification:Sans Oblique"
+       x="1009.8853"
+       y="922.29761"
+       id="text3156-21"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3158-6"
+         x="1009.8853"
+         y="922.29761">Дата</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:GOST type B;-inkscape-font-specification:Sans Oblique"
+       x="1295.2268"
+       y="905.32532"
+       id="text3156-85"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3158-76"
+         x="1295.2268"
+         y="905.32532">Лит.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:GOST type B;-inkscape-font-specification:Sans Oblique"
+       x="1348.1333"
+       y="905.19904"
+       id="text3156-1"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3158-89"
+         x="1348.1333"
+         y="905.19904">Масса</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:GOST type B;-inkscape-font-specification:Sans Oblique"
+       x="1407.48"
+       y="905.3252"
+       id="text3156-27"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3158-9"
+         x="1407.48"
+         y="905.3252">Масштаб</tspan></text>
+    <path
+       id="path3326"
+       d="m 1469.3953,980.41778 -425.197,0"
+       style="fill:none;stroke:#000000;stroke-width:2.5"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path3328"
+       d="m 1044.1983,1033.5674 0,-194.88192"
+       style="fill:none;stroke:#000000;stroke-width:2.5"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path3330"
+       d="m 1044.1983,891.8351 425.197,0"
+       style="fill:none;stroke:#000000;stroke-width:2.5"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path3332"
+       d="m 1469.3953,838.68548 -655.51188,0"
+       style="fill:none;stroke:#000000;stroke-width:2.5"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path3334"
+       d="m 813.88342,838.68548 0,194.88192"
+       style="fill:none;stroke:#000000;stroke-width:2.5"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path3336"
+       d="m 1292.2299,1033.5674 0,-141.7323"
+       style="fill:none;stroke:#000000;stroke-width:2.5"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path3338"
+       d="m 813.88342,856.40198 230.31488,0"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path3340"
+       d="m 813.88342,874.11858 230.31488,0"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path3342"
+       d="m 813.88342,891.8351 230.31488,0"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path3344"
+       d="m 813.88342,909.55165 230.31488,0"
+       style="fill:none;stroke:#000000;stroke-width:2.5"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path3346"
+       d="m 813.88342,927.26816 230.31488,0"
+       style="fill:none;stroke:#000000;stroke-width:2.5"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path3348"
+       d="m 813.88342,944.9847 230.31488,0"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path3350"
+       d="m 813.88342,962.70124 230.31488,0"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path3352"
+       d="m 813.88342,980.41778 230.31488,0"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path3354"
+       d="m 813.88342,998.13429 230.31488,0"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path3356"
+       d="m 813.88342,1015.8508 230.31488,0"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path3358"
+       d="m 1405.6158,891.8351 0,70.86614"
+       style="fill:none;stroke:#000000;stroke-width:2.5"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path3360"
+       d="m 1469.3953,909.55165 -177.1654,0"
+       style="fill:none;stroke:#000000;stroke-width:2.5"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path3362"
+       d="m 1345.3796,962.70124 0,-70.86614"
+       style="fill:none;stroke:#000000;stroke-width:2.5"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path3364"
+       d="m 1469.3953,962.70124 -177.1654,0"
+       style="fill:none;stroke:#000000;stroke-width:2.5"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path3366"
+       d="m 1309.9465,909.55165 0,53.14959"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path3368"
+       d="m 1327.663,909.55165 0,53.14959"
+       style="fill:none;stroke:#000000;stroke-width:1"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path3370"
+       d="m 1363.0961,980.41778 0,-17.71654"
+       style="fill:none;stroke:#000000;stroke-width:2.5"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path3372"
+       d="m 1008.7653,838.68548 0,194.88192"
+       style="fill:none;stroke:#000000;stroke-width:2.5"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path3374"
+       d="m 955.61571,838.68548 0,194.88192"
+       style="fill:none;stroke:#000000;stroke-width:2.5"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path3376"
+       d="m 874.11962,838.68548 0,194.88192"
+       style="fill:none;stroke:#000000;stroke-width:2.5"
+       inkscape:connector-curvature="0" />
+    <path
+       id="path3378"
+       d="m 838.68651,838.68548 0,88.58268"
+       style="fill:none;stroke:#000000;stroke-width:2.5"
+       inkscape:connector-curvature="0" />
+    <g
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;font-family:Dialog"
+       id="g9882"
+       transform="translate(-2040.7094,-1310.7142)">
+      <g
+         id="g8903">
+        <defs
+           id="defs1">
+          <clipPath
+             id="clipPath1"
+             clipPathUnits="userSpaceOnUse">
+            <path
+               id="path8907"
+               d="m 0,0 2147483600,0 0,2147483600 L 0,2147483600 0,0 z"
+               inkscape:connector-curvature="0" />
+          </clipPath>
+          <clipPath
+             id="clipPath2"
+             clipPathUnits="userSpaceOnUse">
+            <path
+               id="path8910"
+               d="m 0,0 0,560 350,0 0,-560 z"
+               inkscape:connector-curvature="0" />
+          </clipPath>
+          <clipPath
+             id="clipPath3"
+             clipPathUnits="userSpaceOnUse">
+            <path
+               id="path8913"
+               d="m 0,0 0,70 280,0 0,-70 z"
+               inkscape:connector-curvature="0" />
+          </clipPath>
+          <clipPath
+             id="clipPath4"
+             clipPathUnits="userSpaceOnUse">
+            <path
+               id="path8916"
+               d="m 0,0 0,120 600,0 0,-120 z"
+               inkscape:connector-curvature="0" />
+          </clipPath>
+          <clipPath
+             id="clipPath5"
+             clipPathUnits="userSpaceOnUse">
+            <path
+               id="path8919"
+               d="m 0,0 0,930 600,0 0,-930 z"
+               inkscape:connector-curvature="0" />
+          </clipPath>
+          <clipPath
+             id="clipPath6"
+             clipPathUnits="userSpaceOnUse">
+            <path
+               id="path8922"
+               d="m 0,0 0,840 600,0 0,-840 z"
+               inkscape:connector-curvature="0" />
+          </clipPath>
+          <clipPath
+             id="clipPath7"
+             clipPathUnits="userSpaceOnUse">
+            <path
+               id="path8925"
+               d="m 0,0 0,300 600,0 0,-300 z"
+               inkscape:connector-curvature="0" />
+          </clipPath>
+          <clipPath
+             id="clipPath8"
+             clipPathUnits="userSpaceOnUse">
+            <path
+               id="path8928"
+               d="m 0,0 0,210 100,0 0,-210 z"
+               inkscape:connector-curvature="0" />
+          </clipPath>
+          <clipPath
+             id="clipPath9"
+             clipPathUnits="userSpaceOnUse">
+            <path
+               id="path8931"
+               d="m 0,0 0,110 320,0 0,-110 z"
+               inkscape:connector-curvature="0" />
+          </clipPath>
+          <clipPath
+             id="clipPath10"
+             clipPathUnits="userSpaceOnUse">
+            <path
+               id="path8934"
+               d="m 0,0 0,420 520,0 0,-420 z"
+               inkscape:connector-curvature="0" />
+          </clipPath>
+          <clipPath
+             id="clipPath11"
+             clipPathUnits="userSpaceOnUse">
+            <path
+               id="path8937"
+               d="m 0,0 0,380 530,0 0,-380 z"
+               inkscape:connector-curvature="0" />
+          </clipPath>
+          <clipPath
+             id="clipPath12"
+             clipPathUnits="userSpaceOnUse">
+            <path
+               id="path8940"
+               d="m 0,0 0,240 100,0 0,-240 z"
+               inkscape:connector-curvature="0" />
+          </clipPath>
+        </defs>
+        <g
+           id="g9234"
+           transform="translate(2490,1530)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9236"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 213.1328,0 0,24.6719 65.3672,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9238"
+           transform="translate(2490,1530)">
+          <path
+             id="path9240"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 213.1328,0 0,24.6719 65.3672,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9242"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 213.1328,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9244"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.compiler</text>
+        </g>
+        <g
+           id="g9246"
+           transform="translate(2490,1620)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9248"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 220.6279,0 0,24.6719 57.8721,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9250"
+           transform="translate(2490,1620)">
+          <path
+             id="path9252"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 220.6279,0 0,24.6719 57.8721,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9254"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 220.6279,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9256"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.jvmmodel</text>
+        </g>
+        <g
+           id="g9258"
+           transform="translate(2190,1530)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9260"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 139.2061,0 0,24.6719 139.2939,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9262"
+           transform="translate(2190,1530)">
+          <path
+             id="path9264"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 139.2061,0 0,24.6719 139.2939,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9266"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 139.2061,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9268"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao</text>
+        </g>
+        <g
+           id="g9270"
+           transform="translate(2490,1710)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9272"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 219.6807,0 0,24.6719 58.8193,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9274"
+           transform="translate(2490,1710)">
+          <path
+             id="path9276"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 219.6807,0 0,24.6719 58.8193,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9278"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 219.6807,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9280"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.validation</text>
+        </g>
+        <g
+           id="g9282"
+           transform="translate(2190,1710)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9284"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 234.7363,0 0,24.6719 43.7637,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9286"
+           transform="translate(2190,1710)">
+          <path
+             id="path9288"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 234.7363,0 0,24.6719 43.7637,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9290"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 234.7363,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9292"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.typesystem</text>
+        </g>
+        <g
+           id="g9294"
+           transform="translate(2190,1620)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9296"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 233.9697,0 0,24.6719 44.5303,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9298"
+           transform="translate(2190,1620)">
+          <path
+             id="path9300"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 233.9697,0 0,24.6719 44.5303,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9302"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 233.9697,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9304"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.formatting2</text>
+        </g>
+        <g
+           id="g9306"
+           transform="translate(2850,830)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9308"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 244.6855,0 0,24.6719 33.8145,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9310"
+           transform="translate(2850,830)">
+          <path
+             id="path9312"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 244.6855,0 0,24.6719 33.8145,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9314"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 244.6855,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9316"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.lib.animation</text>
+        </g>
+        <g
+           id="g9318"
+           transform="translate(3150,830)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9320"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 241.2041,0 0,24.6719 37.2959,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9322"
+           transform="translate(3150,830)">
+          <path
+             id="path9324"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 241.2041,0 0,24.6719 37.2959,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9326"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 241.2041,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9328"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.lib.database</text>
+        </g>
+        <g
+           id="g9330"
+           transform="translate(2850,920)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9332"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 192.7803,0 0,24.6719 85.7197,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9334"
+           transform="translate(2850,920)">
+          <path
+             id="path9336"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 192.7803,0 0,24.6719 85.7197,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9338"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 192.7803,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9340"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.lib.dpt</text>
+        </g>
+        <g
+           id="g9342"
+           transform="translate(3150,920)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9344"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 211.791,0 0,24.6719 66.709,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9346"
+           transform="translate(3150,920)">
+          <path
+             id="path9348"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 211.791,0 0,24.6719 66.709,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9350"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 211.791,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9352"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.lib.event</text>
+        </g>
+        <g
+           id="g9354"
+           transform="translate(2850,1010)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9356"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 243.6924,0 0,24.6719 34.8076,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9358"
+           transform="translate(2850,1010)">
+          <path
+             id="path9360"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 243.6924,0 0,24.6719 34.8076,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9362"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 243.6924,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9364"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.lib.exception</text>
+        </g>
+        <g
+           id="g9366"
+           transform="translate(3150,1010)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9368"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 199.6592,0 0,24.6719 78.8408,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9370"
+           transform="translate(3150,1010)">
+          <path
+             id="path9372"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 199.6592,0 0,24.6719 78.8408,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9374"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 199.6592,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9376"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.lib.json</text>
+        </g>
+        <g
+           id="g9378"
+           transform="translate(2850,1100)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9380"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 251.1816,0 0,24.6719 27.3184,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9382"
+           transform="translate(2850,1100)">
+          <path
+             id="path9384"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 251.1816,0 0,24.6719 27.3184,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9386"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 251.1816,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9388"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.lib.modeldata</text>
+        </g>
+        <g
+           id="g9390"
+           transform="translate(3150,1100)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9392"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 225.7217,0 0,24.6719 52.7783,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9394"
+           transform="translate(3150,1100)">
+          <path
+             id="path9396"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 225.7217,0 0,24.6719 52.7783,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9398"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 225.7217,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9400"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.lib.naming</text>
+        </g>
+        <g
+           id="g9402"
+           transform="translate(2850,1190)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9404"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 252.6924,0 0,24.6719 25.8076,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9406"
+           transform="translate(2850,1190)">
+          <path
+             id="path9408"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 252.6924,0 0,24.6719 25.8076,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9410"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 252.6924,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9412"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.lib.notification</text>
+        </g>
+        <g
+           id="g9414"
+           transform="translate(3150,1190)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9416"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 222.6777,0 0,24.6719 55.8223,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9418"
+           transform="translate(3150,1190)">
+          <path
+             id="path9420"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 222.6777,0 0,24.6719 55.8223,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9422"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 222.6777,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9424"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.lib.pattern</text>
+        </g>
+        <g
+           id="g9426"
+           transform="translate(2850,1280)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9428"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 230.2227,0 0,24.6719 48.2773,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9430"
+           transform="translate(2850,1280)">
+          <path
+             id="path9432"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 230.2227,0 0,24.6719 48.2773,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9434"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 230.2227,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9436"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.lib.process</text>
+        </g>
+        <g
+           id="g9438"
+           transform="translate(3150,1280)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9440"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 237.1699,0 0,24.6719 41.3301,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9442"
+           transform="translate(3150,1280)">
+          <path
+             id="path9444"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 237.1699,0 0,24.6719 41.3301,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9446"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 237.1699,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9448"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.lib.resource</text>
+        </g>
+        <g
+           id="g9450"
+           transform="translate(2850,1370)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9452"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 211.7734,0 0,24.6719 66.7266,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9454"
+           transform="translate(2850,1370)">
+          <path
+             id="path9456"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 211.7734,0 0,24.6719 66.7266,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9458"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 211.7734,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9460"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.lib.result</text>
+        </g>
+        <g
+           id="g9462"
+           transform="translate(3150,1370)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9464"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 227.1592,0 0,24.6719 51.3408,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9466"
+           transform="translate(3150,1370)">
+          <path
+             id="path9468"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 227.1592,0 0,24.6719 51.3408,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9470"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 227.1592,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9472"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.lib.runtime</text>
+        </g>
+        <g
+           id="g9474"
+           transform="translate(2850,1460)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9476"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 245.2031,0 0,24.6719 33.2969,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9478"
+           transform="translate(2850,1460)">
+          <path
+             id="path9480"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 245.2031,0 0,24.6719 33.2969,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9482"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 245.2031,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9484"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.lib.sequence</text>
+        </g>
+        <g
+           id="g9486"
+           transform="translate(3150,1460)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9488"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 241.1436,0 0,24.6719 37.3564,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9490"
+           transform="translate(3150,1460)">
+          <path
+             id="path9492"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 241.1436,0 0,24.6719 37.3564,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9494"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 241.1436,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9496"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.lib.simulator</text>
+        </g>
+        <g
+           id="g9498"
+           transform="translate(3150,1550)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9500"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 201.1611,0 0,24.6719 77.3389,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9502"
+           transform="translate(3150,1550)">
+          <path
+             id="path9504"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 201.1611,0 0,24.6719 77.3389,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9506"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 201.1611,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9508"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.lib.type</text>
+        </g>
+        <g
+           id="g9510"
+           transform="translate(2850,1550)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9512"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 242.7598,0 0,24.6719 35.7402,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9514"
+           transform="translate(2850,1550)">
+          <path
+             id="path9516"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 242.7598,0 0,24.6719 35.7402,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9518"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 242.7598,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9520"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.lib.thirdparty</text>
+        </g>
+        <g
+           id="g9522"
+           transform="translate(2200,1990)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9524"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 216.7832,0 0,24.6719 61.7168,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9526"
+           transform="translate(2200,1990)">
+          <path
+             id="path9528"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 216.7832,0 0,24.6719 61.7168,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9530"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 216.7832,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9532"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.tests.unit</text>
+        </g>
+        <g
+           id="g9534"
+           transform="translate(2490,1220)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9536"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 214.5908,0 0,24.6719 63.9092,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9538"
+           transform="translate(2490,1220)">
+          <path
+             id="path9540"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 214.5908,0 0,24.6719 63.9092,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9542"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 214.5908,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9544"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.ui.wizard</text>
+        </g>
+        <g
+           id="g9546"
+           transform="translate(2190,1220)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9548"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 203.1562,0 0,24.6719 75.3438,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9550"
+           transform="translate(2190,1220)">
+          <path
+             id="path9552"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 203.1562,0 0,24.6719 75.3438,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9554"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 203.1562,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9556"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.ui.trace</text>
+        </g>
+        <g
+           id="g9558"
+           transform="translate(2490,1130)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9560"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 219.1621,0 0,24.6719 59.3379,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9562"
+           transform="translate(2490,1130)">
+          <path
+             id="path9564"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 219.1621,0 0,24.6719 59.3379,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9566"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 219.1621,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9568"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.ui.toolbar</text>
+        </g>
+        <g
+           id="g9570"
+           transform="translate(2190,1130)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9572"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 243.6748,0 0,24.6719 34.8252,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9574"
+           transform="translate(2190,1130)">
+          <path
+             id="path9576"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 243.6748,0 0,24.6719 34.8252,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9578"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 243.6748,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9580"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.ui.simulation</text>
+        </g>
+        <g
+           id="g9582"
+           transform="translate(2490,1040)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9584"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 257.6846,0 0,24.6719 20.8154,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9586"
+           transform="translate(2490,1040)">
+          <path
+             id="path9588"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 257.6846,0 0,24.6719 20.8154,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9590"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 257.6846,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9592"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.ui.serialization</text>
+        </g>
+        <g
+           id="g9594"
+           transform="translate(2190,1040)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9596"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 216.2129,0 0,24.6719 62.2871,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9598"
+           transform="translate(2190,1040)">
+          <path
+             id="path9600"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 216.2129,0 0,24.6719 62.2871,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9602"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 216.2129,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9604"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.ui.results</text>
+        </g>
+        <g
+           id="g9606"
+           transform="translate(2490,950)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9608"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 223.7803,0 0,24.6719 54.7197,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9610"
+           transform="translate(2490,950)">
+          <path
+             id="path9612"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 223.7803,0 0,24.6719 54.7197,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9614"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 223.7803,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9616"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.ui.quickfix</text>
+        </g>
+        <g
+           id="g9618"
+           transform="translate(2190,950)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9620"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 226.2236,0 0,24.6719 52.2764,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9622"
+           transform="translate(2190,950)">
+          <path
+             id="path9624"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 226.2236,0 0,24.6719 52.2764,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9626"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 226.2236,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9628"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.ui.process</text>
+        </g>
+        <g
+           id="g9630"
+           transform="translate(2490,860)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9632"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 192.7803,0 0,24.6719 85.7197,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9634"
+           transform="translate(2490,860)">
+          <path
+             id="path9636"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 192.7803,0 0,24.6719 85.7197,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9638"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 192.7803,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9640"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.ui.plot</text>
+        </g>
+        <g
+           id="g9642"
+           transform="translate(2190,860)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9644"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 216.1816,0 0,24.6719 62.3184,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9646"
+           transform="translate(2190,860)">
+          <path
+             id="path9648"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 216.1816,0 0,24.6719 62.3184,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9650"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 216.1816,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9652"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.ui.outline</text>
+        </g>
+        <g
+           id="g9654"
+           transform="translate(2490,770)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9656"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 248.6934,0 0,24.6719 29.8066,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9658"
+           transform="translate(2490,770)">
+          <path
+             id="path9660"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 248.6934,0 0,24.6719 29.8066,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9662"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 248.6934,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9664"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.ui.notification</text>
+        </g>
+        <g
+           id="g9666"
+           transform="translate(2190,770)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9668"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 224.7373,0 0,24.6719 53.7627,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9670"
+           transform="translate(2190,770)">
+          <path
+             id="path9672"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 224.7373,0 0,24.6719 53.7627,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9674"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 224.7373,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9676"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.ui.labeling</text>
+        </g>
+        <g
+           id="g9678"
+           transform="translate(2490,680)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9680"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 263.7695,0 0,24.6719 14.7305,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9682"
+           transform="translate(2490,680)">
+          <path
+             id="path9684"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 263.7695,0 0,24.6719 14.7305,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9686"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 263.7695,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9688"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.ui.highlightning</text>
+        </g>
+        <g
+           id="g9690"
+           transform="translate(2190,680)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9692"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 208.708,0 0,24.6719 69.792,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9694"
+           transform="translate(2190,680)">
+          <path
+             id="path9696"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 208.708,0 0,24.6719 69.792,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9698"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 208.708,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9700"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.ui.graph</text>
+        </g>
+        <g
+           id="g9702"
+           transform="translate(2490,590)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9704"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 189.5312,0 0,24.6719 88.9688,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9706"
+           transform="translate(2490,590)">
+          <path
+             id="path9708"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 189.5312,0 0,24.6719 88.9688,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9710"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 189.5312,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9712"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.ui.gef</text>
+        </g>
+        <g
+           id="g9714"
+           transform="translate(2190,590)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9716"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 239.6934,0 0,24.6719 38.8066,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9718"
+           transform="translate(2190,590)">
+          <path
+             id="path9720"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 239.6934,0 0,24.6719 38.8066,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9722"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 239.6934,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9724"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.ui.execution</text>
+        </g>
+        <g
+           id="g9726"
+           transform="translate(2490,500)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9728"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 268.8145,0 0,24.6719 9.6855,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9730"
+           transform="translate(2490,500)">
+          <path
+             id="path9732"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 268.8145,0 0,24.6719 9.6855,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9734"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 268.8145,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9736"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.ui.contentassist</text>
+        </g>
+        <g
+           id="g9738"
+           transform="translate(2190,500)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9740"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 225.1816,0 0,24.6719 53.3184,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9742"
+           transform="translate(2190,500)">
+          <path
+             id="path9744"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 225.1816,0 0,24.6719 53.3184,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9746"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 225.1816,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9748"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.ui.console</text>
+        </g>
+        <g
+           id="g9750"
+           transform="translate(2490,410)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9752"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 240.6865,0 0,24.6719 37.8135,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9754"
+           transform="translate(2490,410)">
+          <path
+             id="path9756"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 240.6865,0 0,24.6719 37.8135,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9758"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 240.6865,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9760"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.ui.animation</text>
+        </g>
+        <g
+           id="g9762"
+           transform="translate(2190,410)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9764"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 157.666,0 0,24.6719 120.834,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9766"
+           transform="translate(2190,410)">
+          <path
+             id="path9768"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,0.5 157.666,0 0,24.6719 120.834,0 L 279,69 0.5,69 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9770"
+             clip-path="url(#clipPath3)"
+             d="m 0.5,25.1719 157.666,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9772"
+             xml:space="preserve"
+             clip-path="url(#clipPath3)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">ru.bmstu.rk9.rao.ui</text>
+        </g>
+        <g
+           id="g9774"
+           transform="translate(2190,1950)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9776"
+             clip-path="url(#clipPath4)"
+             d="m 0.5,0.5 309.0811,0 0,24.6719 289.4189,0 L 599,119 0.5,119 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9778"
+           transform="translate(2190,1950)">
+          <path
+             id="path9780"
+             clip-path="url(#clipPath4)"
+             d="m 0.5,0.5 309.0811,0 0,24.6719 289.4189,0 L 599,119 0.5,119 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9782"
+             clip-path="url(#clipPath4)"
+             d="m 0.5,25.1719 309.0811,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9784"
+             xml:space="preserve"
+             clip-path="url(#clipPath4)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">Проект Eclipse ru.bmstu.rk9.rao.tests</text>
+        </g>
+        <g
+           id="g9786"
+           transform="translate(2180,370)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9788"
+             clip-path="url(#clipPath5)"
+             d="m 0.5,0.5 284.5479,0 0,24.6719 313.9521,0 L 599,929 0.5,929 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9790"
+           transform="translate(2180,370)">
+          <path
+             id="path9792"
+             clip-path="url(#clipPath5)"
+             d="m 0.5,0.5 284.5479,0 0,24.6719 313.9521,0 L 599,929 0.5,929 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9794"
+             clip-path="url(#clipPath5)"
+             d="m 0.5,25.1719 284.5479,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9796"
+             xml:space="preserve"
+             clip-path="url(#clipPath5)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">Проект Eclipse ru.bmstu.rk9.rao.ui</text>
+        </g>
+        <g
+           id="g9798"
+           transform="translate(2840,790)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9800"
+             clip-path="url(#clipPath6)"
+             d="m 0.5,0.5 289.0195,0 0,24.6719 309.4805,0 L 599,839 0.5,839 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9802"
+           transform="translate(2840,790)">
+          <path
+             id="path9804"
+             clip-path="url(#clipPath6)"
+             d="m 0.5,0.5 289.0195,0 0,24.6719 309.4805,0 L 599,839 0.5,839 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9806"
+             clip-path="url(#clipPath6)"
+             d="m 0.5,25.1719 289.0195,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9808"
+             xml:space="preserve"
+             clip-path="url(#clipPath6)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">Проект Eclipse ru.bmstu.rk9.rao.lib</text>
+        </g>
+        <g
+           id="g9810"
+           transform="translate(2180,1490)"
+           style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-opacity:0">
+          <path
+             id="path9812"
+             clip-path="url(#clipPath7)"
+             d="m 0.5,0.5 266.0879,0 0,24.6719 332.4121,0 L 599,299 0.5,299 z"
+             inkscape:connector-curvature="0"
+             style="stroke:none" />
+        </g>
+        <g
+           id="g9814"
+           transform="translate(2180,1490)">
+          <path
+             id="path9816"
+             clip-path="url(#clipPath7)"
+             d="m 0.5,0.5 266.0879,0 0,24.6719 332.4121,0 L 599,299 0.5,299 z"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9818"
+             clip-path="url(#clipPath7)"
+             d="m 0.5,25.1719 266.0879,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <text
+             id="text9820"
+             xml:space="preserve"
+             clip-path="url(#clipPath7)"
+             y="19.6719"
+             font-size="18px"
+             x="5"
+             style="font-size:18px;stroke:none;font-family:sans-serif">Проект Eclipse ru.bmstu.rk9.rao</text>
+        </g>
+        <g
+           id="g9822"
+           transform="translate(2540,1780)"
+           stroke-miterlimit="5"
+           style="stroke-linecap:butt;stroke-miterlimit:5;stroke-dasharray:8, 5">
+          <path
+             id="path9824"
+             clip-path="url(#clipPath8)"
+             d="m 10.5,190.5 0,-179"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9826"
+             clip-path="url(#clipPath8)"
+             d="M 17,22.2583 10.5,11 4,22.2583"
+             stroke-miterlimit="10"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke-linecap:square;stroke-miterlimit:10;stroke-dasharray:none" />
+        </g>
+        <g
+           id="g9828"
+           transform="translate(2540,1780)"
+           font-size="18px"
+           style="font-size:18px;font-family:sans-serif">
+          <text
+             id="text9830"
+             clip-path="url(#clipPath8)"
+             y="109.8359"
+             xml:space="preserve"
+             x="14"
+             style="stroke:none">«import»</text>
+        </g>
+        <g
+           id="g9832"
+           transform="translate(2770,1620)"
+           stroke-miterlimit="5"
+           style="stroke-linecap:butt;stroke-miterlimit:5;stroke-dasharray:8, 5">
+          <path
+             id="path9834"
+             clip-path="url(#clipPath9)"
+             d="m 10.5,90.5 290,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9836"
+             clip-path="url(#clipPath9)"
+             d="m 300.5,90.5 0,-79"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9838"
+             clip-path="url(#clipPath9)"
+             d="M 307,22.2583 300.5,11 294,22.2583"
+             stroke-miterlimit="10"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke-linecap:square;stroke-miterlimit:10;stroke-dasharray:none" />
+        </g>
+        <g
+           id="g9840"
+           transform="translate(2770,1620)"
+           font-size="18px"
+           style="font-size:18px;font-family:sans-serif">
+          <text
+             id="text9842"
+             clip-path="url(#clipPath9)"
+             y="86"
+             xml:space="preserve"
+             x="121.1929"
+             style="stroke:none">«import»</text>
+        </g>
+        <g
+           id="g9844"
+           transform="translate(2780,1620)"
+           stroke-miterlimit="5"
+           style="stroke-linecap:butt;stroke-miterlimit:5;stroke-dasharray:8, 5">
+          <path
+             id="path9846"
+             clip-path="url(#clipPath10)"
+             d="m 10.5,400.5 490,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9848"
+             clip-path="url(#clipPath10)"
+             d="m 500.5,400.5 0,-389"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9850"
+             clip-path="url(#clipPath10)"
+             d="M 507,22.2583 500.5,11 494,22.2583"
+             stroke-miterlimit="10"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke-linecap:square;stroke-miterlimit:10;stroke-dasharray:none" />
+        </g>
+        <g
+           id="g9852"
+           transform="translate(2780,1620)"
+           font-size="18px"
+           style="font-size:18px;font-family:sans-serif">
+          <text
+             id="text9854"
+             clip-path="url(#clipPath10)"
+             y="396"
+             xml:space="preserve"
+             x="221.1929"
+             style="stroke:none">«import»</text>
+        </g>
+        <g
+           id="g9856"
+           transform="translate(2770,450)"
+           stroke-miterlimit="5"
+           style="stroke-linecap:butt;stroke-miterlimit:5;stroke-dasharray:8, 5">
+          <path
+             id="path9858"
+             clip-path="url(#clipPath11)"
+             d="m 10.5,30.5 500,0"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9860"
+             clip-path="url(#clipPath11)"
+             d="m 510.5,30.5 0,329"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9862"
+             clip-path="url(#clipPath11)"
+             d="M 504,348.7417 510.5,360 517,348.7417"
+             stroke-miterlimit="10"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke-linecap:square;stroke-miterlimit:10;stroke-dasharray:none" />
+        </g>
+        <g
+           id="g9864"
+           transform="translate(2770,450)"
+           font-size="18px"
+           style="font-size:18px;font-family:sans-serif">
+          <text
+             id="text9866"
+             clip-path="url(#clipPath11)"
+             y="26"
+             xml:space="preserve"
+             x="226.1929"
+             style="stroke:none">«import»</text>
+        </g>
+        <g
+           id="g9868"
+           transform="translate(2540,1290)"
+           stroke-miterlimit="5"
+           style="stroke-linecap:butt;stroke-miterlimit:5;stroke-dasharray:8, 5">
+          <path
+             id="path9870"
+             clip-path="url(#clipPath12)"
+             d="m 10.5,10.5 0,209"
+             inkscape:connector-curvature="0"
+             style="fill:none" />
+          <path
+             id="path9872"
+             clip-path="url(#clipPath12)"
+             d="M 4,208.7417 10.5,220 17,208.7417"
+             stroke-miterlimit="10"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke-linecap:square;stroke-miterlimit:10;stroke-dasharray:none" />
+        </g>
+        <g
+           id="g9874"
+           transform="translate(2540,1290)"
+           font-size="18px"
+           style="font-size:18px;font-family:sans-serif">
+          <text
+             id="text9876"
+             clip-path="url(#clipPath12)"
+             y="124.8359"
+             xml:space="preserve"
+             x="14"
+             style="stroke:none">«import»</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
