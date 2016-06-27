@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>5</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>900</x>
+      <y>360</y>
+      <w>270</w>
+      <h>165</h>
+    </coordinates>
+    <panel_attributes>/AbstractGenerator/
+--
+~THREAD_GROUP: ThreadGroup
+~producer: Thread
+-hasFinished: boolean
+-itemAvailableOrHasFinished: Condition
+-itemRequested: Condition
+-nextItem: T
+-nextItemAvailable: boolean
+-exceptionRaisedByProducer: RuntimeException
+--
++iterator(): Iterator&lt;T&gt;
+#run(): void
+#yield(T element): void
+-startProducer(): void
+#finalize(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1565</x>
+      <y>155</y>
+      <w>265</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Triangular
+--
+-a: Double
+-b: Double
+-c: Double
+-mersenneTwister: MersenneTwister
+-parametersType: SequenceParametersType
+--
++Triangular(long seed, double a, double b, double c): ctor
++Triangular(long seed): ctor
++next(): Double
++next(double a, double b, double c): Double
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1235</x>
+      <y>155</y>
+      <w>260</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Normal
+--
+-mean: Double
+-variance: Double
+-mersenneTwister: MersenneTwister
+-parametersType: SequenceParametersType
+--
++Normal(long seed, double mean, double variance): ctor
++Normal(long seed): ctor
++next(): Double
++next(double mean, double variance): Double
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1620</x>
+      <y>310</y>
+      <w>210</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Uniform
+--
+-a: Double
+-b: Double
+-mersenneTwister: MersenneTwister
+-parametersType: SequenceParametersType
+--
++Uniform(long seed, double a, double b): ctor
++Uniform(long seed): ctor
++next(): Double
++next(double a, double b): Double
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1620</x>
+      <y>485</y>
+      <w>210</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Exponential
+--
+-rate: Double
+-mersenneTwister: MersenneTwister
+-parametersType: SequenceParametersType
+--
++Exponential(long seed, double rate): ctor
++Exponential(long seed): ctor
++next(): Double
++next(double rate): Double
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>900</x>
+      <y>155</y>
+      <w>280</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>ContinuousHistogram
+--
+-mersenneTwister: MersenneTwister
+-bins: List&lt;NumericHistogramBin&gt;
+-adductionCoefficient: double
+--
++ContinuousHistogram(long seed,
+    List&lt;Pair&lt;? extends Number, ? extends Number&gt;&gt; values
+): ctor
++ContinuousHistogram(long seed, double offset,
+    List&lt;Pair&lt;? extends Number, ? extends Number&gt;&gt; values
+): ctor
++next(): Double
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1290</x>
+      <y>715</y>
+      <w>200</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>DiscreteHistogram
+--
+-mersenneTwister: MersenneTwister
+-bins: List&lt;DiscreteHistogramBin&gt;
+-adductionCoefficient: double
+--
++DiscreteHistogram(long seed,
+    List&lt;Pair&lt;T, ? extends Number&gt;&gt; values
+): ctor
++next(): T
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>900</x>
+      <y>610</y>
+      <w>210</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>/InfiniteSequence/
+--
+#iterator: Iterator&lt;T&gt;
+#iterable: Iterable&lt;T&gt;
+--
+~InfiniteSequence(Iterable&lt;T&gt; iterable): ctor
++next(): T
+#restartIterator(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1270</x>
+      <y>545</y>
+      <w>100</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>/Generator/
+--
+-iterator: Iterator&lt;T&gt;
+--
++Generator(): ctor
++next(): T
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1715</x>
+      <y>635</y>
+      <w>115</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+/ArbitraryTypeSequence/
+--
+--
++next(): T
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1350</x>
+      <y>420</y>
+      <w>95</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+/NumericSequence/
+--
+--
++next(): Double
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>900</x>
+      <y>780</y>
+      <w>185</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>Values
+--
+--
++Values(List&lt;T&gt; enumerationList): ctor
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1165</x>
+      <y>470</y>
+      <w>150</w>
+      <h>85</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;280.0;10.0;280.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1000</x>
+      <y>685</y>
+      <w>15</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;190.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1385</x>
+      <y>260</y>
+      <w>15</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;320.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1440</x>
+      <y>415</y>
+      <w>275</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;50.0;530.0;50.0;530.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1405</x>
+      <y>460</y>
+      <w>240</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;130.0;460.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1440</x>
+      <y>270</y>
+      <w>150</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;320.0;280.0;320.0;280.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1175</x>
+      <y>225</y>
+      <w>185</w>
+      <h>225</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>350.0;430.0;70.0;430.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1385</x>
+      <y>675</y>
+      <w>340</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>660.0;10.0;10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1315</x>
+      <y>595</y>
+      <w>410</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>800.0;110.0;10.0;110.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1105</x>
+      <y>660</y>
+      <w>620</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>1220.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

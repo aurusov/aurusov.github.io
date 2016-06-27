@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="12.2">
+  <zoom_level>5</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>485</x>
+      <y>415</y>
+      <w>595</w>
+      <h>215</h>
+    </coordinates>
+    <panel_attributes>RaoJvmModelInferrer
+--
+-jvmTypesBuilder: JvmTypesBuilder
+--
+#_infer(final RaoModel element, final IJvmDeclaredTypeAcceptor acceptor, final boolean isPreIndexingPhase): void
+#compileRaoEntity(final EntityCreation entity, final JvmDeclaredType it, final boolean isPreIndexingPhase): boolean
+#_compileRaoEntity(final EnumDeclaration enumDeclaration, final JvmDeclaredType it, final boolean isPreIndexingPhase): boolean
+#_compileRaoEntity(final FunctionDeclaration function, final JvmDeclaredType it, final boolean isPreIndexingPhase): boolean
+#_compileRaoEntity(final DefaultMethod method, final JvmDeclaredType it, final boolean isPreIndexingPhase): boolean
+#_compileRaoEntity(final ResourceType resourceType, final JvmDeclaredType it, final boolean isPreIndexingPhase): boolean
+#_compileRaoEntity(final Generator generator, final JvmDeclaredType it, final boolean isPreIndexingPhase): boolean
+#_compileRaoEntity(final Event event, final JvmDeclaredType it, final boolean isPreIndexingPhase): boolean
+#_compileRaoEntity(final Pattern pattern, final JvmDeclaredType it, final boolean isPreIndexingPhase): boolean
+#_compileRaoEntity(final Logic logic, final JvmDeclaredType it, final boolean isPreIndexingPhase): boolean
+#_compileRaoEntity(final Search search, final JvmDeclaredType it, final boolean isPreIndexingPhase): boolean
+#_compileRaoEntity(final Frame frame, final JvmDeclaredType it, final boolean isPreIndexingPhase): boolean
+#_compileRaoEntity(final ResourceDeclaration resource, final JvmDeclaredType it, final boolean isPreIndexingPhase): boolean
++compileResourceInitialization(final RaoModel element, final JvmDeclaredType it, final boolean isPreIndexingPhase): boolean
++infer(final EObject element, final IJvmDeclaredTypeAcceptor acceptor, final boolean isPreIndexingPhase): void
++compileRaoEntity(final RaoEntity method, final JvmDeclaredType it, final boolean isPreIndexingPhase): boolean
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1145</x>
+      <y>435</y>
+      <w>295</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>/RaoEntityCompiler/
+--
+#currentJvmTypesBuilder: JvmTypesBuilder
+#currentJvmTypeReferenceBuilder: JvmTypeReferenceBuilder
+--
+#initializeCurrent(final JvmTypesBuilder jvmTypesBuilder,
+    final JvmTypeReferenceBuilder jvmTypeReferenceBuilder
+): JvmTypeReferenceBuilder
+#overrideAnnotation(): JvmAnnotationReference
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>485</x>
+      <y>110</y>
+      <w>280</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>ResourceTypeCompiler
+--
+--
++asClass(final ResourceType resourceType,
+    final JvmTypesBuilder jvmTypesBuilder,
+    final JvmTypeReferenceBuilder typeReferenceBuilder,
+    final JvmDeclaredType it,
+    final boolean isPreIndexingPhase
+): JvmGenericType
+-getSize(final FieldDeclaration param): int
+-isFixedWidth(final FieldDeclaration param): boolean
+-serializeAsFixedWidth(final FieldDeclaration param): String
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>820</x>
+      <y>885</y>
+      <w>270</w>
+      <h>165</h>
+    </coordinates>
+    <panel_attributes>DefaultMethodCompiler
+--
+--
++asClass(final DefaultMethod method,
+    final JvmTypesBuilder jvmTypesBuilder,
+    final JvmTypeReferenceBuilder typeReferenceBuilder,
+    final JvmDeclaredType it,
+    final boolean isPreIndexingPhase
+): JvmGenericType
+-initAsClass(final DefaultMethod method,
+    final JvmDeclaredType it,
+    final boolean isPreIndexingPhase): JvmGenericType
+-terminateAsClass(final DefaultMethod method,
+    final JvmDeclaredType it,
+    final boolean isPreIndexingPhase
+): JvmGenericType
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>485</x>
+      <y>830</y>
+      <w>290</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>ResourceDeclarationCompiler
+--
+--
++asGlobalInitializationMethod(final RaoModel model,
+    final JvmTypesBuilder jvmTypesBuilder,
+    final JvmTypeReferenceBuilder typeReferenceBuilder,
+    final JvmDeclaredType it,
+    final boolean isPreIndexingPhase
+): JvmGenericType
++asInitializationMethod(final ResourceDeclaration resource,
+    final JvmTypesBuilder jvmTypesBuilder,
+    final JvmTypeReferenceBuilder typeReferenceBuilder,
+    final JvmDeclaredType it,
+    final boolean isPreIndexingPhase
+): JvmOperation
++asGetter(final ResourceDeclaration resource,
+    final JvmTypesBuilder jvmTypesBuilder,
+    final JvmTypeReferenceBuilder typeReferenceBuilder,
+    final JvmDeclaredType it,
+    final boolean isPreIndexingPhase
+): JvmOperation
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1515</x>
+      <y>305</y>
+      <w>305</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>PatternCompiler
+--
+--
++asClass(final Pattern pattern,
+    final JvmTypesBuilder jvmTypesBuilder,
+    final JvmTypeReferenceBuilder typeReferenceBuilder,
+    final JvmDeclaredType it,
+    final boolean isPreIndexingPhase): JvmGenericType
+-getPatternMethodTypeRef(final String name): JvmTypeReference
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1515</x>
+      <y>430</y>
+      <w>305</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>TupleInfoFactory
+--
+--
++createTuplesInfo(final List&lt;RelevantResourceTuple&gt; tuples,
+    final JvmTypesBuilder jvmTypesBuilder,
+    final JvmTypeReferenceBuilder jvmTypeReferenceBuilder
+): Map&lt;RelevantResourceTuple, TupleInfoManager.TupleInfo&gt;
++createTypeParameter(final String name): JvmTypeParameter
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1035</x>
+      <y>285</y>
+      <w>275</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>EntityCreationCompiler
+--
+--
++asField(final EntityCreation entityCreation,
+    final JvmTypesBuilder jvmTypesBuilder,
+    final JvmTypeReferenceBuilder typeReferenceBuilder,
+    final JvmDeclaredType it,
+    final boolean isPreIndexingPhase): JvmField
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1155</x>
+      <y>110</y>
+      <w>285</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>EnumCompiler
+--
+--
++asType(final EnumDeclaration enumDeclaration,
+    final JvmTypesBuilder jvmTypesBuilder,
+    final JvmTypeReferenceBuilder typeReferenceBuilder,
+    final JvmDeclaredType it,
+    final boolean isPreIndexingPhase): JvmEnumerationType
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>835</x>
+      <y>110</y>
+      <w>280</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>EventCompiler
+--
+--
++asClass(final Event event,
+    final JvmTypesBuilder jvmTypesBuilder,
+    final JvmTypeReferenceBuilder typeReferenceBuilder,
+    final JvmDeclaredType it,
+    final boolean isPreIndexingPhase): JvmGenericType
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1540</x>
+      <y>110</y>
+      <w>280</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>FrameCompiler
+--
+--
++asClass(final Frame frame,
+    final JvmTypesBuilder jvmTypesBuilder,
+    final JvmTypeReferenceBuilder typeReferenceBuilder,
+    final JvmDeclaredType it,
+    final boolean isPreIndexingPhase): JvmGenericType
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>485</x>
+      <y>300</y>
+      <w>265</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>FunctionCompiler
+--
+--
++asMethod(final FunctionDeclaration function,
+    final JvmTypesBuilder jvmTypesBuilder,
+    final JvmTypeReferenceBuilder typeReferenceBuilder,
+    final JvmDeclaredType it,
+    final boolean isPreIndexingPhase): JvmOperation
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>485</x>
+      <y>670</y>
+      <w>280</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>GeneratorCompiler
+--
+--
++asClass(final Generator generator,
+    final JvmTypesBuilder jvmTypesBuilder,
+    final JvmTypeReferenceBuilder typeReferenceBuilder,
+    final JvmDeclaredType it,
+    final boolean isPreIndexingPhase): JvmGenericType
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>855</x>
+      <y>760</y>
+      <w>275</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>LogicCompiler
+--
+--
++asClass(final Logic logic,
+    final JvmTypesBuilder jvmTypesBuilder,
+    final JvmTypeReferenceBuilder typeReferenceBuilder,
+    final JvmDeclaredType it,
+    final boolean isPreIndexingPhase): JvmGenericType
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1145</x>
+      <y>970</y>
+      <w>270</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>SearchCompiler
+--
+--
++asClass(final Search search,
+    final JvmTypesBuilder jvmTypesBuilder,
+    final JvmTypeReferenceBuilder typeReferenceBuilder,
+    final JvmDeclaredType it,
+    final boolean isPreIndexingPhase): JvmGenericType
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1585</x>
+      <y>560</y>
+      <w>235</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>GenericTupleInfo
+--
++genericName: String
++typeReferencesArray: JvmTypeReference[]
++staticTypeReferencesArray: JvmTypeReference[]
+--
++GenericTupleInfo(int size): ctor
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1500</x>
+      <y>850</y>
+      <w>320</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>GenericTupleElementInfo
+--
++jvmTypeParameter: JvmTypeParameter
++staticJvmTypeParameter: JvmTypeParameter
+--
++GenericTupleElementInfo(JvmTypeParameter jvmTypeParameter,
+    JvmTypeParameter staticJvmTypeParameter): ctor
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1610</x>
+      <y>695</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>TupleElementInfo
+--
++name: String
++genericInfo: GenericTupleElementInfo
+--
++TupleElementInfo(String name,
+    GenericTupleElementInfo genericInfo): ctor
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1280</x>
+      <y>665</y>
+      <w>210</w>
+      <h>115</h>
+    </coordinates>
+    <panel_attributes>TupleInfo
+--
++resolveMethodName: String
++tupleElementsInfo: List&lt;TupleElementInfo&gt;
++genericTupleInfo: GenericTupleInfo
++name: String
++isUnique: boolean
+--
++TupleInfo(String name,
+    GenericTupleInfo genericTupleInfo,
+    boolean isUnique): ctor
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1485</x>
+      <y>625</y>
+      <w>125</w>
+      <h>115</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>10.0;200.0;230.0;200.0;230.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1485</x>
+      <y>745</y>
+      <w>135</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+m2=0..n</panel_attributes>
+    <additional_attributes>10.0;10.0;250.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1485</x>
+      <y>505</y>
+      <w>90</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+&lt; создает</panel_attributes>
+    <additional_attributes>10.0;380.0;160.0;380.0;160.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1700</x>
+      <y>760</y>
+      <w>15</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1450</x>
+      <y>350</y>
+      <w>105</w>
+      <h>325</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+
+
+
+
+
+использует
+для генерации кода
+комбинаторного
+подбора &gt;</panel_attributes>
+    <additional_attributes>10.0;630.0;10.0;10.0;130.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1535</x>
+      <y>390</y>
+      <w>190</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+использует для генерации TupleInfo &gt;</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1375</x>
+      <y>330</y>
+      <w>150</w>
+      <h>115</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;210.0;10.0;10.0;280.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1260</x>
+      <y>520</y>
+      <w>15</w>
+      <h>460</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;900.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1355</x>
+      <y>185</y>
+      <w>315</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;500.0;10.0;200.0;610.0;200.0;610.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1335</x>
+      <y>185</y>
+      <w>15</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;500.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1290</x>
+      <y>360</y>
+      <w>15</w>
+      <h>85</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;150.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1045</x>
+      <y>185</y>
+      <w>285</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>550.0;500.0;550.0;170.0;10.0;170.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>745</x>
+      <y>315</y>
+      <w>515</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>1010.0;240.0;1010.0;150.0;180.0;150.0;180.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>760</x>
+      <y>210</y>
+      <w>520</w>
+      <h>235</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>1020.0;450.0;1020.0;330.0;350.0;330.0;350.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1075</x>
+      <y>490</y>
+      <w>80</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m1=1
+m2=0..n</panel_attributes>
+    <additional_attributes>10.0;10.0;140.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1085</x>
+      <y>520</y>
+      <w>165</w>
+      <h>410</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>310.0;10.0;310.0;800.0;10.0;800.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1125</x>
+      <y>520</y>
+      <w>100</w>
+      <h>300</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>180.0;10.0;180.0;580.0;10.0;580.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>760</x>
+      <y>520</y>
+      <w>405</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>790.0;10.0;790.0;320.0;10.0;320.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>770</x>
+      <y>520</y>
+      <w>425</w>
+      <h>360</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>830.0;10.0;830.0;430.0;80.0;430.0;80.0;700.0;10.0;700.0</additional_attributes>
+  </element>
+</diagram>
