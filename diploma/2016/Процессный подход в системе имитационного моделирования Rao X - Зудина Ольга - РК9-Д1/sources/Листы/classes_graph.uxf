@@ -1,0 +1,1097 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>11</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2409</x>
+      <y>253</y>
+      <w>671</w>
+      <h>583</h>
+    </coordinates>
+    <panel_attributes>/+ ru.bmstu.rk9.rao.ui.gef::Node/
+--
+_- serialVersionUID : long_
+_+ PROPERTY_ADD : String_
+_+ PROPERTY_REMOVE : String_
+_+ PROPERTY_CONSTRAINT : String_
+- parent : Node
+- children : List&lt;Node&gt;
+- listeners : PropertyChangeSupport
+- constraint : Rectangle
+- propertySource : IPropertySource
+--
++ addChild(child : Node): boolean
++ removeChild(child : Node): boolean
++ getChildren(): List&lt;Node&gt;
++ contains(child : Node): boolean
++ getParent(): Node
++ setParent(parent : Node): void
++ getRoot(): Node
++ getListeners(): PropertyChangeSupport
++ addPropertyChangeListener(listener : PropertyChangeListener): void
++ removePropertyChangeListener(listener : PropertyChangeListener): void
++ getConstraint(): Rectangle
++ setConstraint(constraint : Rectangle): void
+/+ createProperties(properties : List&lt;PropertyDescriptor&gt;): void/
+/+ getPropertyValue(propertyName : String): Object/
+/+ setPropertyValue(propertyName : String, value : Object): void/
++ onDelete(): void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>33</x>
+      <y>792</y>
+      <w>924</w>
+      <h>264</h>
+    </coordinates>
+    <panel_attributes>+ ru.bmstu.rk9.rao.ui.gef::NodeInfo
+--
+- name: String
+- nodeFactory: Supplier&lt;Node&gt;
+- editPartFactory: Supplier&lt;AbstractEditPart&gt;
+- figureFactory: Supplier&lt;IFigure&gt;
+--
++ NodeInfo(name : String, nodeFactory : Supplier&lt;Node&gt;, editPartFactory : Supplier&lt;AbstractEditPart&gt;,
+ figureFactory : Supplier&lt;IFigure&gt;) &lt;&lt;constructor&gt;&gt;
++ getName(): String
++ getNodeFactory(): Supplier&lt;Node&gt;
++ getEditPartFactory(): Supplier&lt;AbstractEditPart&gt;
++ getFigureFactory(): Supplier&lt;IFigure&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1837</x>
+      <y>539</y>
+      <w>473</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>+ ru.bmstu.rk9.rao.ui.gef::NodePropertySource
+--
+- node: Node
+--
++ NodePropertySource(node : Node) &lt;&lt;constructor&gt;&gt;
+_+ showPropertiesSheet(): void_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1012</x>
+      <y>968</y>
+      <w>363</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>/+ ru.bmstu.rk9.rao.ui.gef::EditPart/
+--
+
+--
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>66</x>
+      <y>1617</y>
+      <w>374</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
++ ru.bmstu.rk9.rao.ui.gef::INodeFigure
+--
+
+--
++ assignSettings(original : IFigure): void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2134</x>
+      <y>2002</y>
+      <w>187</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
++ Serializable
+--
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>121</x>
+      <y>2233</y>
+      <w>363</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
++ IAdaptable
+--
+
+--
+/+ getAdapter(adapter : Class&lt;T&gt;) : &lt;T&gt;/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>506</x>
+      <y>1232</y>
+      <w>484</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
++ PropertyChangeListener
+--
+
+--
+/+ propertyChange(evt : PropertyChangeEvent) : void/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1023</x>
+      <y>1144</y>
+      <w>396</w>
+      <h>176</h>
+    </coordinates>
+    <panel_attributes>/+ AbstractGraphicalEditPart/
+--
+
+--
+# refreshVisuals(): void
+# createEditPolicies(): void
++ activate(): void
++ deactivate(): void
++ performRequest(request : Request): void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1837</x>
+      <y>253</y>
+      <w>473</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
++ IPropertySource
+--
+
+--
+/+ getEditableValue(): Object/
+/+ getPropertyDescriptors(): IPropertyDescriptor[]/
+/+ getPropertyValue(id : Object): Object/
+/+ setPropertyValue(id : Object, value : Object): void/
+/+ isPropertySet(id : Object): boolean/
+/+ resetPropertyValue(id : Object): void/
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>253</y>
+      <w>1100</w>
+      <h>462</h>
+    </coordinates>
+    <panel_attributes>+ ru.bmstu.rk9.rao.ui.process::ProcessEditor
+--
+_+ ID : String_
+_- nodesInfo : Map&lt;Class&lt;? extends Node&gt;, NodeInfo&gt;_
+_- nodesInfoByEditPart : Map&lt;Class&lt;? extends EditPart&gt;, NodeInfo&gt;_
+- model: ProcessModelNode
+~ resourceSetProvider: IResourceSetProvider
+~ typeResolver: IBatchTypeResolver
+--
++ ProcessEditor() &lt;&lt;constructor&gt;&gt;
+_+ hasNodeInfo(node : Class&lt;? extends Node&gt;): boolean_
+_+ getNodeInfo(node :  Class&lt;? extends Node&gt;): NodeInfo_
+_+ getNodeInfoByEditPart(editPart : Class&lt;? extends EditPart&gt;): NodeInfo_
+_- addNodeInfo(node : Class&lt;? extends Node&gt;, editPart : Class&lt;? extends EditPart&gt;, figure : Class&lt;? extends Figure&gt;): void_
+_- createObject(node : Class&lt;T&gt;): T_
+# getPaletteRoot(): PaletteRoot
+- setModel(model : ProcessModelNode): void
++ getModel(): ProcessModelNode
+# writeToOutputStream(outputStream : OutputStream): void
+_+ readModelFromFile(file : IFile): ProcessModelNode_
+- writeModelToFile(monitor : IProgressMonitor): void
+- validateModel(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1243</x>
+      <y>253</y>
+      <w>506</w>
+      <h>198</h>
+    </coordinates>
+    <panel_attributes>+ GraphicalEditorWithFlyoutPalette
+--
+
+--
+# setInput(input : IEditorInput): void
++ doSave(monitor : IProgressMonitor): void
+# configureGraphicalViewer(): void
+# initializeGraphicalViewer(): void
+# createPaletteViewerProvider(): PaletteViewerProvider
++ commandStackChanged(event : EventObject): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1595</x>
+      <y>1133</y>
+      <w>539</w>
+      <h>198</h>
+    </coordinates>
+    <panel_attributes>+ ru.bmstu.rk9.rao.ui.process::BlockConverterInfo
+--
++ block: Block
++ inputDocks : Map&lt;String, InputDock&gt;
++ outputDocks : Map&lt;String, OutputDock&gt;
++ isSuccessful : boolean
++ errorMessage: String
+--
++ setBlock(block : Block): void
++ setErrorState(errorMessage : String): BlockConverterInfo</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1364</x>
+      <y>1452</y>
+      <w>847</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>+ ru.bmstu.rk9.rao.ui.process::BlockConverter
+--
+
+--
+_+ convertModelToBlocks(model : Node, modelContentsInfo : ModelContentsInfo): List&lt;Block&gt;_
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2244</x>
+      <y>1023</y>
+      <w>836</w>
+      <h>935</h>
+    </coordinates>
+    <panel_attributes>/+ ru.bmstu.rk9.rao.ui.process.blocks::BlockNode/
+--
+_- serialVersionUID : long_
+_+ SOURCE_CONNECTION_UPDATED : String_
+_+ TARGET_CONNECTION_UPDATED : String_
+_+ PROCESS_PROBLEM_MARKER : String_
+_# PROPERTY_COLOR : String_
+_# PROPERTY_SHOW_NAME : String_
+_+ BLOCK_NODE_MARKER : String_
+# sourceConnections : CopyOnWriteArrayList&lt;Connection&gt;
+# targetConnections : CopyOnWriteArrayList&lt;Connection&gt;
+- dockNames : Map&lt;String, Integer&gt;
+- color : RGB
+- showName : boolean
+- title: BlockTitleNode
+# ID: int
+- name : String
+--
++ getID(): int
++ setID(ID : int): void
++ getName(): String
++ setName(name : String): void
+~ attachTitle(title : BlockTitleNode): void
+- detachTitle(): void
+~ cleanup(): void
+# getTitle(): BlockTitleNode
++ getShowName(): boolean
++ setShowName(showName : boolean): void
++ getColor(): RGB
++ setColor(color : RGB): void
++ addConnection(connection : Connection): boolean
++ removeConnection(connection : Connection): boolean
++ getSourceConnections(): List&lt;Connection&gt;
++ getTargetConnections(): List&lt;Connection&gt;
++ getDocksCount(dockName : String): int
++ registerDock(dockName : String): void
++ captureDock(dockName : String): void
++ releaseDock(dockName : String): void
+- getDockFullName(dockName : String): String
+# validateConnections(file : IResource, sourceConnections : int, targetConnections : int): void
+# createProblemMarker(file : IResource, message : String, severity : int): IMarker
+- disconnect(connections : List&lt;Connection&gt;): void
+/+ createBlock(modelContentsInfo : ModelContentsInfo): BlockConverterInfo/
+/+ validateProperty(file : IResource): void/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>539</x>
+      <y>1364</y>
+      <w>693</w>
+      <h>528</h>
+    </coordinates>
+    <panel_attributes>+ ru.bmstu.rk9.rao.ui.process.blocks::BlockFigure
+--
+# connectionAnchors : Map&lt;String, ConnectionAnchor&gt;
+# inputConnectionAnchors : List&lt;ConnectionAnchor&gt;
+# outputConnectionAnchors : List&lt;ConnectionAnchor&gt;
+_- shapeBorder : int_
+- shape: IFigure
+- docks : Docks
+_+ dockSize : int_
+_- dockRectangle : Rectangle_
+_- translatePoints : List&lt;Point&gt;_
+--
++ BlockFigure(shape : IFigure) &lt;&lt;constructor&gt;&gt;
++ setConstraint(constraint : Rectangle): void
+# getShape(): IFigure
++ getConnectionAnchor(dockName : String): ConnectionAnchor
++ getConnectionAnchorName(connectionAnchor : ConnectionAnchor): String
++ getSourceConnectionAnchorAt(point : Point): ConnectionAnchor
++ getSourceConnectionAnchors(): List&lt;ConnectionAnchor&gt;
++ getTargetConnectionAnchorAt(point : Point): ConnectionAnchor
++ getTargetConnectionAnchors(): List&lt;ConnectionAnchor&gt;
+- generateTransparentColor(color : Color): Color
+- getPreviewImageData(size : Dimension): ImageData
++ getSmallPreviewImageData(): ImageData
++ getLargePreviewImageData(): ImageData
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>1111</y>
+      <w>638</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>+ ru.bmstu.rk9.rao.ui.process.blocks::BlockNodeFactory
+--
+- template : Class&lt;? extends Node&gt;
+--
++ BlockNodeFactory(template : Class&lt;? extends Node&gt;) &lt;&lt;constructor&gt;&gt;
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1441</x>
+      <y>902</y>
+      <w>726</w>
+      <h>154</h>
+    </coordinates>
+    <panel_attributes>/+ ru.bmstu.rk9.rao.ui.process.blocks::BlockEditPart/
+--
+- ID: int
+--
++ getID(): int
++ setID(ID : int): void
++ mapConnectionAnchorToDock(connectionAnchor : ConnectionAnchor): String
+# getProcessFigure(): BlockFigure
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>770</x>
+      <y>2035</y>
+      <w>1276</w>
+      <h>396</h>
+    </coordinates>
+    <panel_attributes>+ ru.bmstu.rk9.rao.ui.process.connection::Connection
+--
+_- serialVersionUID: long_
+_+ name: String_
+# sourceBlockNode: BlockNode
+# targetBlockNode: BlockNode
+- sourceDockName: String
+- targetDockName: String
+--
++ Connection(sourceBlockNode : BlockNode, targetBlockNode : BlockNode, sourceDockName : String, targetDockName : String) &lt;&lt;constructor&gt;&gt;
++ getSourceBlockNode(): BlockNode
++ getTargetBlockNode(): BlockNode
++ connect(): void
++ disconnect(): void
++ reconnect(sourceBlockNode : BlockNode, targetBlockNode : BlockNode, sourceDockName : String, targetDockName : String): void
++ getSourceDockName(): String
++ setSourceDockName(sourceDockName : String): void
++ getTargetDockName(): String
++ setTargetDockName(targetDockName : String): void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>66</x>
+      <y>2035</y>
+      <w>616</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>+ ru.bmstu.rk9.rao.ui.process.connection::ConnectionEditPart
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>297</x>
+      <y>1925</y>
+      <w>649</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>+ ru.bmstu.rk9.rao.ui.process.connection::ConnectionCreationFactory
+--
+
+--
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1364</x>
+      <y>1584</y>
+      <w>594</w>
+      <h>198</h>
+    </coordinates>
+    <panel_attributes>+ ru.bmstu.rk9.rao.ui.process.connection::ConnectionAnchor
+--
+- offsetHorizontal: int
+- offsetVertical: int
+--
++ ConnectionAnchor(owner : IFigure): ctor
++ getOffsetHorizontal(): int
++ setOffsetHorizontal(offsetHorizontal : int): void
++ getOffsetVertical(): int
++ setOffsetVertical(offsetVertical : int): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1001</x>
+      <y>748</y>
+      <w>495</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>+ ru.bmstu.rk9.rao.ui.process::ProcessEditPartFactory
+--
+- currentID : int
+- modelEditPart: ProcessModelEditPart
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1199</x>
+      <y>484</y>
+      <w>561</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
++ EditPartFactory
+--
+
+--
+/+ createEditPart(context : EditPart, model : Object) : EditPart/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1540</x>
+      <y>682</y>
+      <w>836</w>
+      <h>176</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
++ NodeEditPart
+--
+
+--
+/+ getSourceConnectionAnchor(connectionEditPart : ConnectionEditPart): ConnectionAnchor/
+/+ getSourceConnectionAnchor(request : Request): ConnectionAnchor/
+/+ getTargetConnectionAnchor(connectionEditPart : ConnectionEditPart): ConnectionAnchor/
+/+ getTargetConnectionAnchor(request : Request): ConnectionAnchor/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>99</x>
+      <y>1309</y>
+      <w>264</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
++ CreationFactory
+--
+
+--
+/+ getNewObject(): Object/
+/+ getObjectType(): Object/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>187</x>
+      <y>1474</y>
+      <w>319</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>/+ AbstractConnectionEditPart/
+--
+
+--
+# createFigure(): IFigure
+# createEditPolicies(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>99</x>
+      <y>1760</y>
+      <w>297</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
++ CreationFactory
+--
+
+--
+/+ getNewObject(): Object/
+/+ getObjectType(): Object/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1496</x>
+      <y>1826</y>
+      <w>396</w>
+      <h>176</h>
+    </coordinates>
+    <panel_attributes>/+ AbstractConnectionAnchor/
+--
+
+--
++ ancestorMoved(figure : IFigure): void
++ getLocation(reference : Point): Point
++ getReferencePoint(): Point
++ equals(object : Object): boolean
++ hashCode(): int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>957</x>
+      <y>1045</y>
+      <w>176</w>
+      <h>209</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;170.0;10.0;60.0;140.0;60.0;140.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1254</x>
+      <y>1045</y>
+      <w>33</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1980</x>
+      <y>462</y>
+      <w>33</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3014</x>
+      <y>825</y>
+      <w>33</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1364</x>
+      <y>1001</y>
+      <w>99</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1771</x>
+      <y>847</y>
+      <w>33</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>231</x>
+      <y>1188</y>
+      <w>33</w>
+      <h>143</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1892</x>
+      <y>1078</y>
+      <w>374</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+создает v</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0;320.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1760</x>
+      <y>1386</y>
+      <w>517</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+предоставляет объекты BlockConverterInfo v</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0;450.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1342</x>
+      <y>1221</y>
+      <w>418</w>
+      <h>253</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+получение информации о блоах и связях ^</panel_attributes>
+    <additional_attributes>230.0;30.0;140.0;30.0;140.0;210.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1089</x>
+      <y>341</y>
+      <w>176</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>140.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1441</x>
+      <y>583</y>
+      <w>33</w>
+      <h>187</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1287</x>
+      <y>1870</y>
+      <w>165</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>+ Figure
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1221</x>
+      <y>1793</y>
+      <w>165</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>130.0;70.0;130.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>429</x>
+      <y>1661</y>
+      <w>132</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>858</x>
+      <y>704</y>
+      <w>33</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+m2=1
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1089</x>
+      <y>660</y>
+      <w>627</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+предоставляет объекты NodeInfo &gt;</panel_attributes>
+    <additional_attributes>250.0;80.0;250.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>946</x>
+      <y>847</y>
+      <w>352</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+&lt; получение фабрики EditPart</panel_attributes>
+    <additional_attributes>10.0;70.0;300.0;70.0;300.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>627</x>
+      <y>1045</y>
+      <w>649</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+использует для получения фабрики Node ^</panel_attributes>
+    <additional_attributes>200.0;10.0;200.0;100.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>0</x>
+      <y>704</y>
+      <w>363</w>
+      <h>429</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+предоставляет объекты NodeInfo v</panel_attributes>
+    <additional_attributes>10.0;370.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2112</x>
+      <y>495</y>
+      <w>319</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>270.0;10.0;10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1221</x>
+      <y>1045</y>
+      <w>352</w>
+      <h>407</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>300.0;10.0;300.0;120.0;220.0;120.0;220.0;340.0;10.0;340.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2035</x>
+      <y>1947</y>
+      <w>495</w>
+      <h>231</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;&gt;
+m1=1..n
+m2=1</panel_attributes>
+    <additional_attributes>10.0;180.0;430.0;180.0;430.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>33</x>
+      <y>1188</y>
+      <w>88</w>
+      <h>660</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;580.0;60.0;580.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>473</x>
+      <y>2255</y>
+      <w>319</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;270.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1628</x>
+      <y>1771</y>
+      <w>33</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>176</x>
+      <y>1881</y>
+      <w>143</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0;110.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>418</x>
+      <y>1188</y>
+      <w>33</w>
+      <h>308</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;260.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1221</x>
+      <y>1661</y>
+      <w>165</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+m2=1..n</panel_attributes>
+    <additional_attributes>10.0;10.0;130.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>0</x>
+      <y>1188</y>
+      <w>2827</w>
+      <h>1309</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+создает &gt;</panel_attributes>
+    <additional_attributes>2550.0;700.0;2550.0;900.0;1910.0;900.0;1910.0;1170.0;10.0;1170.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>935</x>
+      <y>1958</y>
+      <w>308</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+создает &gt;</panel_attributes>
+    <additional_attributes>180.0;70.0;180.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2156</x>
+      <y>935</y>
+      <w>121</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>10.0;10.0;90.0;10.0;90.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2002</x>
+      <y>1540</y>
+      <w>143</w>
+      <h>517</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+назначает v</panel_attributes>
+    <additional_attributes>10.0;450.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>363</x>
+      <y>2112</y>
+      <w>429</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0;370.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1298</x>
+      <y>847</y>
+      <w>165</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+создает &gt;</panel_attributes>
+    <additional_attributes>130.0;70.0;10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2288</x>
+      <y>891</y>
+      <w>363</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
++ IAdaptable
+--
+
+--
+/+ getAdapter(adapter : Class&lt;T&gt;) : &lt;T&gt;/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2871</x>
+      <y>825</y>
+      <w>33</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2783</x>
+      <y>880</y>
+      <w>187</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
++ Serializable
+--
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2035</x>
+      <y>2079</y>
+      <w>121</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2640</x>
+      <y>825</y>
+      <w>99</w>
+      <h>154</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;120.0;70.0;120.0;70.0;10.0</additional_attributes>
+  </element>
+</diagram>
