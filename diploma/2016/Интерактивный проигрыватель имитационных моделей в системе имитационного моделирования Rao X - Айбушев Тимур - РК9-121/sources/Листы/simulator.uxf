@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="12.2">
+  <zoom_level>4</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1000</x>
+      <y>660</y>
+      <w>252</w>
+      <h>224</h>
+    </coordinates>
+    <panel_attributes>CurrentSimulator
+--
+-currentSimulator: ISimulator
+-currentSimulatorState: SimulatorState
+-simulatorStateNotifier: Notifier&lt;SimulatorState&gt;
+-isRunning: boolean
+--
++set(ISimulator simulator): void
++preinitialize(): void
++preinitialize(SimulatorPreinitializationInfo preinitializationInfo): void
++initialize(SimulatorInitializationInfo initializationInfo): void
+-setCurrentSimulatorState(SimulatorState simulatorState): void
++notifyError(): void
++getSimulatorStateNotifier(): Notifier&lt;SimulatorState&gt;
++isInitialized(): boolean
++isRunning(): boolean
++getDatabase(): Database
++getStaticModelData(): StaticModelData
++getModelState(): ModelState
++setModelState(ModelState modelState): void
++getTime(): double
++pushEvent(Event event): void
++getExecutionStateNotifier(): Notifier&lt;ExecutionState&gt;
+-notifyChange(ExecutionState category): void
++stopExecution(): void
++run(): SimulationStopCode
+-onFinish(Database.SystemEntryType simFinishType): void
+-stop(SimulationStopCode code): SimulationStopCode
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1000</x>
+      <y>360</y>
+      <w>188</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>Simulator
+--
+-database: Database
+-staticModelData: StaticModelData
+-modelState: ModelState
+-time = 0: double
+-eventScheduler: EventScheduler
+-terminateList: List&lt;Supplier&lt;Boolean&gt;&gt;
+-dptManager: DPTManager
+-processManager: Process
+-executionStateNotifier: Notifier&lt;ExecutionState&gt;
+-executionAborted =: boolean
+--
+-checkTerminate(): boolean
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1272</x>
+      <y>344</y>
+      <w>232</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>ModelState
+--
+-resourceManagers: Map&lt;Class&lt;?&gt;, ResourceManager&lt;?&gt; &gt;
+--
++ModelState(Collection&lt;Class&lt;?&gt;&gt; resourceClasses): ctor
+-ModelState(): ctor
++eraseResource(T resource): void
++addResource(T resource): void
++getAll(Class&lt;T&gt; cl): Collection&lt;T&gt;
++getAccessible(Class&lt;T&gt; cl): Collection&lt;T&gt;
++getResource(Class&lt;T&gt; cl, String name): T
++getResource(Class&lt;T&gt; cl, int number): T
++checkEqual(ModelState other): boolean
++deploy(): void
++copyOnWrite(T resource): T
++deepCopy(): ModelState
++shallowCopy(): ModelState
+-copy(boolean isShallow): ModelState
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1000</x>
+      <y>500</y>
+      <w>220</w>
+      <h>128</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+/ISimulator/
+--
+--
++preinitilize(SimulatorPreinitializationInfo info): void
++initialize(SimulatorInitializationInfo initializationInfo): void
++getDatabase(): Database
++getStaticModelData(): StaticModelData
++getModelState(): ModelState
++setModelState(ModelState modelState): void
++getTime(): double
++pushEvent(Event event): void
++getExecutionStateNotifier(): Notifier&lt;ExecutionState&gt;
++notifyChange(ExecutionState category): void
++abortExecution(): void
++run(): SimulationStopCode
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>716</x>
+      <y>348</y>
+      <w>236</w>
+      <h>292</h>
+    </coordinates>
+    <panel_attributes>/Search/
+--
+#compareTops: boolean
+#priority: Supplier&lt;Double&gt;
+#startCondition: Supplier&lt;Boolean&gt;
+#heuristic: Supplier&lt;Double&gt;
+#terminateCondition: Supplier&lt;Boolean&gt;
+-parent: Logic
+-simulatorInitializedListener: Subscriber
+-executionStartedListener: Subscriber
+-executionAbortedListener: Subscriber
+-allowSearch = false: boolean
+-edges: List&lt;Edge&gt;
+-nodeComparator: Comparator&lt;GraphNode&gt;
+-nodesOpen: PriorityQueue&lt;GraphNode&gt;
+-nodesClosed: LinkedList&lt;GraphNode&gt;
+-head: GraphNode
+-current: GraphNode
+-memory: long
+-time: long
+-totalOpened: int
+-totalSpawned: int
+-totalAdded: int
+-serializationLevelComparator: Comparator&lt;SerializationLevel&gt;
+--
++Search(): ctor
+#initializeEdges(): void
++getParent(): Logic
+#setParent(Logic parent): void
++addActivity(Edge a): void
++check(): boolean
+-spawnChildren(GraphNode parent): LinkedList&lt;GraphNode&gt;
+-stop(StopCode code): boolean
+-databaseAddDecision(): void
+-enoughSensitivity(SerializationLevel checkedType): boolean
++getPriority(): Supplier&lt;Double&gt;
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>444</x>
+      <y>348</y>
+      <w>248</w>
+      <h>176</h>
+    </coordinates>
+    <panel_attributes>/Logic/
+--
+-comparator: Comparator&lt;Activity&gt;
+-priority: Supplier&lt;Double&gt;
+-condition: Supplier&lt;Boolean&gt;
+-parent: Logic
+-children: List&lt;AbstractDecisionPoint&gt;
+-activities: SortedSet&lt;Activity&gt;
+--
++Logic(): ctor
+#initializeActivities(): void
+#addChild(AbstractDecisionPoint child): void
++check(): boolean
+-checkCurrent(): boolean
+-checkActivities(): boolean
+#setParent(Logic parent): void
+#getParent(): Logic
+#setPriority(Supplier&lt;Double&gt; priority): void
++getPriority(): Supplier&lt;Double&gt;
+#setCondition(Supplier&lt;Boolean&gt; condition): void
+#getCondition(): Supplier&lt;Boolean&gt;
+#addActivity(Activity a): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>856</x>
+      <y>256</y>
+      <w>260</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>DPTManager
+--
+-decisionPoints: SortedSet&lt;AbstractDecisionPoint&gt;
+-dptAllowed: boolean
++prioritizer: Comparator&lt;AbstractDecisionPoint&gt;
+--
++DPTManager(Collection&lt;AbstractDecisionPoint&gt; decisionPoints): ctor
++fireChange(): void
++checkDPT(): boolean
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>444</x>
+      <y>732</y>
+      <w>196</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Activity
+--
++priority: Supplier&lt;Double&gt;
+-patternFabric: Supplier&lt;? extends Pattern&gt;
+-currentPattern: Pattern
+--
++Activity(Supplier&lt;? extends Pattern&gt; patternFabric,
+    Supplier&lt;Double&gt; priority): ctor
++execute(): boolean
++getPattern(): Pattern
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>556</x>
+      <y>580</y>
+      <w>144</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>/AbstractActivity/
+--
+#number: Integer
+--
++getPattern(): Pattern
++getNumber(): Integer
++setNumber(Integer number): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>620</x>
+      <y>256</y>
+      <w>152</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>/AbstractDecisionPoint/
+--
+--
+#init(): void
++check(): boolean
++getPriority(): Supplier&lt;Double&gt;
++getTypeName(): String
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1152</x>
+      <y>256</y>
+      <w>140</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>EventScheduler
+--
+-comparator Comparator&lt;Event&gt;
+-eventList: PriorityQueue&lt;Event&gt;
+--
++pushEvent(Event event): void
++popEvent(): Event
++haveEvents(): boolean
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1412</x>
+      <y>256</y>
+      <w>92</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>/Event/
+--
+#time: double
+--
++getTime(): double
++getName(): String
++run(): void
+#execute(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>628</x>
+      <y>900</y>
+      <w>188</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>/Pattern/
+--
+#relevantResourcesNumbers: List&lt;Integer&gt;
+--
++run(): void
++finish(): void
++selectRelevantResources(): boolean
++getTypeName(): String
++getRelevantResourcesNumbers(): List&lt;Integer&gt;
++addResourceEntriesToDatabase(
+    Pattern.ExecutedFrom executedFrom,
+    String dptName): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>444</x>
+      <y>900</y>
+      <w>120</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>/Operation/
+--
+--
++run(): void
+#begin(): void
+#end(): void
+#duration(): double
+-planEnd(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>856</x>
+      <y>900</y>
+      <w>92</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>/Rule/
+--
+--
++run(): void
+#execute(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1852</x>
+      <y>844</y>
+      <w>84</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>Generator
+--
+-iterator: Iterator&lt;T&gt;
+--
++Generator(): ctor
++next(): T
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1852</x>
+      <y>688</y>
+      <w>112</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+ArbitraryTypeSequence
+--
+--
++next(): T
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2036</x>
+      <y>688</y>
+      <w>100</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+NumericSequence
+--
+--
++next(): Double
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2292</x>
+      <y>860</y>
+      <w>220</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>Triangular
+--
+-a: Double
+-b: Double
+-c: Double
+-mersenneTwister: MersenneTwister
+-parametersType: SequenceParametersType
+--
++Triangular(long seed, double a, double b, double c): ctor
++Triangular(long seed): ctor
++next(): Double
++next(double a, double b, double c): Double
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2040</x>
+      <y>904</y>
+      <w>208</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>Normal
+--
+-mean: Double
+-variance: Double
+-mersenneTwister: MersenneTwister
+-parametersType: SequenceParametersType
+--
++Normal(long seed, double mean, double variance): ctor
++Normal(long seed): ctor
++next(): Double
++next(double mean, double variance): Double
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2056</x>
+      <y>776</y>
+      <w>176</w>
+      <h>92</h>
+    </coordinates>
+    <panel_attributes>Uniform
+--
+-a: Double
+-b: Double
+-mersenneTwister: MersenneTwister
+-parametersType: SequenceParametersType
+--
++Uniform(long seed, double a, double b): ctor
++Uniform(long seed): ctor
++next(): Double
++next(double a, double b): Double
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2304</x>
+      <y>748</y>
+      <w>172</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>Exponential
+--
+-rate: Double
+-mersenneTwister: MersenneTwister
+-parametersType: SequenceParametersType
+--
++Exponential(long seed, double rate): ctor
++Exponential(long seed): ctor
++next(): Double
++next(double rate): Double
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1780</x>
+      <y>1012</y>
+      <w>248</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>ContinuousHistogram
+--
+-mersenneTwister: MersenneTwister
+-bins: List&lt;NumericHistogramBin&gt;
+-adductionCoefficient: double
+--
++ContinuousHistogram(long seed,
+    List&lt;Pair&lt;? extends Number, ? extends Number&gt;&gt; values): ctor
++ContinuousHistogram(long seed,
+    double offset,
+    List&lt;Pair&lt;? extends Number, ? extends Number&gt;&gt; values): ctor
++next(): Double
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2120</x>
+      <y>1008</y>
+      <w>184</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>DiscreteHistogram
+--
+-mersenneTwister: MersenneTwister
+-bins: List&lt;DiscreteHistogramBin&gt;
+-adductionCoefficient: double
+--
++DiscreteHistogram(long seed,
+    List&lt;Pair&lt;T, ? extends Number&gt;&gt; values): ctor
++next(): T
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1820</x>
+      <y>748</y>
+      <w>168</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>/InfiniteSequence/
+--
+#iterator: Iterator&lt;T&gt;
+#iterable: Iterable&lt;T&gt;
+--
+~InfiniteSequence(Iterable&lt;T&gt; iterable): ctor
++next(): T
+#restartIterator(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1820</x>
+      <y>912</y>
+      <w>144</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>Values
+--
+--
++Values(List&lt;T&gt; enumerationList): ctor
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1308</x>
+      <y>520</y>
+      <w>196</w>
+      <h>136</h>
+    </coordinates>
+    <panel_attributes>ResourceManager
+--
+-resources: SortedMap&lt;Integer, T&gt;
+-numberOfResources = 0: Integer
+--
++ResourceManager(): ctor
++addResource(T res): void
++eraseResource(T res): void
++getResource(int number): T
++getResource(String name): T
++getAll(): Collection&lt;T&gt;
++getAccessible(): Collection&lt;T&gt;
++copyOnWrite(T resource): T
++deepCopy(): ResourceManager&lt;T&gt;
++shallowCopy(): ResourceManager&lt;T&gt;
+-copy(boolean isShallow): ResourceManager&lt;T&gt;
++checkEqual(ResourceManager&lt;T&gt; other): boolean
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1340</x>
+      <y>780</y>
+      <w>164</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>/Resource/
+--
+#number = null: Integer
+#accessible = true: boolean
+#isShallowCopy = false: boolean
+--
++getTypeName(): String
++erase(): void
++getNumber(): Integer
++setNumber(Integer number): void
++setAccessible(boolean accessible): void
++isAccessible(): boolean
++isShallowCopy(): boolean
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1352</x>
+      <y>696</y>
+      <w>152</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>/ComparableResource/
+--
+--
++checkEqual(T other): boolean
++deepCopy(): T
++onlyif(final Function1&lt;? super T,
+    Boolean&gt; predicate): T
++shallowCopy(): T
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>808</x>
+      <y>628</y>
+      <w>20</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+m1= 1
+m2=1..n</panel_attributes>
+    <additional_attributes>12;12;12;80</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>768</x>
+      <y>708</y>
+      <w>180</w>
+      <h>128</h>
+    </coordinates>
+    <panel_attributes>Edge
+--
++applyOrder: ApplyOrder
++priority: Supplier&lt;Double&gt;
+-value: Supplier&lt;Double&gt;
+-ruleFabric: Supplier&lt;? extends Rule&gt;
+-currentRule = null: Rule
+--
++Edge(Supplier&lt;? extends Rule&gt; ruleFabric,
+    Supplier&lt;Double&gt; value,
+    ApplyOrder applyOrder,
+    Supplier&lt;Double&gt; priority): ctor
++check(): boolean
++calculateValue(): double
++execute(): Rule
++getPattern(): Rule
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>804</x>
+      <y>928</y>
+      <w>60</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>12;12;52;12</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>552</x>
+      <y>928</y>
+      <w>84</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>76;12;12;12</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>528</x>
+      <y>800</y>
+      <w>192</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+инициирует выполнение &gt;</panel_attributes>
+    <additional_attributes>184;100;184;56;12;56;12;12</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>860</x>
+      <y>824</y>
+      <w>116</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+инициирует выполнение &gt;</panel_attributes>
+    <additional_attributes>60;76;60;12</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>612</x>
+      <y>624</y>
+      <w>20</w>
+      <h>116</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>12;12;12;108</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>648</x>
+      <y>624</y>
+      <w>152</w>
+      <h>92</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>12;12;12;52;144;52;144;84</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>484</x>
+      <y>512</y>
+      <w>20</w>
+      <h>228</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+m1= 1
+m2=1..n</panel_attributes>
+    <additional_attributes>12;12;12;220</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>568</x>
+      <y>296</y>
+      <w>124</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>116;12;116;32;12;32;12;52</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>696</x>
+      <y>296</y>
+      <w>136</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>12;12;12;32;128;32;128;52</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>760</x>
+      <y>264</y>
+      <w>104</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+m1=1
+0..n</panel_attributes>
+    <additional_attributes>96;20;12;20</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1024</x>
+      <y>316</y>
+      <w>20</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1= 1
+m2= 1</panel_attributes>
+    <additional_attributes>12;44;12;12</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1096</x>
+      <y>460</y>
+      <w>20</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>12;40;12;12</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1104</x>
+      <y>616</y>
+      <w>20</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>12;44;12;12</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1160</x>
+      <y>308</y>
+      <w>20</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>12;52;12;12</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1280</x>
+      <y>276</y>
+      <w>140</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+m1=1
+m2=0..n</panel_attributes>
+    <additional_attributes>12;12;132;12</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1176</x>
+      <y>404</y>
+      <w>104</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>12;12;96;12</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1404</x>
+      <y>748</y>
+      <w>20</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>12;32;12;12</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1408</x>
+      <y>644</y>
+      <w>20</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+m1= 1
+m2=0..n</panel_attributes>
+    <additional_attributes>12;12;12;52</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1388</x>
+      <y>476</y>
+      <w>20</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+m1= 1
+m2=0..n</panel_attributes>
+    <additional_attributes>12;12;12;44</additional_attributes>
+  </element>
+</diagram>

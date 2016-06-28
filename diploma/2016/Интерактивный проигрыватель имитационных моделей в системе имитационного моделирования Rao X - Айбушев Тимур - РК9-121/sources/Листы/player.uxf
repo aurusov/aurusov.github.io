@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>3</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>384</x>
+      <y>9</y>
+      <w>168</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>Serializer
+--
+--
++stateStorageToString(Collection&lt;ModelState&gt; modelStateStorage): String
++timeStorageToString(Collection&lt;Double&gt; modelStateStorage): String
++writeStringToJsonStateFile(String string): void
++writeStringToJsonTimeFile(String string): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>363</x>
+      <y>99</y>
+      <w>138</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>ModelStateStorage
+--
+-stateList = new ArrayList&lt;ModelState&gt;(): List&lt;ModelState&gt;
+--
+~addModelState(ModelState modelState): void
+~getStateList(): List&lt;ModelState&gt;
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>129</x>
+      <y>9</y>
+      <w>216</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>Writer
+--
+-timeStorage = new ArrayList(): Collection&lt;Double&gt;
+-modelStateStorage = new ArrayList&lt;ModelState&gt;(): Collection&lt;ModelState&gt;
++simulationEndSubscriber = new SimulationEndSubscriber(): SimulationEndSubscriber
+-stateStorageSubscriber = new StateStorageSubscriber(): StateStorageSubscriber
+-simulationSubscriberManager = new SimulatorSubscriberManager(): SimulatorSubscriberManager
+--
++Writer(): ctor
+-initializeSubscribers(): void
++deinitializeSubscribers(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>405</x>
+      <y>147</y>
+      <w>201</w>
+      <h>285</h>
+    </coordinates>
+    <panel_attributes>Player
+--
+-dimension = 1: int
+-haveNewData = false: boolean
+-databaseSubscriber = new Subscriber() 
+~display = PlatformUI.getWorkbench().getDisplay(): Display
+-projectsInWorkspace = ResourcesPlugin.getWorkspace().getRoot().getProjects(): IProject[]
+-state = PlayerState.INITIALIZED: PlayerState
+~parser = parseModel(getCurrentProject()): ModelInternalsParser
+-currentEventNumber = 0: Integer
+-reader = new Reader(): Reader
+-modelStateStorage = new ArrayList(): List&lt;ModelState&gt;
+-modelStructure = getModelStructure(): JsonObject
+-database = null: Database
+-simulationDelays = new ArrayList(): List&lt;Double&gt;
+-simulationTime = 0.0: Double
+-computerTime = 0.0: Double
+-computerTimeStart = 0.0: Double
+~direction: PlayingDirection
+-speed = PlayerSpeedSelectionToolbar.getSpeed(): int
+-delay = PlayerDelaySelectionToolbar.getSpeed(): double
+-initialized = false: boolean
+-executionStateNotifier: Notifier&lt;ExecutionState&gt;
+--
+-Delay(): void
+-EventSwitcher(): void
+-Timer(): void
++getModelData(): List&lt;ModelState&gt;
++getModelStructure(): JsonObject
++stop(): void
++pause(): void
++initialize(): void
++play(): void
++playBackward(): void
+-parseModel(IProject projectsInWorkspace): ModelInternalsParser
++getCurrentProject(): IProject
++getCurrentProjectPath(): String
+-runPlayer(): void
++run(): void
++init(): void
++preinitilize(SimulatorPreinitializationInfo info): void
++initialize(SimulatorInitializationInfo initializationInfo): void
++getDatabase(): Database
++getStaticModelData(): StaticModelData
++getModelState(): ModelState
++setModelState(ModelState modelState): void
++getTime(): double
++pushEvent(Event event): void
++getExecutionStateNotifier(): Notifier&lt;ExecutionState&gt;
++notifyChange(ExecutionState category): void
++abortExecution(): void
++runSimulator(): SimulationStopCode
++isInitialized(): boolean
++setInitialized(boolean initialized): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>630</x>
+      <y>165</y>
+      <w>198</w>
+      <h>51</h>
+    </coordinates>
+    <panel_attributes>Reader
+--
+-timeStorage = retrieveTimeStorage(): List&lt;Double&gt;
+-classNameOffset = "class ".length(): int
+--
++retrieveStateStorage(): List&lt;ModelState&gt;
++getLastLastTimeStorageElement(): Double
++retrieveTimeStorage(): List&lt;Double&gt;
++getSimulationDelays(): List&lt;Double&gt;
+-retrieveModelStateFromFile(FileInputStream fIn, File myFile, JsonObject data): ModelState
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>126</x>
+      <y>276</y>
+      <w>261</w>
+      <h>159</h>
+    </coordinates>
+    <panel_attributes>AnimationView
+--
+-parent: Composite
+-scrolledComposite: ScrolledComposite
+-frameList: List
+-listSize: GridData
+-frameView: Canvas
+-frameSize: GridData
+-animationContext: AnimationContextSWT
+-frames: java.util.List&lt;AnimationFrame&gt;
+-currentFrame: AnimationFrame
+-selectedFrameIndex = 0: int
+-animationEnabled = true: boolean
++realTimeUpdateRunnable = new Runnable() 
+-painter = new PaintListener() 
+-frameListListener = new SelectionListener() 
+-lastListWidth = InstanceScope.INSTANCE.getNode("ru.bmstu.rk9.rao.ui").getInt("AnimationViewFrameListSize", 120): int
+-sashListener = new Listener() 
+-isInitialized = false: boolean
+-realTimeSubscriberManager = new RealTimeSubscriberManager(): RealTimeSubscriberManager
+--
++getFrameListSize(): int
++setFrameSize(int width, int height): void
+-setCurrentFrame(AnimationFrame frame): void
+-initializeFrames(): void
++initialize(java.util.List&lt;AnimationFrame&gt; frames): void
++deinitialize(): void
++setAnimationEnabled(boolean state): void
++createPartControl(Composite parent): void
++setFocus(): void
+~isInitialized(): boolean
+-canDraw(): boolean
++dispose(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>342</x>
+      <y>54</y>
+      <w>69</w>
+      <h>51</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>210.0;150.0;210.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>426</x>
+      <y>42</y>
+      <w>9</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;190.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>633</x>
+      <y>246</y>
+      <w>135</w>
+      <h>87</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+ru.bmstu.rk9.rao.lib.simulator::ISimulator
+--
+--
++preinitilize(SimulatorPreinitializationInfo info): void
++initialize(SimulatorInitializationInfo initializationInfo): void
++getDatabase(): Database
++getStaticModelData(): StaticModelData
++getModelState(): ModelState
++setModelState(ModelState modelState): void
++getTime(): double
++pushEvent(Event event): void
++getExecutionStateNotifier(): Notifier&lt;ExecutionState&gt;
++notifyChange(ExecutionState category): void
++abortExecution(): void
++runSimulator(): SimulationStopCode
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>603</x>
+      <y>294</y>
+      <w>36</w>
+      <h>9</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>618</x>
+      <y>6</y>
+      <w>180</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>ModelState
+--
+-resourceManagers = new HashMap(): Map&lt;Class&lt;?&gt;, ResourceManager&lt;?&gt;&gt;
+--
++ModelState(Collection&lt;Class&lt;? extends Resource&gt;&gt; resourceClasses): ctor
++ModelState(): ctor
++eraseResource(T resource): void
++addResource(T resource): void
++getResourceManagers(): Collection&lt;ResourceManager&lt;? extends Resource&gt;&gt;
++getAll(Class&lt;T&gt; cl): Collection&lt;T&gt;
++getAccessible(Class&lt;T&gt; cl): Collection&lt;T&gt;
++checkEqual(ModelState other): boolean
++deploy(): void
++deepCopy(): ModelState
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>549</x>
+      <y>27</y>
+      <w>72</w>
+      <h>9</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>220.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>126</x>
+      <y>108</y>
+      <w>216</w>
+      <h>102</h>
+    </coordinates>
+    <panel_attributes>ModelInternalsParser
+--
+-simulatorPreinitializationInfo = new SimulatorPreinitializationInfo(): SimulatorPreinitializationInfo
+-simulatorInitializationInfo = new SimulatorInitializationInfo(): SimulatorInitializationInfo
+-decisionPointClasses = new ArrayList(): List&lt;Class&lt;?&gt;&gt;
+-animationClasses = new ArrayList(): List&lt;Class&lt;?&gt;&gt;
+-nameableFields = new ArrayList(): List&lt;Field&gt;
+-animationFrames = new ArrayList(): List&lt;AnimationFrame&gt;
+-classLoader: URLClassLoader
+-project: IProject
+--
++ModelInternalsParser(IProject project): ctor
++getSimulatorPreinitializationInfo(): SimulatorPreinitializationInfo
++getSimulatorInitializationInfo(): SimulatorInitializationInfo
++parse(): void
++parseModel(String modelClassName): void
++postprocess(): void
++getAnimationFrames(): List&lt;AnimationFrame&gt;
++closeClassLoader(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>603</x>
+      <y>186</y>
+      <w>33</w>
+      <h>9</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>339</x>
+      <y>171</y>
+      <w>72</w>
+      <h>9</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;220.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>384</x>
+      <y>372</y>
+      <w>27</w>
+      <h>9</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>588</x>
+      <y>63</y>
+      <w>36</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>100.0;10.0;10.0;10.0;10.0;280.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>648</x>
+      <y>75</y>
+      <w>9</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;300.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>342</x>
+      <y>27</y>
+      <w>48</w>
+      <h>9</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>140.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
