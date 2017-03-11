@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>3</zoom_level>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>411</x>
+      <y>204</y>
+      <w>129</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>Записать в обьект XYDataset
+массив точек текущего графика </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>411</x>
+      <y>153</y>
+      <w>129</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Создать точку с коодинатами мышки
+в системе координат виджета</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>471</x>
+      <y>180</y>
+      <w>9</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>420</x>
+      <y>258</y>
+      <w>111</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Записать число элементов 
+в массиве обьекта XYDataset</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>471</x>
+      <y>234</y>
+      <w>9</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>471</x>
+      <y>285</y>
+      <w>99</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Число элементов больше нуля?</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>423</x>
+      <y>363</y>
+      <w>114</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>Искать ближайшую точку 
+к курсору мышки</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>471</x>
+      <y>336</y>
+      <w>15</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+  Да</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>471</x>
+      <y>135</y>
+      <w>15</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+  Да</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>429</x>
+      <y>84</y>
+      <w>36</w>
+      <h>57</h>
+    </coordinates>
+    <panel_attributes>lt=-
+
+
+      Нет</panel_attributes>
+    <additional_attributes>100.0;140.0;10.0;140.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>471</x>
+      <y>84</y>
+      <w>57</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Двинули мьшью?</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>375</x>
+      <y>78</y>
+      <w>102</w>
+      <h>264</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    	Нет</panel_attributes>
+    <additional_attributes>280.0;830.0;10.0;830.0;10.0;30.0;320.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>423</x>
+      <y>411</y>
+      <w>114</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>Преобразовать координаты точки
+в координаты виджета </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>471</x>
+      <y>393</y>
+      <w>9</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>423</x>
+      <y>453</y>
+      <w>117</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>Посчитать расстояние между курсором 
+и ближайшей точкой на графике</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>471</x>
+      <y>435</y>
+      <w>9</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>471</x>
+      <y>483</y>
+      <w>108</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Сменился ли ближайший элемент?</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>471</x>
+      <y>546</y>
+      <w>15</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+ Да</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>423</x>
+      <y>612</y>
+      <w>108</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Очистить аннотации</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>420</x>
+      <y>717</y>
+      <w>114</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>Задать параметры аннотации </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>423</x>
+      <y>654</y>
+      <w>111</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>Посчитать параметры 
+фигуры для аннотации 
+с учетом масштаба осей графика </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>471</x>
+      <y>633</y>
+      <w>9</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>471</x>
+      <y>690</y>
+      <w>9</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>471</x>
+      <y>84</y>
+      <w>6</w>
+      <h>6</h>
+    </coordinates>
+    <panel_attributes>type=initial</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>471</x>
+      <y>741</y>
+      <w>141</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+
+Лежит ли курсор внутри окна графика и
+меньше ли 50 расстояние от точки до курсора?
+
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>375</x>
+      <y>210</y>
+      <w>90</w>
+      <h>333</h>
+    </coordinates>
+    <panel_attributes>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                       	Нет</panel_attributes>
+    <additional_attributes>280.0;1090.0;10.0;1090.0;10.0;10.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>486</x>
+      <y>783</y>
+      <w>45</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Да</panel_attributes>
+    <additional_attributes>10.0;30.0;130.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>417</x>
+      <y>783</y>
+      <w>48</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+Нет          </panel_attributes>
+    <additional_attributes>140.0;30.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>525</x>
+      <y>780</y>
+      <w>90</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>Вывести аннотацию и 
+окошко с данными</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>327</x>
+      <y>777</y>
+      <w>93</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Спрятать аннотацию и 
+окошко с данными</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>471</x>
+      <y>828</y>
+      <w>6</w>
+      <h>6</h>
+    </coordinates>
+    <panel_attributes>type=final</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>372</x>
+      <y>804</y>
+      <w>105</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0;330.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>474</x>
+      <y>804</y>
+      <w>99</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+</panel_attributes>
+    <additional_attributes>310.0;10.0;310.0;90.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>423</x>
+      <y>567</y>
+      <w>108</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>Запомнить индекс
+ближайшей точки</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>471</x>
+      <y>591</y>
+      <w>9</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>459</x>
+      <y>114</y>
+      <w>30</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>type=decision</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>459</x>
+      <y>525</y>
+      <w>30</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>type=decision</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>459</x>
+      <y>315</y>
+      <w>30</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>type=decision</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>459</x>
+      <y>780</y>
+      <w>30</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>type=decision</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
