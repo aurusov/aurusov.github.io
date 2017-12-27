@@ -1,1 +1,3 @@
 [Презентация](https://docs.google.com/presentation/d/1PToOJYyTA0kBdwBYCPQUaWIhpQGD0WibHAmND_NP3uc)
+[Исходники web-сервера и web-клиента](https://github.com/smirnov-vs/path_tracker)
+[Исходники Android-приложения](https://github.com/smirnov-vs/path_tracker_app)
