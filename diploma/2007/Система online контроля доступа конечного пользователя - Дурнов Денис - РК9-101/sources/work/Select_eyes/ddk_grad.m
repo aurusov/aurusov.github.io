@@ -1,5 +1,5 @@
 function I1 = ddk_grad(Im)
-% Функция вычисления значения градиента. [06.10.2006]
+% Р¤СѓРЅРєС†РёСЏ РІС‹С‡РёСЃР»РµРЅРёСЏ Р·РЅР°С‡РµРЅРёСЏ РіСЂР°РґРёРµРЅС‚Р°. [06.10.2006]
 
 %A   = size(im);
 %A(1) = round(A(1)*0.9);
@@ -21,7 +21,7 @@ else
 end
 
 imwrite(I1, '_temp.tif');
-%figure, imshow(I,[]), title('Значение градиента');
-%figure, imshow(I1,[]), title('Градиент');
+%figure, imshow(I,[]), title('Р—РЅР°С‡РµРЅРёРµ РіСЂР°РґРёРµРЅС‚Р°');
+%figure, imshow(I1,[]), title('Р“СЂР°РґРёРµРЅС‚');
 %figure, surf(double(I1)), shading flat;
 %figure, surf(I), shading flat;

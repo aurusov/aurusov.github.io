@@ -2,8 +2,8 @@
 function Ig_unit8 = ddk_grad(Im)
 %function Ig = ddk_grad(Im)
 %function ddk_grad(Im)
-% Функция вычисления значения градиента. Принимает имя изображения образа
-%                         Дурнов Д.К.[07.05.2007]
+% Р¤СѓРЅРєС†РёСЏ РІС‹С‡РёСЃР»РµРЅРёСЏ Р·РЅР°С‡РµРЅРёСЏ РіСЂР°РґРёРµРЅС‚Р°. РџСЂРёРЅРёРјР°РµС‚ РёРјСЏ РёР·РѕР±СЂР°Р¶РµРЅРёСЏ РѕР±СЂР°Р·Р°
+%                         Р”СѓСЂРЅРѕРІ Р”.Рљ.[07.05.2007]
 hy = fspecial('sobel');
 hx = hy';
 
@@ -15,8 +15,8 @@ Ig_unit8 = gscale(Ig);
 %Ig1 = uint8(Ig);
 %imwrite(Ig1, '_temp.tif');
 
-%figure, imshow(Ig,[]), title('Значение градиента');
-%figure, imshow(Ig_unit8,[]), title('Градиент uint8');
-%figure, imshow(Ig1,[]), title('Градиент uint8');
+%figure, imshow(Ig,[]), title('Р—РЅР°С‡РµРЅРёРµ РіСЂР°РґРёРµРЅС‚Р°');
+%figure, imshow(Ig_unit8,[]), title('Р“СЂР°РґРёРµРЅС‚ uint8');
+%figure, imshow(Ig1,[]), title('Р“СЂР°РґРёРµРЅС‚ uint8');
 %figure, surf(double(I1)), shading flat;
 %figure, surf(I), shading flat;

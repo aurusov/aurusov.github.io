@@ -1,6 +1,6 @@
 %function I1 = ddk_grad(Im)
 function I1 = ddk_grad(filename)
-% Функция вычисления значения градиента. Принимает имя изображения образа
+% Р¤СѓРЅРєС†РёСЏ РІС‹С‡РёСЃР»РµРЅРёСЏ Р·РЅР°С‡РµРЅРёСЏ РіСЂР°РґРёРµРЅС‚Р°. РџСЂРёРЅРёРјР°РµС‚ РёРјСЏ РёР·РѕР±СЂР°Р¶РµРЅРёСЏ РѕР±СЂР°Р·Р°
 %                           [06.10.2006]
 Im = imread(filename);
 %A = size(im);
@@ -19,7 +19,7 @@ I = sqrt(Ix.^2+Iy.^2);
 I1 = uint8(I);
 imwrite(I1, '_temp.tif');
 
-%figure, imshow(I,[]), title('Значение градиента');
-figure, imshow(I1,[]), title('Градиент uint8');
+%figure, imshow(I,[]), title('Р—РЅР°С‡РµРЅРёРµ РіСЂР°РґРёРµРЅС‚Р°');
+figure, imshow(I1,[]), title('Р“СЂР°РґРёРµРЅС‚ uint8');
 %figure, surf(double(I1)), shading flat;
 %figure, surf(I), shading flat;

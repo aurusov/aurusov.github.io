@@ -1,5 +1,5 @@
 function ddk_grad(Im)
-% Функция вычисления поля градиентов входного изображения.
+% Р¤СѓРЅРєС†РёСЏ РІС‹С‡РёСЃР»РµРЅРёСЏ РїРѕР»СЏ РіСЂР°РґРёРµРЅС‚РѕРІ РІС…РѕРґРЅРѕРіРѕ РёР·РѕР±СЂР°Р¶РµРЅРёСЏ.
 h = fspecial('sobel');
 ix = filter2(h, Im);
 Ix = mat2gray(ix);
@@ -11,11 +11,11 @@ Iy = mat2gray(iy);
 clear iy;
 
 I = Ix + Iy;
-%Запись изоражения в файл
+%Р—Р°РїРёСЃСЊ РёР·РѕСЂР°Р¶РµРЅРёСЏ РІ С„Р°Р№Р»
 imwrite(I, 'D:\Ixy.tif');
 imwrite(Ix, 'D:\Ix.tif');
 imwrite(Iy, 'D:\Iy.tif');
-% Визуализация
+% Р’РёР·СѓР°Р»РёР·Р°С†РёСЏ
 subplot(2, 2, 1); subimage(Im); title('Image');
 subplot(2, 2, 2); subimage(I); title('Ix + Iy');
 subplot(2, 2, 3); subimage(Ix); title('Ix');
